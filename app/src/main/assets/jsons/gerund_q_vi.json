@@ -1,0 +1,752 @@
+[
+  {
+    "topicId": "6",
+    "id": "6000",
+    "langCode": "vi",
+    "question": "EhtvLAS3HET0AXXYzYQ+OoWTgEzIzQs9cH6hrUu1yhDOnxgzgt2k6U5PSgdJPspiezA/MsoBSBGdRIJT4bz+9g\u003d\u003d",
+    "answers": [
+      "to buy",
+      "to buying",
+      "to bought",
+      "buying"
+    ],
+    "correctAnswer": 0,
+    "level": 1,
+    "explanation": "+qXDBZ0yIuBw0nF5KXvok5OLfK6HICqCGuITAS6QfCIcsPWioghWkjX7He0fMHvM3d00mlVw607uv+z7WPWiqKFL1l4xt1JxhTyNjxqb4Lm24yqUq4J1h5wIIYMbG76XG8tcSwIVRzFy53CgGNpBw74GkwGlZDDbw8SdQaFacXKwiaNMi9AhqGwTe1wUE+hj"
+  },
+  {
+    "topicId": "6",
+    "id": "6001",
+    "langCode": "vi",
+    "question": "M7qjUHgrAB17/vxpCJHdcPcgjHo0lCFSaqOkNJYBpbA7CSk5xr07Bxm19c5Ih0HAhG8yGSMvH/7wUDZiLf6R4Q\u003d\u003d",
+    "answers": [
+      "to helping",
+      "to helped",
+      "to help",
+      "helps"
+    ],
+    "correctAnswer": 2,
+    "level": 1,
+    "explanation": "E/bvUuQYnOcH7kLtgZasZFhWjCb46XYRZOkTNKSVw9SXUcMkCilqfSx8Q22d0UqzYEzfC+E6f5Bp/LugQpuNKeRpR7vfFGRwcYidM7bBWHWmPCGqL4Gt1hHN/IuJJpnwsQ6yXLX5r+jcjEvP/M/Zo54dNCSiWuAtm1tKgy/wa+Hax+yThSN96yFZ+ywLATRULU1dCjxvOHuaiOwt6tJrBwJHJMWJznIQZc6vOup1ICYlMgrcJ1DchEigB0RM48y3Ho2wLRSKHt+2Dgce4BLHIKAs1JJWa1Mn8U0twIUyl5I\u003d"
+  },
+  {
+    "topicId": "6",
+    "id": "6002",
+    "langCode": "vi",
+    "question": "BeRZ5BgezFdMZafhbmW42yetwF6y/JdQc0UjriDpFHt3x+l+hZz6xmJY3EiiJwAwHs97yboakWPkFOf9h+uuWg\u003d\u003d",
+    "answers": [
+      "taking",
+      "to took",
+      "to take",
+      "to taked"
+    ],
+    "correctAnswer": 2,
+    "level": 1,
+    "explanation": "+qXDBZ0yIuBw0nF5KXvok+LMJOLxUyHXD72YvBA5lchopTz1RxkGs5PqLkJ1tpwgj6qpAdEG2K1N71HCU++r2+xvcGs66F4Fqe5vqj3NvGrpQKaldfbuq08BZYWBZniLINJck4CbhbNyy1DnDje5NaS4w1fySgk4VvHOcXDaAedXiEOrKibQwLU4xyQRNrdWhG8yGSMvH/7wUDZiLf6R4Q\u003d\u003d"
+  },
+  {
+    "topicId": "6",
+    "id": "6003",
+    "langCode": "vi",
+    "question": "L1ltGXqxcTptB/K3F+oChWZb6I0HjgzdaF7YEg8OOlj46Z0JSTJNccDgNWICKPGP",
+    "answers": [
+      "seeing",
+      "to see",
+      "see",
+      "to saw"
+    ],
+    "correctAnswer": 1,
+    "level": 1,
+    "explanation": "+qXDBZ0yIuBw0nF5KXvok61Su6PQPncB8X0U5wLolKAbGQ4juMuKavK63GMhNS+5G/1bN1/sNqKLNypgnb+KXjJ3+reZvfcQQx1M7f2o7LLjbajsty9D1gB7k3WtT3FdLU1dCjxvOHuaiOwt6tJrB6cJl6pbBXfHiPSsdUpGsRoZNIxscRaF8ghEOXF5e0yFVIC+wjrbN5po07yMmxwOEQ\u003d\u003d"
+  },
+  {
+    "topicId": "6",
+    "id": "6004",
+    "langCode": "vi",
+    "question": "o7Drsmma5tpfq8svYmnwfOOqKPSZytG20l+iJd90Irik3J2GNG11gDI0whmw4chehG8yGSMvH/7wUDZiLf6R4Q\u003d\u003d",
+    "answers": [
+      "went",
+      "to going",
+      "to go ",
+      "to went"
+    ],
+    "correctAnswer": 2,
+    "level": 1,
+    "explanation": "+qXDBZ0yIuBw0nF5KXvok4FFAZlM3NDiwkDTS+Lji/xopTz1RxkGs5PqLkJ1tpwgj6qpAdEG2K1N71HCU++r2+xvcGs66F4Fqe5vqj3NvGrpQKaldfbuq08BZYWBZniLINJck4CbhbNyy1DnDje5NaS4w1fySgk4VvHOcXDaAedXiEOrKibQwLU4xyQRNrdW6Q31R+vVRELjhOUqLyZf3nGNJKk8KWNAksnjPYXn8RzuD9oVS57iGTaXrSsOAqdMLzCjW4zvMa6j2P/k8Y1qJw\u003d\u003d"
+  },
+  {
+    "topicId": "6",
+    "id": "6005",
+    "langCode": "vi",
+    "question": "VPEKeVdj6+PbLBjFQUBv/zhlgrmcL4gyqEiqiUT3dvU=",
+    "answers": [
+      "jogs",
+      "to jog",
+      "to jogs",
+      "jogged"
+    ],
+    "correctAnswer": 1,
+    "level": 1,
+    "explanation": "+qXDBZ0yIuBw0nF5KXvok/mYOQ6xvSObalOry0Uo1cvKythADx7HTOVjlMjxC1cMkgPQHi48+4PzTXpgpCksuiqttAig+wXtF1AleeKu/8fBAU9P/aX9F0up/s4r8mVhz1bqs5zdTaFv0/7EnmViP7iVsrAaa/TmOsS2YTljDb4luOXeMXfVcnIijEvYw/UIfFS+btV7/r0XwL6ZQK3f+6xrP6W0V27e+3JCvnDyOAKlYPuohuzzIo17PRWHeQ9gzTlmU0KFh9o7Ahih6/5mr8EBT0/9pf0XS6n+zivyZWG59eo/YbfnHEmWZOrfNtPTRbOba6i5z1eB5A/QMMyzMQxdphWagMexQe7bHGUY6SVqPqGm/ySG3Z00Ucl8epZV"
+  },
+  {
+    "topicId": "6",
+    "id": "6006",
+    "langCode": "vi",
+    "question": "sn8BtWLIjZc9no7R3Zhfaxro19FXwMexpjGqU9JE4OBd2HuFYOPW3A33jGW4xysapobQXP2j6SA75e+2LUKR+9V2T8l4eKQbfo/iNsvo7m14Cu0vQ5ONzWBU5OIMgIdp",
+    "answers": [
+      "solving",
+      "to solve",
+      "to solving",
+      "solve"
+    ],
+    "correctAnswer": 3,
+    "level": 1,
+    "explanation": "keAGmVtztrUt8mpkS/o07cEBT0/9pf0XS6n+zivyZWGLIWNxF2UauapYGr+7LoLN1c3w1wB4NeYZMoaoGwYJH4gagTiHSNt1PQUZK571BDLHTbWc5ChsxMKlFZa/l6e888TxBElOcRAjVE1GjdBnUKVPa68Ij5qcaZBM4Qbq39I52YOC+pMqjeXVYnMawfxuar0+5O6fS/1JjQsFaZ8Jlpu1cY75PmaMuijmtn7Q1/Ky9YN11O62eCOs6xKr+N6rZCwn4kTnAnpzQ9O6KOB1tphzQj0vX2xZHeiUZSW97O2cd7hDMTm9q4NHXFZf+hzOXSoh+YWvlVrOOGmg7Vw6og\u003d\u003d"
+  },
+  {
+    "topicId": "6",
+    "id": "6007",
+    "langCode": "vi",
+    "question": "rGJRrJZqh5H4i6ftP45tozNdNe4AvptrMNzz+XD/IuT2seQ0IdMSW82nQb/8EFSr",
+    "answers": [
+      "smoked",
+      "to smoke",
+      "smoking",
+      "to smoking"
+    ],
+    "correctAnswer": 2,
+    "level": 1,
+    "explanation": "ULmtBO4C96531CPbmpO/0BQ0q0+NCmgcoW5vkakwZZv9nnLcTZ203iuJWqAl868+9jQ5iqR9i6xgNIP4OTu3wDJu3DMhXkHwlw7fV5PvEIGipHU8cuW/sRbwK2z3zVhmBBKr4G2OxqBmjanDncwd9iOAjysaPrpjSZx7euSRLIoppaB8cFV8wtkV+T+eDeY5PlwAMZtoVmgQMlqlDqnabd7wkV2OgoCAyZ2+L+kBNL5UgL7COts3mmjTvIybHA4R"
+  },
+  {
+    "topicId": "6",
+    "id": "6008",
+    "langCode": "vi",
+    "question": "q6jxOoHnbAHvkuddS8iNZwNJz3/YfgpBdWzSX+HhwGu87/DxFHVW9frmoR7u29HohG8yGSMvH/7wUDZiLf6R4Q\u003d\u003d",
+    "answers": [
+      "to dating",
+      "to date",
+      "dating",
+      "dated"
+    ],
+    "correctAnswer": 2,
+    "level": 1,
+    "explanation": "sZseYmrsGOrNsgH+c5kUG+rgX29b48/4XNvI7yGxE6MuheL43iT8pobjvzqI8yapPTBlXdlchOCc9m/KrrRERz+jkCPZcAVK2SpL6a+Pok5/ZRCVxMzoCpZk9jPQdMTMikJ5PAYSYwqPJiP8U2108TWwwYaXWP1SUA7/TDN1gzVfDdYFq/SVqc+t+hwVJTa7sK0tsNrtkFKFgD5MlZB6RsMYa7VY46H9N+eUWKBy92awax9SYjJVvlgdWjp96KNVQp9CWbMFNC36tUpICD19jw\u003d\u003d"
+  },
+  {
+    "topicId": "6",
+    "id": "6009",
+    "langCode": "vi",
+    "question": "dE1NKyr8pA71H/xd7S4izLOJCQCuay7AN5fNVRQJt60RLvYOqsFTveIT2VneFJXv",
+    "answers": [
+      "to learned",
+      "to have learnt",
+      "to learning",
+      "to learn"
+    ],
+    "correctAnswer": 3,
+    "level": 1,
+    "explanation": "iBupD5UCpmvpqg2NFC7Vmy490gIeDiDnxmJcnm9qwgLo4oIHefzQgN2we+kx52BUnWoKlXfMx1PPNstaZ59POLgB5KKAAk54/RoBjTEDD8w4FOmqb32NptIPqvg0o2ZPvSBZdobwiwxgQ/SJiVaDeIiYtKqGC3rPjSWYgcYCH+W78ADlLqFNlw0yw4xs7gsrO9E3C5hrd+WHjw4T54W3P4MS15zESnuogCRO6fH5BDc/O/zoLnV4Rfe/6ZPGLaZLEgQmtdjToNdHHhOT9SX5Zjqk0zd0aNhDqdXwj1Si26lrmsQdaffZJ2VgRsnJrqnqfZvNnA0gLpcuQD+Auf/ZHthho/lO5sUspcsyqO0d/ow\u003d"
+  },
+  {
+    "topicId": "6",
+    "id": "6010",
+    "langCode": "vi",
+    "question": "Ws0OYNMPZ6MfnEi1m/YUmoCoGubDgQOdoT+8ZmQzSeKZT1WoFQkclUCx0tnp/bunOZ2eACRClXi+A/36mo4B5wyXi3iji8cUCb9wxiC0H6lWrW9ZD196I+Q/95aGni5X2cKEj8Jenvbvc+nxXETcWYRvMhkjLx/+8FA2Yi3+keE\u003d",
+    "answers": [
+      "to winning",
+      "to win",
+      "to have won",
+      "winning"
+    ],
+    "correctAnswer": 1,
+    "level": 1,
+    "explanation": "4Ps/58/gJ9jNOz4SsgK5y5rUwjFzpRECxHjkvSGl3qb5MO6/55Yrdb2QLqAKLaBGRATuYFrjpkwZXV0rx2TJQ0wXV2VVTuErSU9gpcDSNrz0MBGUhn7JRjHFB8pFkv+CrGs/pbRXbt77ckK+cPI4AkoVImBPQfWuF76aWKRtUxFXBSBohrKOw30L31JuSeIvaMj7Lgvb5p4u1cZb4nn0LDPrIYb/TQ8Na+HpvKMC1xSSShccXSEgamVJtfLG5yNRfSWABWjyIo9ijWPgK9i0CoRvMhkjLx/+8FA2Yi3+keE\u003d"
+  },
+  {
+    "topicId": "6",
+    "id": "6011",
+    "langCode": "vi",
+    "question": "lVoXBMeL9bhjmum5tkoXdCPZDVgaoDFavc53c5x2hy8\u003d",
+    "answers": [
+      "to swim ",
+      "to swimming",
+      "swam",
+      "swimming"
+    ],
+    "correctAnswer": 3,
+    "level": 1,
+    "explanation": "+qXDBZ0yIuBw0nF5KXvok49QRtsL7fo0Mc+J+1Tz51dXUMdGBrPxlIeyUUi4BH5wbeEaHVVCiW/GedzA8VUiDrE84ylmCGgH0vvOsg1my4/OU/CY1Qx/yR0sNMMA/WCdJtYcD7bR8ug1E31xTYEkox7es5yBYCa1OQnO0dqqvVHkpq056LIlaESnfC+hUZwzmORbAwnAMzIsi0hog1svdRH/OZzc0hlEx0X5lpfVr5U\u003d"
+  },
+  {
+    "topicId": "6",
+    "id": "6012",
+    "langCode": "vi",
+    "question": "hQJf+gfM/ED2frw5yBqCbfRR16oBKnPBZHSKXmE8vhAV7SJfLCuNYc2gwJyN2Tbn",
+    "answers": [
+      "flying",
+      "to fly",
+      "flew",
+      "to flying"
+    ],
+    "correctAnswer": 0,
+    "level": 1,
+    "explanation": "iBupD5UCpmvpqg2NFC7VmxbKKIaygK/MvhD8o8/ctK56z4Ht4QAmvftIf8OyKZ/RGsmHz5tk8+HAiBxPW1heZY4+Z9PI55Kb8JTEJavYA++tDHw4d91AdK7ZUr+4+GlQ6sD9uEOfROFQJJEXUfDTgf+nM1oG9nq8HWLCmzCikdzLCciZ9ATmxne8eTlfOaBjJaQIFNoe1LkfFYaQetba81dQx0YGs/GUh7JRSLgEfnBt4RodVUKJb8Z53MDxVSIO35EvsLy6XaeJA9HAAB4zdDIZsFvVXXmrQxz4NHMadxofayHHVccQwIrFfQ492RYb"
+  },
+  {
+    "topicId": "6",
+    "id": "6013",
+    "langCode": "vi",
+    "question": "ZTJlH5xWwq125k5FR4Kz5DK8O7fCUonVVjGmd0S2CZ5qarL3O8pNQTg7D6nFfDRMwFqFjHmjatoRm8AWNvgGlw\u003d\u003d",
+    "answers": [
+      "to seeing",
+      "saw",
+      "seeing",
+      "to see"
+    ],
+    "correctAnswer": 2,
+    "level": 1,
+    "explanation": "+qXDBZ0yIuBw0nF5KXvok9xHWCDcHLW745xOBZ8+mrtXUMdGBrPxlIeyUUi4BH5wbeEaHVVCiW/GedzA8VUiDt+RL7C8ul2niQPRwAAeM3QLL7oT1ZEhwD/s8EzrS7a0Ei1j1pFohxR3NtK3dAF/I1PLpYKnE8j3ALzu+pUeqvvd7gZYGN++17lsRFVEzrtlkFx1RFx0nXasGO80Sh0MyQ\u003d\u003d"
+  },
+  {
+    "topicId": "6",
+    "id": "6014",
+    "langCode": "vi",
+    "question": "ml7TNyD36/IfvAqxJ4WCSKl+qXU3dq7OV9CSH3VT5HlmUoJgVYsy1g7X1TbW1isShG8yGSMvH/7wUDZiLf6R4Q\u003d\u003d",
+    "answers": [
+      "to have been",
+      "to be ",
+      "was",
+      "being"
+    ],
+    "correctAnswer": 3,
+    "level": 1,
+    "explanation": "iBupD5UCpmvpqg2NFC7Vm4QnHudWnYHjf080eB5x/t7vZgnut9RD8iHkbOjnzTNHMm7cMyFeQfCXDt9Xk+8QgcsvIFHUSehPtHMbQw32ROzNyEUusfb1x8aNAxMcTlyhBlrJEUxTHgFW333o4JInSzJu3DMhXkHwlw7fV5PvEIEHXXsnb7JFkYYF+nN+4jNq6zsXv+hlQ49I6h1XpEGeWEJOmKr/0rA6uOBfMtqwVvKldSSRRe8MmBZwGvdZplU+319toJcMIIpuGWx7cFgE7csgSRQ/wDHHYn71d38XYAc\u003d"
+  },
+  {
+    "topicId": "6",
+    "id": "6015",
+    "langCode": "vi",
+    "question": "+vkUYfTuWsWo2yPIsiHCNB3NMJeUTsTezMLY3oU4zhVe4JZcyK99lZ90rt26FW6dvCbwBvOOP0NkknHjAccG/bw7ywDUYxeaQafFzx9FB86S1ST/TvHZwRh4CshN7/DH",
+    "answers": [
+      "to play",
+      "playing",
+      "played",
+      "to playing"
+    ],
+    "correctAnswer": 1,
+    "level": 1,
+    "explanation": "wuttGGBtzHTcQy6keHfmwQV5Pj+lwDUsPLQ9lhyP+5TdGaRgiGcFwl5hDLMhG6wEpNRM9aRDaCoPKMCBFYZMAZcRlYQeaP0+UsppZwFwdD2c0A9u5+Pcg0bJkwXLPR5EBGXTDYGZ7zh66FCIBdFXXEtgZYZOo3UAM7K85xFyD0VUgL7COts3mmjTvIybHA4R"
+  },
+  {
+    "topicId": "6",
+    "id": "6016",
+    "langCode": "vi",
+    "question": "k81PQAGikzdnjgldMjNUY5/nOe8Ud2GB/nyxTGqEtBEFSkBmMhFAf7R81AW+8RGo4Nn9C78c2O3+BS10gy/PVap2ugpMR4/XS+iz8PQIHEsZ8xTZ9WeSDKVrelkJuKNE",
+    "answers": [
+      "to play",
+      "play",
+      "to playing",
+      "playing"
+    ],
+    "correctAnswer": 3,
+    "level": 1,
+    "explanation": "+qXDBZ0yIuBw0nF5KXvokwoqIsWNWPD0JJ/C6z/1oUl/Yi1wfqrFTm0vVIlh5mr8KdqUdL6lK0p9IeiNhNFcHHT75VZOghDCD7ng92g8HkL17p1pFomWNHDc/wXZznlb6OBtPrVqDxUh9BTjBtRFy5Q4l6uksRaJeN/8E2J3Jt57eFBELrBNNFbiyKyyjmw7VXoS1R4+cd0HQ9cSkzT9zXVuqa9EqaxbDXJxwB8sGPynAeHir17AwcRjCObVZ18HRFhigQfVcb+XoveXLNDHoQ\u003d\u003d"
+  },
+  {
+    "topicId": "6",
+    "id": "6017",
+    "langCode": "vi",
+    "question": "IxYI4o6je32Od1LMz3fNS29QgXHwQkyZ4duCxDSuYcmH7fBKPmymgbGBXS6af15bFh4O9aL77v0IL5eJi6/Lg1SAvsI62zeaaNO8jJscDhE\u003d",
+    "answers": [
+      "to operate",
+      "to operating",
+      "operating",
+      "operate"
+    ],
+    "correctAnswer": 2,
+    "level": 1,
+    "explanation": "+qXDBZ0yIuBw0nF5KXvok0WTahHI3hEv/FR9BPB8TBKtgpQSezxoyeeSIYrzKmekpNRM9aRDaCoPKMCBFYZMAVX+dd3e35o3jzmFmCUs5J8ybtwzIV5B8JcO31eT7xCBpRIU0/I8MtrIF9s8dHgipr93nbAKcd4Qki1cjzrhWm4XRrt7PDcrfQx/445EvpXgxuKQMAVU31pmR+W5t8UtIHTTvNEDrawX7a0hkkejVyhHd6uHKDVBhvJekzKSkQBN3L6hG7hlVeAGNWhh+D/aMg\u003d\u003d"
+  },
+  {
+    "topicId": "6",
+    "id": "6018",
+    "langCode": "vi",
+    "question": "urUZsWI456QvtSeiYPgApzL70Sc3yZk71JZTQV9obFR37yTRUhEqCUjsclf9OrfeEeMMuadDMC4QNgpeDQv7UA\u003d\u003d",
+    "answers": [
+      "to fish ",
+      "to fishing",
+      "fishing",
+      "fish "
+    ],
+    "correctAnswer": 2,
+    "level": 1,
+    "explanation": "eJ5UQ4N9eHpCqUMy3O2xaAWBa7UH1kfW7DR6eAxob44MMt/PgVRQ4QCo0A4AxoGAxkIFEQ0uHnuqg4zrxu09QK9xHKaA4MRCoVxtLc9aMDN+vGoK1BPN1ioJokZ2BpYEwpVI6+QjRuo4HGD/x+Xe4uIOqmgSNjApJ57NEmaglfNSaqE+uhPoImWgWYYNz3kK"
+  },
+  {
+    "topicId": "6",
+    "id": "6019",
+    "langCode": "vi",
+    "question": "Jf8gV41PN3Tvr3K7M+MpqfZ4/h0uz0Dy1pfMRmBuBo6UZMLPdAsNH7qNt/p9sfyGP41yBm/mSKC4RVyN93Hut3gEnGCvuTom54owLczW3d7I1Q65Ldx4Vs/MtyURmsmQ",
+    "answers": [
+      "to be ",
+      "was",
+      "being",
+      "to being"
+    ],
+    "correctAnswer": 2,
+    "level": 1,
+    "explanation": "+qXDBZ0yIuBw0nF5KXvok9xy9fnRoa5gCHcH0jnSRHYG/fL92d4TmrghjWn1hPfpS2tU2POhgUPQCmX66/1xPVV/eGnNtsu4AxDr7Qp7MBiImLSqhgt6z40lmIHGAh/lhCMssxNEgv5jUCxliqRw3Pc8ChT7aJNWMy4Xzbq3fUT8RK9mq6TvF/HNsIXXtdJu3JPlYdzrt87HHmwMfsNJ/WXMpD5ceWrfzpPFlmgmEaOGQ3cTDp+91JFGX9Aqn/AixSaiRNxUKqyaSqkWeiB3DQ\u003d\u003d"
+  },
+  {
+    "topicId": "6",
+    "id": "6020",
+    "langCode": "vi",
+    "question": "TThYkQdNlhe1VrmtymuTugJKM+Cn+2S4L8nUpt1QE7o\u003d",
+    "answers": [
+      "to shopping",
+      "shop",
+      "to shop",
+      "shopping"
+    ],
+    "correctAnswer": 3,
+    "level": 1,
+    "explanation": "eJ5UQ4N9eHpCqUMy3O2xaMtUUFgL8obc941jnXxXIlu7w1a+amKxu1tBZIn7vE023e1DayJjV/Svcv4FKyhKl/8aPie+VjYKm7p1yYWNyF4qdkwb2bp2pe3C+TutIKU4Sdsx7tbFlB6ieywMTgf/PyKTf/4/OGDtOo0bLKKyXkvEqCmbOgY/1PrlTYxSSM02"
+  },
+  {
+    "topicId": "6",
+    "id": "6021",
+    "langCode": "vi",
+    "question": "DjZiUIAcRX3ibI8SXSmS49B/QLmgqcNQEc9ZcBoqfwPWJ6H2bQT1BgL6HfZdNwMFXSKhgWTV/PdchdEEM0D8BA\u003d\u003d",
+    "answers": [
+      "to writing",
+      "writing",
+      "to write",
+      "write"
+    ],
+    "correctAnswer": 1,
+    "level": 1,
+    "explanation": "+qXDBZ0yIuBw0nF5KXvok6IyFTyOK6EcqLgzQT+h0GOkeDK/pLZqbwCfphoyG33ckgPQHi48+4PzTXpgpCksuqpPH1kKxToTSr8zlbiwskc/o5Aj2XAFStkqS+mvj6JO+cc4fJIrRV3x5ka7du7V7ajeyoOYK1gnMViWatPkMoWkkzftyDcNnvbFTdIYt6T5O17b9B701twNTG02XAl7nA\u003d\u003d"
+  },
+  {
+    "topicId": "6",
+    "id": "6022",
+    "langCode": "vi",
+    "question": "C2YghxNu5TtadZ4kQz7CM20/67zTDR6eJnvBQ3JvXpHxiUSr4o+T1G/fZ6hbq/JbpTIp50H0lGQt4cGyz/yYzAWXRUk6TFP/Q4GWeCgaato\u003d",
+    "answers": [
+      "to finish",
+      "to finishing",
+      "finishing",
+      "finish"
+    ],
+    "correctAnswer": 3,
+    "level": 1,
+    "explanation": "gucvBEpiWsx04oaolZC3DXeWh1Vt4jtlzzuzDj3+s/nJk0ghfMw/aIP9VbqmeXyQREN8VDnOxt2h5QTkdjU+kBHyKwEn/FjLt4zJQkJvoYTMkDoT71nozZryzmSDVTG0OOgIJv0gtwfXCBAnsDFPwe0pX3CzgiqjTqb8/le9eBDcvqEbuGVV4AY1aGH4P9oy"
+  },
+  {
+    "topicId": "6",
+    "id": "6023",
+    "langCode": "vi",
+    "question": "Ge+o6TMPh+6umY14Q1N3kElTu+vGR9XFWaoNMZPZufOwqUKph/G3ClVngRvrSx0OJVgPnt0MeiCygaqd4VWD9G7NUdM0oJbXlgx9Dv9dPqA\u003d",
+    "answers": [
+      "hearing",
+      "hear",
+      "to hearing",
+      "to hear"
+    ],
+    "correctAnswer": 3,
+    "level": 1,
+    "explanation": "fmTsl2i99wzGPWqSzAr1gMqeo7vk9f90L1Bw4EThT7sKae1l8E7ZlxDnbCzIdfbMTBdXZVVO4StJT2ClwNI2vPQwEZSGfslGMcUHykWS/4Ksaz+ltFdu3vtyQr5w8jgCShUiYE9B9a4XvppYpG1TEaLn7gaTMJAKXAieY9IX4hsE17fQFL3uEtS0fo1TtvyXiDYaoRgosHwjUf7YAyukDOcvDzLJTy8Aw+VuJfC3ot5JycNNh+jY1I/1qjV52xHDTMotqqRYSRgfqTpEv5lxpFSAvsI62zeaaNO8jJscDhE\u003d"
+  },
+  {
+    "topicId": "6",
+    "id": "6024",
+    "langCode": "vi",
+    "question": "zTpyfCY87W9d69VL6EtexvX4NwmHEMBYx9w/8ILZfllyb1dd9h1QFXPwvXai4B7YMIlce9OhFdQ0V4cH1JgNNj7RYc/dIIW1UG3FfeXgTAEsi0Woazwv62lgc3OrL0NkIEDwi78C656pD2Ep5kFWIw\u003d\u003d",
+    "answers": [
+      "went",
+      "going ",
+      "to go",
+      "to going"
+    ],
+    "correctAnswer": 1,
+    "level": 1,
+    "explanation": "wuttGGBtzHTcQy6keHfmwZMkabCa7iiLrwOwzM5T8qGSrfi9SWENXmGPlBtWSv7piJi0qoYLes+NJZiBxgIf5YNfXLYAGACY+ur0WEyx7Hx1W1hCoGNWghYmBPNjLEcpCeM49fEyv3NwvUZv8Ly6Uzrkulmsewzyz7x8yNv8UsOBMT1jgv2FkztrWKAdJq6fGlYMpVcUshxM88M7CgwsYoFRDleiWKS9fnNYzxgNeKKocCPWT6e1sQqCFHclFFucLzCjW4zvMa6j2P/k8Y1qJw\u003d\u003d"
+  },
+  {
+    "topicId": "6",
+    "id": "6025",
+    "langCode": "vi",
+    "question": "Vuq8Jr0j6/5725WTPEyGGuV/u3JsxybSMWipMqSfmcaMJnJ1ClS0RcLxw8uI/hIX5QI/eo9diBWy3tCJsaCPPg\u003d\u003d",
+    "answers": [
+      "try ",
+      "trying",
+      "to try",
+      "tried"
+    ],
+    "correctAnswer": 1,
+    "level": 2,
+    "explanation": "Vzuuwv4yKyV5joTlDzAaL8ett1bKs4ToYLaoBZBp/8na7zrR4p5FTvIocl+voudOyo3B09KQ032v6z+M+eLgCtXSd4KgIgTX1wCxwIaVC72NBz6l9LmKumtTRxNTJvLwsw/G+/b356rs7f8QJLm615seCOI1f2Ba13SLevq4F4tt4RodVUKJb8Z53MDxVSIORxi4RH3J4KQNK07pIq3XaUveQjzeiBnADt5XK2Php3vr6FFHmE0Tgx9LDtfsirfkhG8yGSMvH/7wUDZiLf6R4Q\u003d\u003d"
+  },
+  {
+    "topicId": "6",
+    "id": "6026",
+    "langCode": "vi",
+    "question": "gde9H5k26ZJeWvoLQJlxLBtY9fMiN11KxwgUf5Dv93op6vcwhvAsGyY4qpcAoUFdXcAk1BfkaYKih5ELyK4QvXmjjEfU8BvGql3c13n1fNQ\u003d",
+    "answers": [
+      "to getting",
+      "got",
+      "getting",
+      "to get"
+    ],
+    "correctAnswer": 3,
+    "level": 2,
+    "explanation": "+qXDBZ0yIuBw0nF5KXvok8Fgxa36qV5BvOwa/WwKm/HKythADx7HTOVjlMjxC1cMkgPQHi48+4PzTXpgpCksuiqttAig+wXtF1AleeKu/8fBAU9P/aX9F0up/s4r8mVhJCda5vT4A8Yn1nKGRQAzH2CGfhmh+Y/xigz0UL/Nyhrwne2QK9I1Tw29davTzqFn7+SXJH9ku0SkfsprIVl7aoz7dGBW7xmvNvZA4N7ogwmxyeGpE97SnJd4qwQ4tGSuOECcBL44+ldOgXEyjVt7o8IyabEWU8kByhjqOGmwaLOMBlfbiyH4qxXSZjajSCay3rbKfxsfRxzpEGsdyysHynYfU0+SPBQumoEfxdQutEjlCav5yAB6HUuh0qgO/Q0FZC+pMutIkZ5h0yba12r9d5kfVsc6RJLyAzEX/iQm03hoOB98qyfgcdvvVR4x6UER4XhvFZCbL9tpk09oXyJCtuTdfSopexR5i/01V3xz/tROqc2z3fDZ86jTtAY1qZK630GnFWwXi6lnlkXXpZVRA9kPXocGXWbTNYMHAoJoS4dylvDBDm3VQfE+FtcaJ8p+2Ln6sH3u6ScMHaMwFiw0SC+ALJRZzO8rW/GwMHJSV/sSZVRC4d526Q3P2NTVKSEtOQvUhVNo1ABPldAas4ZQosOTQfRt726Qz9FWBldDrcw5YQzxXY55MGuZ8b3dBO0x4Vn0DIN6t/GvEwS8RPe7IplAUxQ2r6o11Crxn3ancxt41W7TLyxVxT7Gv3aNCt5X3d00mlVw607uv+z7WPWiqKFL1l4xt1JxhTyNjxqb4LnGY5gFUOYI/QlVEwH9J23D+VtFwBKZg/79HEnOcjhsD5fwySJT/NFKNmiG1nz+nPk\u003d"
+  },
+  {
+    "topicId": "6",
+    "id": "6027",
+    "langCode": "vi",
+    "question": "vGU4Bwl9fSvilEC+14n2AUhiYqQzZB2nVj17vOZz/1zRxFknqKQySMWAdyLPSxfNtevU28NRQuKZ/kZLlus5j0op5C0mLHuN2R9MTHVuCyM\u003d",
+    "answers": [
+      "to cutting",
+      "cut",
+      "cutting",
+      "to cut"
+    ],
+    "correctAnswer": 2,
+    "level": 2,
+    "explanation": "+qXDBZ0yIuBw0nF5KXvok8Fgxa36qV5BvOwa/WwKm/HKythADx7HTOVjlMjxC1cMkgPQHi48+4PzTXpgpCksuiqttAig+wXtF1AleeKu/8fBAU9P/aX9F0up/s4r8mVhJCda5vT4A8Yn1nKGRQAzH2CGfhmh+Y/xigz0UL/Nyhrwne2QK9I1Tw29davTzqFn7+SXJH9ku0SkfsprIVl7aoz7dGBW7xmvNvZA4N7ogwmxyeGpE97SnJd4qwQ4tGSuOECcBL44+ldOgXEyjVt7o8IyabEWU8kByhjqOGmwaLOMBlfbiyH4qxXSZjajSCay3rbKfxsfRxzpEGsdyysHynYfU0+SPBQumoEfxdQutEjlCav5yAB6HUuh0qgO/Q0FZC+pMutIkZ5h0yba12r9d5kfVsc6RJLyAzEX/iQm03hoOB98qyfgcdvvVR4x6UER4XhvFZCbL9tpk09oXyJCtuTdfSopexR5i/01V3xz/tROqc2z3fDZ86jTtAY1qZK630GnFWwXi6lnlkXXpZVRA9kPXocGXWbTNYMHAoJoS4dylvDBDm3VQfE+FtcaJ8p+hhdZfZ4xrCDITbX6uHBvNSbWHA+20fLoNRN9cU2BJKPqyhAMd6Pj5I4dxShqS4tgB/e4M4vbNPYHKHydHrWujaJUzWcgOrjdqP2amzSF9hT357k8ALkH1Dg7zvOdXwPa6KNf0cdUClhyWZ3G1GdPBQjqipTYaXcSs/kO3/dXNUPtf9SP9bilxe6NYgTUctONGvF1F/D8Q8njFq+x8RtHqVGehI+lntaGwozGHgpp5V4gG3swoYCU4KlE6mrmtbLGfctSqnhJqhhydH1vfVGJsYiYtKqGC3rPjSWYgcYCH+UXKLpV+Gs+u2o+aCLHIU8n8TOKcCadhZh/si/GZMet8SGUiiOWbC+bfvNYw3vEhbY\u003d"
+  },
+  {
+    "topicId": "6",
+    "id": "6028",
+    "langCode": "vi",
+    "question": "WjANqnPJMoGdD6idDMDPB2SA97ojpZcR/wZ/1Vm8QtA4CtTq034xISNWfkMt1DilhG8yGSMvH/7wUDZiLf6R4Q\u003d\u003d",
+    "answers": [
+      "to running",
+      "run",
+      "running",
+      "to run"
+    ],
+    "correctAnswer": 2,
+    "level": 2,
+    "explanation": "+qXDBZ0yIuBw0nF5KXvok00FaxJwel35IYGVBcC+7VLKythADx7HTOVjlMjxC1cMkgPQHi48+4PzTXpgpCksuiqttAig+wXtF1AleeKu/8fBAU9P/aX9F0up/s4r8mVhJCda5vT4A8Yn1nKGRQAzH2CGfhmh+Y/xigz0UL/Nyhrwne2QK9I1Tw29davTzqFn7+SXJH9ku0SkfsprIVl7aqFQ1nrJDm5WvoMyrOMqRAJX9bveCleccvNG9fDvS9qKep/LugwXeb1wrSkeB00wq4SNyFuzKgRhkAg1xPXzvtz3HTr35oftueamQA3fyN/7JG3fk0c/Gta4p6BOL/THObg0tpsW51WNQvub0kXvuPBQehIni7IwzO6900cF4OEt/9FnuT/+YZo3uuvbcLeZ9RCHY3dVZgryZldlK7k9GX/Xby0HqehtSaCtyn/ynGfzAnSPcl+3HbZIXPjj9YyVul1l3DQTz5wewdT2MKboUDE9qQtfxd91kwoSzJ6FFVqnOCKbjNHt6Q95bgoMYKdhEbnN0hYVr4nNB1hPfdpt/h6h1sLe8UbsBS2n520KCHvAM+TDY1VUEhOLYsLFChfilomP8Ea9pzqhDRjoFOjNDjO9GWJMQR1BZagvznxMt5xXvZ4GRHBMPIhKqmkdbf6IlB/1gfAiSPbw/yyfNAMPnlBCTJ5EbwTPGx8VHB/gI7zr1sg0u6dhn3apj3zvK5bZVfqiY/vv4azyrJthNoOUi8rc/6Sv4Ae7QK503RkxfZ4wFMOQcwAPyLBmFTDGOrivw62ClBJ7PGjJ55IhivMqZ6Sk1Ez1pENoKg8owIEVhkwB0stw8ID6RgMsrxSPFVaDfA\u003d\u003d"
+  },
+  {
+    "topicId": "6",
+    "id": "6029",
+    "langCode": "vi",
+    "question": "diZuO0COrGysICTKIvdntLaidCqMt53nOdjsjvZ+l7B8AVwyiG+1eQyXj94vKu68x9wEAD6iLsG4HmuXxGlisw\u003d\u003d",
+    "answers": [
+      "to taking",
+      "taking",
+      "took",
+      "to take"
+    ],
+    "correctAnswer": 3,
+    "level": 2,
+    "explanation": "+qXDBZ0yIuBw0nF5KXvok00FaxJwel35IYGVBcC+7VLKythADx7HTOVjlMjxC1cMkgPQHi48+4PzTXpgpCksuiqttAig+wXtF1AleeKu/8fBAU9P/aX9F0up/s4r8mVhJCda5vT4A8Yn1nKGRQAzH2CGfhmh+Y/xigz0UL/Nyhrwne2QK9I1Tw29davTzqFn7+SXJH9ku0SkfsprIVl7aqFQ1nrJDm5WvoMyrOMqRAJX9bveCleccvNG9fDvS9qKep/LugwXeb1wrSkeB00wq4SNyFuzKgRhkAg1xPXzvtz3HTr35oftueamQA3fyN/7JG3fk0c/Gta4p6BOL/THObg0tpsW51WNQvub0kXvuPBQehIni7IwzO6900cF4OEt/9FnuT/+YZo3uuvbcLeZ9RCHY3dVZgryZldlK7k9GX/Xby0HqehtSaCtyn/ynGfzAnSPcl+3HbZIXPjj9YyVul1l3DQTz5wewdT2MKboUDE9qQtfxd91kwoSzJ6FFVqnOCKbjNHt6Q95bgoMYKdhEbnN0hYVr4nNB1hPfdpt/h6h1sLe8UbsBS2n520KCHvAM+TDY1VUEhOLYsLFChfilnI9096+gK/vZ3dHQNmKzps2zUXF3wl5hsGaJODROVIXiChyhMNLxEWHOAJWQVEN6/58t7PX2RT60NkOihCnuoszXnZNoy7uHWpPY7+RMhqLFC/HNQEl3Qcsl8yiTNBDUWAI/bZZGFBrqQYOlAUvcFHyQqmc3YV2UMqbssZS3FvHWKlwSZvegmDMxag8OSTP069Y8m3K9sv4yBMKALvcD3ZmkiajHfTnrbE5cH/I6xl+irnw3a3AREBH6+CPW+Bx8Eq4r5EGQ/7UWJWBWKzNOXg3P2qIEkDDtEvtvMsosWpoQbj9Emznnam6lBN2m+o6Zq+S1j4Y0APeVHaCFKmhlZKf3RHfUiVgQ4z4DfvJ7RyWdu1bMkMbEPkM4O0S11MD34tawqBh72qM+DM+CHr4dzOEbzIZIy8f/vBQNmIt/pHh"
+  },
+  {
+    "topicId": "6",
+    "id": "6030",
+    "langCode": "vi",
+    "question": "Qrtebf/A1f7TbT0K0950CBDhgKGEdFzrUoJyeW8slx1OLJvAnTHodRj6VtzeWrhxcj775CG8NUMN+dCF4cI2bqzRl9bORQCt4uPRYwrta9PzBiBweYYapqqI2UIATmbK",
+    "answers": [
+      "brought",
+      "to bringing",
+      "bringing",
+      "to bring"
+    ],
+    "correctAnswer": 3,
+    "level": 2,
+    "explanation": "+qXDBZ0yIuBw0nF5KXvok4543YDXmKSmFOIxcdb0qtyXZGsmIrGQ0qY5Ch/0NOfap9gwNEABAAuj0RMILNCnhZLhZHUlljek6FOx0yZBmZjd3TSaVXDrTu6/7PtY9aKooUvWXjG3UnGFPI2PGpvguXORgVMCglgayQM9zmlsntSDmG5QOTz0DHeYFRbSerfhbjlm9IHp7RzRYOvxDGAVB85s2Zb8CQBa+AlW57och8dfFvsTrXydC7vfypzFAYLbP4QZfWQIuRNhiGHaYBMXBD1rlpoc8Ec6L1DHgI0TAtfqwVRreWz4DjFJ1FDLgiACLDxZYK3yvh5Hi1g6Pl7LkAY/2SStAajXi+fCp75olv0zeHFplIVmal+4zrVDdA7B9xOM4pzaDPS7Hwvw3cLqYJGHYyTfdJtbNZqxcACAR+cQCwyO6GRAXPcJsUqqZ7AmYnFxZgsvzv8OmNz/SyY671D4WF1z3vS0TZWwcWStsd88S2tvHA96tIU9qtEArTxoP6H3rkUaL6+0DZgxHDx9Qhx8amyTSGhRq8NnhOt+W5eNlTebBBOe0t8Dq9347LZMO2SlICEN+oVWNkmFlCguLhpYoPz1f3/jhWx+bo33RCRazW4UknCFABD7E6huq4CteNVu0y8sVcU+xr92jQreV6rgScrD8RuT4rr7soPftkysaz+ltFdu3vtyQr5w8jgCWlbMAMz7yoD4RxIFgV6NIx9rIcdVxxDAisV9Dj3ZFhs\u003d"
+  },
+  {
+    "topicId": "6",
+    "id": "6031",
+    "langCode": "vi",
+    "question": "0uWKgwEXhJBkeliPtNDCxrKW0Uim/KFphzzFczpTRnCKnKvhRBPINh/biNtqn2HJcwDsN5NhClKXijWY8A8Qr6k6dy5BftI+v6oU3dZ19+s=",
+    "answers": [
+      "to go ",
+      "to going",
+      "go ",
+      "going "
+    ],
+    "correctAnswer": 3,
+    "level": 2,
+    "explanation": "+qXDBZ0yIuBw0nF5KXvok4543YDXmKSmFOIxcdb0qtyXZGsmIrGQ0qY5Ch/0NOfap9gwNEABAAuj0RMILNCnhZLhZHUlljek6FOx0yZBmZjd3TSaVXDrTu6/7PtY9aKooUvWXjG3UnGFPI2PGpvguXORgVMCglgayQM9zmlsntSDmG5QOTz0DHeYFRbSerfhbjlm9IHp7RzRYOvxDGAVB85s2Zb8CQBa+AlW57och8dfFvsTrXydC7vfypzFAYLbP4QZfWQIuRNhiGHaYBMXBD1rlpoc8Ec6L1DHgI0TAtfqwVRreWz4DjFJ1FDLgiACLDxZYK3yvh5Hi1g6Pl7LkAY/2SStAajXi+fCp75olv0zeHFplIVmal+4zrVDdA7B9xOM4pzaDPS7Hwvw3cLqYJGHYyTfdJtbNZqxcACAR+cQCwyO6GRAXPcJsUqqZ7AmYnFxZgsvzv8OmNz/SyY671D4WF1z3vS0TZWwcWStsd88S2tvHA96tIU9qtEArTxoP6H3rkUaL6+0DZgxHDx9Qhx8amyTSGhRq8NnhOt+W5eNlTebBBOe0t8Dq9347LZMO2SlICEN+oVWNkmFlCguLhpYoPz1f3/jhWx+bo33RCQrq/hmOHm9+6iyBPRvsYMTpHLML/AsRwvZU2pa8WFAlGxI9JmDygsLNVd8f0lpPAiSJy1gbFe1muV62thr4oRwdVtYQqBjVoIWJgTzYyxHKY6ZXXQOBg4S/+6RLcJwTnk\u003d"
+  },
+  {
+    "topicId": "6",
+    "id": "6032",
+    "langCode": "vi",
+    "question": "T9TgupRNI0CiGzIVQ43uW7EfJ0igjNWBGfnZaG7MvCnrd+DxkiB9LGQSjE2VUCQkmYfHosRcUEnfszFNLOrTGkWR0X1uozzlvDr/odjOx/I\u003d",
+    "answers": [
+      "to solve",
+      "solving",
+      "solve",
+      "solved"
+    ],
+    "correctAnswer": 0,
+    "level": 2,
+    "explanation": "+qXDBZ0yIuBw0nF5KXvok03WGonDuqHatPkQY/77YCOOID85kXFWmju/kXPYUPvVpNRM9aRDaCoPKMCBFYZMATq9EH23pNpfSmli49Rz1d470TcLmGt35YePDhPnhbc/gxLXnMRKe6iAJE7p8fkEN1LQrLJx/ph1gI+yLxSdNh/b3BHcbkdne/qDVp9jQ20eqAMvn/IENhmUx0DocD44upvCPqM5cRpyzeQ1FOyO9/Koer0fzBbMLYpi0Cy7Gj6ckr+TzGZCcE+cZ+GgXQxXbRALDI7oZEBc9wmxSqpnsCb30GU8MjaV/yHcS/jo9L74NEo21KAZ96Bxdv3Ca+qsp7snnfC3mrIhx9rE3v2Pn+zGQ9uygwepBy5BO+wiAkvYPlSJEn2t6L3/abIZYIYl0F9Oo8ydw5I3EkqYnWF37bljOoe6hT/QvXQ207/a/vyuoAffFRqR9YzX8N/lyInjI4dixW7UOB7dM4bNG3EEC4+AG8e65G2LuY2iX4ix1NYge+7pWK+m2YgdG6zSzq6oj+Wsai52q7ieDnHJqz3ROMxJ91qJE9B6vaJlPAg8Ix0EJ97VnJ9tfBNksfuzmCNyrsPI7BJAxLT4C8OHscPQmlOrIEj90rkseIDWkBFwV3aZbWFacLVHif4qU+q6w/BGTTvRNwuYa3flh48OE+eFtz+DEtecxEp7qIAkTunx+QQ3hfRp6xYjAQ4aN1bZ+QcXng\u003d\u003d"
+  },
+  {
+    "topicId": "6",
+    "id": "6033",
+    "langCode": "vi",
+    "question": "o3zJT6rFVimBu5DCdaf24rPuFIv7z8pQx7ENwzNUHinWhtE6fNEmoR1/Hp2SDDMVjpirZpnlDosnk9+LUTvCMQ\u003d\u003d",
+    "answers": [
+      "playing",
+      "to play",
+      "plays",
+      "play"
+    ],
+    "correctAnswer": 0,
+    "level": 2,
+    "explanation": "+qXDBZ0yIuBw0nF5KXvok03WGonDuqHatPkQY/77YCOOID85kXFWmju/kXPYUPvVpNRM9aRDaCoPKMCBFYZMATq9EH23pNpfSmli49Rz1d470TcLmGt35YePDhPnhbc/gxLXnMRKe6iAJE7p8fkEN1LQrLJx/ph1gI+yLxSdNh/b3BHcbkdne/qDVp9jQ20eqAMvn/IENhmUx0DocD44upvCPqM5cRpyzeQ1FOyO9/Koer0fzBbMLYpi0Cy7Gj6ckr+TzGZCcE+cZ+GgXQxXbRALDI7oZEBc9wmxSqpnsCb30GU8MjaV/yHcS/jo9L74NEo21KAZ96Bxdv3Ca+qsp7snnfC3mrIhx9rE3v2Pn+zGQ9uygwepBy5BO+wiAkvYPlSJEn2t6L3/abIZYIYl0F9Oo8ydw5I3EkqYnWF37bljOoe6hT/QvXQ207/a/vyuoAffFRqR9YzX8N/lyInjI4dixW7UOB7dM4bNG3EEC4+AG8e65G2LuY2iX4ix1NYge+7pWK+m2YgdG6zSzq6oj+Wsai52q7ieDnHJqz3ROMxJ91qJE9B6vaJlPAg8Ix0EJ97VnJ9tfBNksfuzmCNyri33p5t/ebqT2vrHg12CWqtdLuloyCqn0j+KtPt7elKmpHgyv6S2am8An6YaMht93JID0B4uPPuD8016YKQpLLoHK11CSjBHJGUwwtmw+eF9"
+  },
+  {
+    "topicId": "6",
+    "id": "6034",
+    "langCode": "vi",
+    "question": "RciYt/25oar+b9RCcawBaWjoT4ty0XCFOQE1pdMmuskQD6EnJRH145ENLAgj/QDjMIpkZ1OK2SY+5Y/zUtsYupCeLl0aOdBrUYKykdrXonzXK7jHDn2Hpbvrls9a3qplN6gURy1wQEReMa/qItSZAg\u003d\u003d",
+    "answers": [
+      "gets",
+      "to getting",
+      "to get",
+      "getting"
+    ],
+    "correctAnswer": 1,
+    "level": 2,
+    "explanation": "V8kITO4Kp6FBJkprcjnX8X0uTKDYUoNK48Wu6GKYAnUBAeBfjQQK6K7GYs9DZ9tjS2tU2POhgUPQCmX66/1xPRqcOvLzkDmOpAY3d1W9ImzLP9+52Lr3DEHIj4Eh3vXR0r/uw1qfMHo1Jne+Dm2UtbyPI5KmcGBU0Nb6exUBqBDf42Ne9hminMnTeaLPKakl8p8UBalCZeWeE549dgZlq+1BdjXIhVtqr50UnGP97t6i6+dFIIiTKXweooznq4SNGlYMpVcUshxM88M7CgwsYlJtrLk3ijdZIiaBaqNIfAsCXF3gM6YbtwSfYBZYUGBUaN+7pdAqCGCXsgAkI8gU0tenJRwFOjaGCK47B0np7LNXjlH9nWfAY1t8RaL0HE4doJLHM0blriacsqJBxN7GG5TdeEykJqxcGSS8MXHwGKU\u003d"
+  },
+  {
+    "topicId": "6",
+    "id": "6035",
+    "langCode": "vi",
+    "question": "IIBZH71AZ77eJG7LOLXPd+dYW29fvHE0zw/BAxjcbrEPtpKHWQ/odO+hi+tLgQ33/000aW9qAJ8m651R1MgpFr1IcHD43bYFd/Jv17QSF00\u003d",
+    "answers": [
+      "ran",
+      "run ",
+      "running",
+      "to run"
+    ],
+    "correctAnswer": 2,
+    "level": 2,
+    "explanation": "8rGrM4fJj5sWKSsnVoo7TgqNfP/ilUC6U4zMcEG5w/mQ4GuywkzHT9YM43ochdImysrYQA8ex0zlY5TI8QtXDJcVhPMMxCi0MlPVN0fPh+KKQnk8BhJjCo8mI/xTbXTx9QRLnUslSptqUGd2JmDyEpdRwyQKKWp9LHxDbZ3RSrPk23ICMifYzQN4NGZMeOWxSWDCU6FdRbXXBzxwSVcrUxncN8a0Ch9Tr9GpVSuzbLEK51K1HK/t/CP0dJxId1N/B/YrSrrmUeROBX3lQNIT6s8X92f5CPvi6qfJob8NSKfiXCm0v6PSItPL8WS9gcR4OXrBd3yyH0vhuaqmRo0QA1mtV+InelfkJpflS8xDaVArLM74H/NfQ1CHpPc046e4Q4Ze92zcajhjx/8clnD40/iyS+388q2Z1YZmvcdHlqBA+Q10uOxjfDn3FGEZYhv+4IMV8VYzoO2QG1HPFTZy67/xSHShLjsebMqIJZBJo61qnRsgK+mKtE0VtCWAg9sG3cL4YTZWrtc0/TWNFWclP1oVLNjtimWimBVK7IQURcz17p1pFomWNHDc/wXZznlbEFLataB3gG0IS8cOxCHcl1ASjhx5fti/19O2BTCEpmzy46CrXckRB4a3aa06JPJTpfs4tNQ+gU75v4mqIqg6otaBgzH+qRIpmWpvgQxwEKOGLntVodLIsgcPXKEqcgZ+HSpGn3DbU90dNuLEbmLQfrdz4X3/M9rMlzYHIcPIZFmuAdwywY801pPeT0dVGExWnnAWE0/v8crkqyLjuXJNWlZzrp2k9cA1Og0poNY+c2ql09t4nTPa0XBJrmyyBuNt"
+  },
+  {
+    "topicId": "6",
+    "id": "6036",
+    "langCode": "vi",
+    "question": "Xn2RVZaMhAKHReciqnhv8bDE0O+27qCkYyKHYHEMff9RIrN2XqiwRIoljn51PJLODJJvnfShZc1mYFnkAzhNrPDTRAqn2RcJjCKSscxjZZY\u003d",
+    "answers": [
+      "sang",
+      "sing ",
+      "singing",
+      "to sing"
+    ],
+    "correctAnswer": 1,
+    "level": 2,
+    "explanation": "8rGrM4fJj5sWKSsnVoo7TgqNfP/ilUC6U4zMcEG5w/mQ4GuywkzHT9YM43ochdImysrYQA8ex0zlY5TI8QtXDJcVhPMMxCi0MlPVN0fPh+KKQnk8BhJjCo8mI/xTbXTx9QRLnUslSptqUGd2JmDyEpdRwyQKKWp9LHxDbZ3RSrPk23ICMifYzQN4NGZMeOWxSWDCU6FdRbXXBzxwSVcrUxncN8a0Ch9Tr9GpVSuzbLEK51K1HK/t/CP0dJxId1N/B/YrSrrmUeROBX3lQNIT6s8X92f5CPvi6qfJob8NSKccaZNizxGHuuA3pTbuwLzHZUSj0a7O0KzOvP52T8J3VZNjDC5BMaYg+5xtCwe3kNXgKXUJMbQpwP/8XXVoAGZYj64Th6UHBUNmwNB0La79KYn+8EvpCCG7aXXE6O9A2Rq9E6iKiVZ+AXja/E6DKjwRS0/k2PAkOCHm3slH0Cd4H2QsJ+JE5wJ6c0PTuijgdbbAmCw5n4X0u54HQwJTQFr+PBnIIIShKGDSe5j2VXN7YNWhVtOnWqbKWfhkipTajg/OCJ7yZ/9SWZXr0iWyyLa8qtWde55rFiYu3bierh5EqYn8KHz8Jek8YCxgK851XRngDTmTG9JmuixMXTJK6RqJc5e5xGP09ziUnG3GhlMY8o982quMFuzUsSfs3mkJ1iQ/iQ8iYRG/7jPkIPqC7YB9KdnNCFNz4Q6C+xnA/wWvyVqTxgw14VChFj2eTftH8YPX709JtTMDv8JcZ7MQ/9SDZf8YUv+y+7klETSWULkGMfe9xo0f06gKFR3FjuXcQCM\u003d"
+  },
+  {
+    "topicId": "6",
+    "id": "6037",
+    "langCode": "vi",
+    "question": "rv93pTJtcNj8DfrGwj4nhpgSn+8QJJpgCKeaE4qadurcvuXfTmUPa/ixWK3Xr/f6sjp4Og0N+vYn+/+f2/5HxsjJuEKSpF8+1ahh01bDyazVlMH3OUILvVxo5mTVX2qd",
+    "answers": [
+      "drinking tea to drinking",
+      "drinking tea than to drink",
+      "to drink tea than to drink ",
+      "drink tea to drink "
+    ],
+    "correctAnswer": 0,
+    "level": 2,
+    "explanation": "iBupD5UCpmvpqg2NFC7Vm923bqWuk25hM9DHF3jeqRaT/lIJlWkQtPIySsROgMdyHggXC/akSmTYuyL3/Bc5Jyg9cpIi/F8vsWWL2irUod2Ll/ofiWRfHNxjBkbALtZNc27DisjzNDbhTj5omG3skGyFAMn7YWRIqBRFOXzgE7RnE/HnCDWALikzflGSm61enrtDlImAkN/F05Tj1O2Gt2uuMqQlE3ECeAwtVgI8niI\u003d"
+  },
+  {
+    "topicId": "6",
+    "id": "6038",
+    "langCode": "vi",
+    "question": "/n2nW+h+9CgTgfuXA0+ew+/QTfwUF3MPU07bjgz51e32dORzLHNX5sDsuDaJ8o5K",
+    "answers": [
+      "fix",
+      "to fix",
+      "to fixing",
+      "fixing"
+    ],
+    "correctAnswer": 1,
+    "level": 2,
+    "explanation": "iBupD5UCpmvpqg2NFC7Vm4TjZycu97lRtHmLZbIj4tlK7jDbdBVjl66ychEnei+K/dPl2s5Hylz+2Zz5RSRs8m2i8IZN/boS2/CBROg2XxSh8zbHWZgdPKlRwcwtdKF5wuSGx6EnxZRFJunrBhA16+F7mmnBvP4SkMrB3VLKBUUtGAo2mh8u/4TKY0GFglmSIuUx1RppoR8wOZlMUsBjeQ\u003d\u003d"
+  },
+  {
+    "topicId": "6",
+    "id": "6039",
+    "langCode": "vi",
+    "question": "A7hEkOFPhdGMrRZ2WEKQq/FYoLfNUBcaREYu7lRLGe1uosoTL7xhQo9A1YJrEEvjlp2M3n5AT2zm61/G9lge5Q\u003d\u003d",
+    "answers": [
+      "appearing",
+      "to apprearing",
+      "appearance",
+      "to appear"
+    ],
+    "correctAnswer": 0,
+    "level": 2,
+    "explanation": "KqB6WH3CnnLaCXlYby5xlspRe5w23eeN5t1SqQGEkyzxpMO07DSBb2eNuAzItiRrcfAdf+PvjGAx3VlfnjmeEwrO/y7zeOPEm9sG8L6ycPLT3zQbM/2FSRWdjbqguXlmmZxNvXV5bRGWCqme4x/077lWj6Rkv/W+e88YZQfYftGjUEZU7X+JxJDnMtMBDoAoZO8+i8Q2V1jBXbnoqI9Mm65PMSmGRa14in5OyppTh+5giCfG/KAjxFBEPWl9W2xnAObAwcGS0XdKx01D+g8VQNHETdXmy7yH4XWhi9qfFSNjSOf13aYi/4NA9p9Q2KAxflg2CXSvS2gv930CI3tx6oQkCQKUgU4Boul3+nIUz/5ShQmtWpQ4qyr8LPkw2+H/jce4kzqbP3k/K1zNRfuJ5Mfp7rqdPzu0/PEjkY6KqJU\u003d"
+  },
+  {
+    "topicId": "6",
+    "id": "6040",
+    "langCode": "vi",
+    "question": "JCk15eP5xIpXxoksPEBNyt2YtC1BFDzzpXOrg+nMvSLlXl15Suu3/EaR5u499QYFIoa+72lmOvIvWpIrAvRY56Qx3cbqrh0sdUP38FnCOpts4ctZ+uv0NpvnmtVVCQ6H",
+    "answers": [
+      "taking",
+      "take",
+      "to taking",
+      "to take"
+    ],
+    "correctAnswer": 3,
+    "level": 2,
+    "explanation": "+qXDBZ0yIuBw0nF5KXvokzuglwBtFqyTAf0Bp/kgfr3nTmtzRC90qADcCEJa77EV9hS0OaabLEdqbxzfi34zICEVnJrsQgp/GoTTNX/0/VvXoNBnnaDjhKezCaaArG2pl1HDJAopan0sfENtndFKs1BFLc4odJZoJ5cTS8gk3dpeXaE51tk9S3romrIm0bKWF3Ib0RaMdgE7ZMV/iYIU5lP9hPrHbgtpdQ0xO41BK73FpcBuNpZOaBXRgl1LXg0Fr0HxL/lgnorE8TDARE14avocTOz1H+q9bQyYahWx28xRefy3Y29PDKIlJjF7ngB9cnGXXCDJ+G6ktqTTERhhQzge7AB+/b3djrYe4WJo8GFhqamgruVgrQMhhZcHDmnRfjaCxoEFxNly4Qm3Ope0NlnoGRUFOP4DhKaY5MV+BYd4RO+arqp58uGytpadvSJWTYFdKNEq8tDnoffG4DIf3a9B8S/5YJ6KxPEwwERNeGr6HEzs9R/qvW0MmGoVsdvMM8kdymUoolqTtFD7pB7tGB1KDCFdnvu/hr+gJ0Tn8govsY123iSLYHG/2SO5SO0goPeYMnfkUq7C3G/ijkmQ5Bmtmp/Qm1yL8WY6JLeyJYZiMtYxvyVNahjQlB8MzWvmwkyboSP1w/0l4YY8Zx9IwpnecL99dHpf/mOdRuahNetaBxE90hDrbLbZCps3UY3nkdRaqYqBoP6hmmwgJbg+ocNJ73QTbNQ0mvcFOEQysg49y5DiNQJSU3s8v52CeDfqyWQDJLjyNnMtI8nhfEhuOLkDklD9oCV35T2pR97N9EpKe4nQGDM/mRPwTy0GBS+iXS7paMgqp9I/irT7e3pSpqR4Mr+ktmpvAJ+mGjIbfdzd3TSaVXDrTu6/7PtY9aKooUvWXjG3UnGFPI2PGpvguVtHOkrJELrq7Z91Txm/DP4\u003d"
+  },
+  {
+    "topicId": "6",
+    "id": "6041",
+    "langCode": "vi",
+    "question": "7OCpEba8tuVdXF9PNDXduzpncEKmRbDK8gSDlfgvIUicTpmOJI7C7h02ci0qs0n2CAHnpD6r1bYPUIqpteVoig\u003d\u003d",
+    "answers": [
+      "to do",
+      "do",
+      "having done",
+      "doing"
+    ],
+    "correctAnswer": 2,
+    "level": 2,
+    "explanation": "+qXDBZ0yIuBw0nF5KXvokzuglwBtFqyTAf0Bp/kgfr3nTmtzRC90qADcCEJa77EV9hS0OaabLEdqbxzfi34zICEVnJrsQgp/GoTTNX/0/VvXoNBnnaDjhKezCaaArG2pl1HDJAopan0sfENtndFKs1BFLc4odJZoJ5cTS8gk3dpeXaE51tk9S3romrIm0bKWF3Ib0RaMdgE7ZMV/iYIU5lP9hPrHbgtpdQ0xO41BK73FpcBuNpZOaBXRgl1LXg0Fr0HxL/lgnorE8TDARE14avocTOz1H+q9bQyYahWx28xRefy3Y29PDKIlJjF7ngB9cnGXXCDJ+G6ktqTTERhhQzge7AB+/b3djrYe4WJo8GFhqamgruVgrQMhhZcHDmnRfjaCxoEFxNly4Qm3Ope0NlnoGRUFOP4DhKaY5MV+BYd4RO+arqp58uGytpadvSJWTYFdKNEq8tDnoffG4DIf3a9B8S/5YJ6KxPEwwERNeGr6HEzs9R/qvW0MmGoVsdvMM8kdymUoolqTtFD7pB7tGB1KDCFdnvu/hr+gJ0Tn8govsY123iSLYHG/2SO5SO0goPeYMnfkUq7C3G/ijkmQ5Bmtmp/Qm1yL8WY6JLeyJYZiMtYxvyVNahjQlB8MzWvmwkyboSP1w/0l4YY8Zx9IwpnecL99dHpf/mOdRuahNetaBxE90hDrbLbZCps3UY3nkdRaqYqBoP6hmmwgJbg+oaqWndZICTYJJSEfMdirY61bfFyRjo/EBYKGeUO2AWVB0R1xO4FXyJ0HB2OrrTk9PGaJlfuYZFTSNugEFk/G1z0I5NcjXt6efsORPYoboNQGb47lGSAzQqLRA41dkXfmT4PFFiEuKH4RNSUNvQWXPGpt4RodVUKJb8Z53MDxVSIOKohI2hp37foyzN0YBVLtSxH+KVzyH+PPN0BnrpAA3d0QqhvEKptvCJKCtnXaTqTIFQ2BQRISGh9okAMq0NVE/JYbjtZSvnah+Rng8CbkCHIlyNOsgk06KRj0S8IA1XN4vhGcKkNcujITmpa0NpBpSlQucYeC5mn7ymU+poVFaSPBXWgVH4xNbmFMojpY9dFGOA2wbR2dMqSvz+NixiwkCv7caDFtHhuMh7NiIN3huvqfkh5ciOqGEUpJN185a13Dps56lo2CXiG5nqf96BhILZGLZpi/+ALjEDbACSrbSP2z1MZVEHssgMSyRVwyxrUwKJUVYK8U++Y1gZsacvpIPJa0rMwe5oNg1FjF7JJHNwSDnyLosaYV69u4zwOEGcQoCxEUv9DruD6tTKB5WAmZCgdkDlqdvQMjW5I/7l4jIC2Gws28SRIpT5esFv6rYp5vgJE5D11a9Ho8ikEAmOuKgA\u003d\u003d"
+  },
+  {
+    "topicId": "6",
+    "id": "6042",
+    "langCode": "vi",
+    "question": "ET8klkuoHXQ9U3kh0lFEwvW6Gwa5kmvzBDPlyXOZsHx0mvvIxlQMZdhG6QHc40ol",
+    "answers": [
+      "to opening",
+      "to open ",
+      "opening",
+      "opened"
+    ],
+    "correctAnswer": 3,
+    "level": 2,
+    "explanation": "+qXDBZ0yIuBw0nF5KXvok0ASEAYjBflrSC7P6OBXfGu4BIym7pMPRSogaxL7Np4UkgPQHi48+4PzTXpgpCksuqlO2xOVwKvBwxbOD9nkS10ClGl09erLoKudGFCbURcc4PLRC615kZXUuGdpTf/0lNLASBetH2kVA7bbJkSQ+e6HLoxIna2aSfYqTWAwY9f5twKyRQw66AmGu/gQYkkudqjtrTKp93OIeMQTuI0ws/fvlFWgG8B69jCBLPjeeYgbVIC+wjrbN5po07yMmxwOEQ\u003d\u003d"
+  },
+  {
+    "topicId": "6",
+    "id": "6043",
+    "langCode": "vi",
+    "question": "pBskoW5kSreiYZy45gVsaOonqsyNP2MGRJK6vcoKYSBPO8Aarf11/K4kFHOcPpckRowLXWsVinUzOKVg40mOivgo55i7N8oaNpUmSdQyWcs\u003d",
+    "answers": [
+      "having done",
+      "do ",
+      "did",
+      "doing"
+    ],
+    "correctAnswer": 0,
+    "level": 2,
+    "explanation": "+qXDBZ0yIuBw0nF5KXvok+8zXRzfw4Oh/8lsvpSzOBDV7nMBPXvqUqXGFhuYLre+pNRM9aRDaCoPKMCBFYZMASt+jWyksu/xqMhbhaZa3Um3yff9IwIfA7qMJYMa4kzDrGs/pbRXbt77ckK+cPI4AgW1EAY0GSz/1AuXaGO+KTXb0pCXvnmj4sHrbDW2c812IUgh1P+ZPwKFxHAs4NkQ2SixUufRJxuX3Y37tVgTcDBqNtr52407uP8fhp9ddcNn8j7Pwr4AI0tMKYtWNXfuqVopYHbHtTHo8M/k7JP7wZB+F1EsBlkJVY2HsUJA3gpMToYqzh+l3kTn7LGV5PLDoCDGMVV8lc+DAh3jbEPHL1oprS52KT3hnBsGw4lsAcpkeuZyyVR1SwQKTQT0zB7PCdmz1L6t2OTYeIEGt80J0QadcsnuAfvghdPTGuCHwv5FcJz8fNWp+qsciQJhTMrYmF08Q8LKmuyOBBvQPDcChTPAo1eMhPTOcN8eCzvKxIRRjqKD4uMATw0Ht+Sl3waduOY5D8/Lli3s/ZZvfJyu3w5HJ5YLi7Fji8Jhk52ZsqiyP6H3rkUaL6+0DZgxHDx9QpxBV2nCxGhyOFSL+A4aXQAy+0Ma0NFgcccDSAtFQuFo0Jt06RuM1ffTLNGALqhVE4XaTykEeHiB2K3frWAh79iPUV1Rtz1nyRti2qpO7v7pGjLBBES66FpAEv6eVn/LRx3WFklI6tbPY0VR/mdDJHG9DI2aT120VWYWugZ96O4QniqeLsmf6rRqAtzpw1oBD82Y8JHRhLzOG50xFtJtLdDpytSwBub/6qvgymPKetNtibmJIyHyIBBd/GKK1XquEKdXeXuqrktZ50XYmTurL6aoYDjfkcw7PZychWGZRNh5b+mHQ+P+pq2nO7+gQT7lErJe2axOM0y1tvah65KCGg/nWK/IvdC2erPTew3YcxKqd7a3zF83b/bNNQXOgeYkFabOepaNgl4huZ6n/egYSC2Ri2aYv/gC4xA2wAkq20j9s9TGVRB7LIDEskVcMsa1MCiVFWCvFPvmNYGbGnL6SDyWtKzMHuaDYNRYxeySRzcESgId19bw1uPGyG1Qr2pBcgsRFL/Q67g+rUygeVgJmQpe/Vt43ZKcr0AGDIES7dsr"
+  },
+  {
+    "topicId": "6",
+    "id": "6044",
+    "langCode": "vi",
+    "question": "xokF7cMRMg9CPDT12ZFJ/6UmwBHNMY2q9ZpvfrJBlUg1LhhS49/DXb0HrbGtkejWhG8yGSMvH/7wUDZiLf6R4Q\u003d\u003d",
+    "answers": [
+      "smoking",
+      "to smoking",
+      "smoke",
+      "to smoke"
+    ],
+    "correctAnswer": 0,
+    "level": 2,
+    "explanation": "+qXDBZ0yIuBw0nF5KXvok00FaxJwel35IYGVBcC+7VLKythADx7HTOVjlMjxC1cMkgPQHi48+4PzTXpgpCksuiqttAig+wXtF1AleeKu/8fBAU9P/aX9F0up/s4r8mVhJCda5vT4A8Yn1nKGRQAzH2CGfhmh+Y/xigz0UL/Nyhrwne2QK9I1Tw29davTzqFn7+SXJH9ku0SkfsprIVl7aqFQ1nrJDm5WvoMyrOMqRAJX9bveCleccvNG9fDvS9qKep/LugwXeb1wrSkeB00wq4SNyFuzKgRhkAg1xPXzvtz3HTr35oftueamQA3fyN/7JG3fk0c/Gta4p6BOL/THObg0tpsW51WNQvub0kXvuPBQehIni7IwzO6900cF4OEt/9FnuT/+YZo3uuvbcLeZ9RCHY3dVZgryZldlK7k9GX/Xby0HqehtSaCtyn/ynGfzAnSPcl+3HbZIXPjj9YyVul1l3DQTz5wewdT2MKboUDE9qQtfxd91kwoSzJ6FFVqnOCKbjNHt6Q95bgoMYKdhEbnN0hYVr4nNB1hPfdpt/h6h1sLe8UbsBS2n520KCHvAM+TDY1VUEhOLYsLFChfilomP8Ea9pzqhDRjoFOjNDjO9GWJMQR1BZagvznxMt5xXvZ4GRHBMPIhKqmkdbf6IlB/1gfAiSPbw/yyfNAMPnlBCTJ5EbwTPGx8VHB/gI7zr1sg0u6dhn3apj3zvK5bZVfqiY/vv4azyrJthNoOUi8rc/6Sv4Ae7QK503RkxfZ4wFMOQcwAPyLBmFTDGOrivw62ClBJ7PGjJ55IhivMqZ6Sk1Ez1pENoKg8owIEVhkwB0stw8ID6RgMsrxSPFVaDfA\u003d\u003d"
+  },
+  {
+    "topicId": "6",
+    "id": "6045",
+    "langCode": "vi",
+    "question": "FwFZ8AIWs+otJWXoYHJ9rDnjqLhmABHuk8iQKGPhqT/O/2PWpl+AwLuYld96aRqXsnq3nZLaLSkmO5km3snIng\u003d\u003d",
+    "answers": [
+      "have",
+      "to having",
+      "to have",
+      "having"
+    ],
+    "correctAnswer": 3,
+    "level": 2,
+    "explanation": "3cT+z89Tpfl8ltBArjg5KrWroCYG+ZIfFbmfUiYkaG2zLLe/gypvU4HZJ5CukD33k82HummtZYoepCrCkfsAE9+YfsgOpZggUexbhET24VxGLZuVS+zim8BO6O8Q5ODEiLOEZCbXFXYQsRACivzTtYanu4OyLmdgCczeFhda5g1UMbmDRhyQq3VqKA1ptqruDdTA4y/ZSCtVJlERc2y2XFASjhx5fti/19O2BTCEpmxm6WwzxbfGHy6U2E9rGFbm"
+  },
+  {
+    "topicId": "6",
+    "id": "6046",
+    "langCode": "vi",
+    "question": "CeoAwy9ybu0SrzTIVdmkz+lnhKQArKHBVFavjtwUVnKhbX07enwEOjZptbTa3t6b",
+    "answers": [
+      "yellance",
+      "yelling",
+      "yelled",
+      "yell"
+    ],
+    "correctAnswer": 1,
+    "level": 2,
+    "explanation": "KqB6WH3CnnLaCXlYby5xlspRe5w23eeN5t1SqQGEkyzxpMO07DSBb2eNuAzItiRrcfAdf+PvjGAx3VlfnjmeEwrO/y7zeOPEm9sG8L6ycPLT3zQbM/2FSRWdjbqguXlmmZxNvXV5bRGWCqme4x/077lWj6Rkv/W+e88YZQfYftGjUEZU7X+JxJDnMtMBDoAoZO8+i8Q2V1jBXbnoqI9Mm65PMSmGRa14in5OyppTh+5giCfG/KAjxFBEPWl9W2xnD1ozh1BV5nTtuB4HEjlB/vxaijIiTherlynrB+WZc42F2sOx+kiEXWX9Vyr8ou/xErtdkxmYHMd7is4z+bNyzA\u003d\u003d"
+  },
+  {
+    "topicId": "6",
+    "id": "6047",
+    "langCode": "vi",
+    "question": "Zqdq3mWorClKl1cyKbuq3GtqFlXnc2agdjZeQ2Svl1FR2DfidWdNq/d8CKhIfzlvFrLVIudJaCte2up0niHrJrF3Nnj9VWsuWTU18s4zMLM\u003d",
+    "answers": [
+      "to taking",
+      "to take",
+      "take",
+      "taking"
+    ],
+    "correctAnswer": 1,
+    "level": 2,
+    "explanation": "+qXDBZ0yIuBw0nF5KXvok00FaxJwel35IYGVBcC+7VLKythADx7HTOVjlMjxC1cMkgPQHi48+4PzTXpgpCksuiqttAig+wXtF1AleeKu/8fBAU9P/aX9F0up/s4r8mVhJCda5vT4A8Yn1nKGRQAzH2CGfhmh+Y/xigz0UL/Nyhrwne2QK9I1Tw29davTzqFn7+SXJH9ku0SkfsprIVl7ahYu2Hw+aUbTtQkvOGYav9QvgCyUWczvK1vxsDByUlf7EmVUQuHedukNz9jU1SkhLYSzD+CNpnRhR3wpsdUsTmXXby0HqehtSaCtyn/ynGfzAnSPcl+3HbZIXPjj9YyVul1l3DQTz5wewdT2MKboUDE9qQtfxd91kwoSzJ6FFVqnOCKbjNHt6Q95bgoMYKdhEbnN0hYVr4nNB1hPfdpt/h6h1sLe8UbsBS2n520KCHvAM+TDY1VUEhOLYsLFChfilpaVnPDb/Xew0vMDUuBOdPGme25uJf/7XgygT8EqlRj1tJu4aqWpCYeTVIw70R3dRTdxDE4ljHZdZwe9LO6gMenvwMO1gnKfHNrSchVrnZEwqWMx2YN4lc9iJW+vx+gpMeXN6uqcClNsWTqAbkkA2t7siVcYs88cCQpqCkUAUlGTnxNbmrOADWJ2Z9T5ulz5i1pVrpCM1pq1PLlnq1XXYWpLT+TY8CQ4IebeyUfQJ3gfaDC2cEK3zPG40KMCtuAM7YRvMhkjLx/+8FA2Yi3+keE\u003d"
+  },
+  {
+    "topicId": "6",
+    "id": "6048",
+    "langCode": "vi",
+    "question": "CunbnC64LG9XmXyN4uSUnQ4L7kHLGg0noNwqm1BMC5o\u003d",
+    "answers": [
+      "to decorate",
+      "decoration",
+      "to decorated",
+      "decorating"
+    ],
+    "correctAnswer": 3,
+    "level": 2,
+    "explanation": "+qXDBZ0yIuBw0nF5KXvok8Fgxa36qV5BvOwa/WwKm/HKythADx7HTOVjlMjxC1cMkgPQHi48+4PzTXpgpCksuiqttAig+wXtF1AleeKu/8fBAU9P/aX9F0up/s4r8mVhJCda5vT4A8Yn1nKGRQAzH2CGfhmh+Y/xigz0UL/Nyhrwne2QK9I1Tw29davTzqFn7+SXJH9ku0SkfsprIVl7aoz7dGBW7xmvNvZA4N7ogwmxyeGpE97SnJd4qwQ4tGSuOECcBL44+ldOgXEyjVt7o8IyabEWU8kByhjqOGmwaLOMBlfbiyH4qxXSZjajSCay3rbKfxsfRxzpEGsdyysHynYfU0+SPBQumoEfxdQutEjlCav5yAB6HUuh0qgO/Q0FZC+pMutIkZ5h0yba12r9d5kfVsc6RJLyAzEX/iQm03hoOB98qyfgcdvvVR4x6UER4XhvFZCbL9tpk09oXyJCtuTdfSopexR5i/01V3xz/tROqc2z3fDZ86jTtAY1qZK630GnFWwXi6lnlkXXpZVRA9kPXocGXWbTNYMHAoJoS4dylvDBDm3VQfE+FtcaJ8p+hhdZfZ4xrCDITbX6uHBvNSbWHA+20fLoNRN9cU2BJKPqyhAMd6Pj5I4dxShqS4tgB/e4M4vbNPYHKHydHrWujaJUzWcgOrjdqP2amzSF9hT357k8ALkH1Dg7zvOdXwPa6KNf0cdUClhyWZ3G1GdPBQjqipTYaXcSs/kO3/dXNUPtf9SP9bilxe6NYgTUctONGvF1F/D8Q8njFq+x8RtHqVGehI+lntaGwozGHgpp5V4gG3swoYCU4KlE6mrmtbLGfctSqnhJqhhydH1vfVGJsYiYtKqGC3rPjSWYgcYCH+UXKLpV+Gs+u2o+aCLHIU8nlUExcJdccV3+8r5ZKN8LnG4YTo7N/FCOypfqvHQkkfg\u003d"
+  },
+  {
+    "topicId": "6",
+    "id": "6049",
+    "langCode": "vi",
+    "question": "wPi3zMP+Ij2Kha431pvMbjkF1piomeWWs2eJA1jroxqrGg55Rx10XhbSEJ4P55wx",
+    "answers": [
+      "showing",
+      "appearing",
+      "to show",
+      "appear"
+    ],
+    "correctAnswer": 0,
+    "level": 2,
+    "explanation": "TKNSwYq+ov1k+3keEUjC8Y0a6PiRnoBXOsLbPY+rJx7OtTfrIzlMOlJZE2FHBRIRTuM2A0bZ55EUK3dVABCDKapRHPdc4YsIVpOXhTWuJtPMSYoDd6QLHkXmG9FI0TUT4L547sEOwhTPoPpp+GfxSnGmlGMGErGX1rjHxtalYbZrPnF8WFC2eTzrf+wrXxUmqG9eF1IMKqn0pEvIhpMsj6A7dy62t8Bjof8apxpIC26+E7vVrf3yFhfujnx0KZ5mEUU8Lg/wyaoz0TCwrU/MQM6OV0IdMCCVMTFs+i6ptnH17p1pFomWNHDc/wXZznlbqQVfubjG/P7439HQ+synP1XQ1CkbzDoAkjYMlURjICTjbPcAVEbtFqtYSFZRLQVAKDHlSIncbq4BLfxNU5Dl7RawcGL+M2FZRRAxFvwYuViuTqB7BPisvXXluZHqk5Hqn1sHHnCEufd8DcuM88cvlrsI4m8FPm12ouQognNnJoga2wWeu4U7tEk42obfklkE6zXMBqu5ILYBwTTTSIAC26Jopw3doWN/nS8/CT6xRvE\u003d"
+  }
+]

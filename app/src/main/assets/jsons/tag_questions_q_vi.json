@@ -1,0 +1,752 @@
+[
+  {
+    "topicId": "16",
+    "id": "16000",
+    "langCode": "vi",
+    "question": "XGB9V8MSiJYD2s+sY9r9FRmhqiNx4LIFBdRFSzN5cbLyBRrX7BaNaM20nG9+SyEVgvt9/qwPEyF9FnqCyF23s+djPwrayU7pL3kTIc2U+jy3X9t25FFZAlON4Sdeq7MR",
+    "answers": [
+      "isn’t",
+      "don\u0027t",
+      "does",
+      "doesn’t"
+    ],
+    "correctAnswer": 3,
+    "level": 2,
+    "explanation": "n/ULZE9GCCEd537NauSeEyi01a6sKX0FYVahPO04liKC3Hvlyc7yQHzVDtxih3ghoKJsoCcr0UoSICRnaq4+tRk0jGxxFoXyCEQ5cXl7TIVa9sUFoZiy7wrRIeg2XgmtKuFTM4yx48msDBYS0dWJfJogZ4wL/E9p2CWikBOWhJ2ylY3eJOJkvZfFjiQu3P7Muz/bCtxWfHY/6x0KFf4Wh9ZghviDZt15GmMxSOJpqisO6aMi2Mx5H2kKC/Rauzce8cPU2ynkQ/2hY+24bN5bYEUnxSwTUO8M0TmXTLp6OGTug9VfQbDSlReG62l2lM59TNZcUhBz/oUr2b69P22G3MeXQaaHUoc9VsXtRjCLXAEFhGVuC5pSpSNAGcoekNXGJwiOKPOPkLq8aau3HHbsAnv/j7KfqKeqnciDUllDkA/LZzd1v0HfpYHXEKhNMMe9c6fvTL0+n84NA82JuC4ts1vYKmdwCwDv46IEmn62sr4kiFiAMFKWSZT5h7UgxYgMq1wxd/7TCsmNi5MgkFOGyWVQAv6CTyTe2nHmsdGjn25OFlb47Qbbt5rfYSRjdyO9IKdUiiTf1nAQBPk9QD3TDJeRvHxbYZk51dHno5avV8ZLAThYu5T1iuIsfx9HsGysaOD9hA6Be8VWbx/hRowbh/3Hp78wnqbTK5aWZGZzqcoUnAmS5MqstAQ5co6DJ2RZ+oX3tzl7DkmqCpV+byLMTPYlDoBVBlGnT0U490WT77SmC/hoMFjs0c5gVZPrcB+ZREbjuj33Y4i7fCHuBnzJxEsBOFi7lPWK4ix/H0ewbKwwBb1LFdnOvZJpcrs0y64cko7WAhfgw60fjnQT1XaHk3We25AN2NMdhd8nkdl1/0v1c6xkV5q5E/BP7OKcpzzBZGgRFOwTwsZDAFBQeaaSeWcLg3bz5yiUOucM8Szd/jA\u003d"
+  },
+  {
+    "topicId": "16",
+    "id": "16001",
+    "langCode": "vi",
+    "question": "sLRGoBe66O80/arm6vpn+HoAgE8DYvmB/gx6BZJTXqein7b8pfp6DL6Nrwa+KpPFG7pgbTKUPYUb57bVmYv0wf6NhbThFVEVoj5KVkwA/KPT38nAidIfCV7fu/3iY6NOkdPhhIh/q8X3312WUNMvcw\u003d\u003d",
+    "answers": [
+      "don’t",
+      "are",
+      "do",
+      "aren’t"
+    ],
+    "correctAnswer": 3,
+    "level": 1,
+    "explanation": "n/ULZE9GCCEd537NauSeE4Xetuz0kR2CLBBn/ndk/B4sqtY7LgNeGTJt2aJQ+mbn+DIkxOxjO7tjAjsJ5slI6LEDh1MrcESqbOQy+wfTrhKNL1AIpg1OXV7hBK6LH9Lq3sZdV36LZ2+EL55gVhNGaZTdAsYjooPb+i3O3Z8HYyeoSZwIcpyx5M2rQGXY9N4rXRoPSDZQfAAw4QtpGBBob77PiAWZl+o4r75AojE/OH+uTqB7BPisvXXluZHqk5Hqj/8E/A4sgi/ptjTgnJNxebVyWO3F9FRa/Q7vVzyPQqskiFiAMFKWSZT5h7UgxYgMq1wxd/7TCsmNi5MgkFOGyWVQAv6CTyTe2nHmsdGjn272Y/wNxCrJoBBncp7zHUB4pz0dmRx06Cgc1jQDGAEjVtKtR6+LkAfht4G4pdWIvz70u/ktbYiOROfOHElxZO9BXz/33kKiDt+qimbwEN0gp4TOfvoad/iW1IXX+0kA9/wK3Q0IlMUMh6xUvrZ/d99Mc7n6iN+ahf3ZqSWINvddnxxpcMO4HAIl3H7LEz4nfP+NWmrNSsy4x06IR5otiAJkviVDluwCRNeb7ns+FTDVgLFjhJuRhYiUgrvMsoZOIbGYmCxcowibvBjS1xotdLmghivP52NciEIJvFZfAxoc3p+DkMoJjW+Th39EOWLwzwkq4VMzjLHjyawMFhLR1Yl8kOmNMAzV1g9CSSFgl7sZ2N+fnxDwV+tek4EVwSHBE+7tw9zN0gYOCJDNCCO3TTWraJ9peWinA19JY2PQVcZHKJWlO0GQ8JGxVgH95fhQsaXBsMDSjf5JWvpZ48hNW1GkZZ3Tm8W6pmcZw6qX5NqPBZ88/W9mMGd8pxN3OqQ8hrqQ6Y0wDNXWD0JJIWCXuxnYJxelYxpbmRcIfUrFrhhPoN6W47dH3YxShXpcvG6b00gATMVrcmlj9MnFg2iqL+vZP1lnBBJ7IuWOMhPziNFfnZ8G8UYRXE4Lrg71EE+OBGI\u003d"
+  },
+  {
+    "topicId": "16",
+    "id": "16002",
+    "langCode": "vi",
+    "question": "U6fBgfwWTNypBrMWxMPQhiX5pE5UfKG0cAEIpKvCqAK7zOGmmPkHSayhIMXW+rrU",
+    "answers": [
+      "am",
+      "don’t",
+      "aren’t",
+      "do"
+    ],
+    "correctAnswer": 2,
+    "level": 2,
+    "explanation": "n/ULZE9GCCEd537NauSeE4Xetuz0kR2CLBBn/ndk/B4sqtY7LgNeGTJt2aJQ+mbn+DIkxOxjO7tjAjsJ5slI6LEDh1MrcESqbOQy+wfTrhKNL1AIpg1OXV7hBK6LH9Lq3sZdV36LZ2+EL55gVhNGaZTdAsYjooPb+i3O3Z8HYyeoSZwIcpyx5M2rQGXY9N4rXRoPSDZQfAAw4QtpGBBob6Je8YPHlJCaz3gr1wj0Hpk0lO/K0PSzAtFQFeIDCpXEbXvGvhpQ5rDikOmEHJJ0Dtff8sSIuajD/7UNLXakt4JfeoBI4AF9lH5/D3v/f8d+5S37Kd2RbjsvVugd8n+nHPLjZ2y64pmsmfeStTRuF1ld18uTke3XzV5N4lc1nxRAMyY7298zMWupN9aZvs46azn3GDRb5wnDyl+clnucWILAdHuangHHTGC4LgqbX2wVEX7bBwgzkX0H+30JuUOenO5PALRsZKpdIf1bfQeIrIH38RfNEFBWQUOxmQsuFA+y1fsfdxUKea7vYj84a+VwWMCGRHRNs67h1B1dwd63wcbQ66+VEvZ34v/iRLvO7UfxF7v5s+4qEGiWuBfqSJ/iMjcR6ZOlbh+n4qBuvZa96ktjGA9M4Cs2ND3wiW2Cs9IMotAktjYpgLlaooenqwGoN5K4EBcUGjmvT2t3wMx5SruqzT9Kvrg1oUrtl0xa4g58MG5HMIUE8X8VpRlGBO6lmkOXBm19av0TjINKfpC+Wr9Y+dOxaWe8FwNV9Hc66MKPNxHpk6VuH6fioG69lr3qS4cCrsDwjzJTn5T0bKUcdxPwAlAWFh1I1byJc/D+Ts7il/C+mf2BI5uh7+kopZJaaGF5Ru/PdmyvWR+omqcdffPOsev981IaeZsvKxtxTOxT"
+  },
+  {
+    "topicId": "16",
+    "id": "16003",
+    "langCode": "vi",
+    "question": "5QEvqja53MtKkAdiik5PWY+pcOzudqEj7oKROK2EU2WwZ78FNHE6J0xJSxH5ZP2J1xd8K3gJHQACYLia3q7X2KOeRjIuj0ze0D4lZaA+lfs\u003d",
+    "answers": [
+      "was",
+      "wasn’t",
+      "didn’t",
+      "did"
+    ],
+    "correctAnswer": 2,
+    "level": 1,
+    "explanation": "n/ULZE9GCCEd537NauSeE6XwK1B2o6qAiMA3M1ev/SUsqtY7LgNeGTJt2aJQ+mbn+DIkxOxjO7tjAjsJ5slI6LG/RwW81WoIFG557msg7n/PD1tMp/Fd/moJuAffhPIbvCZ1I6TEw7GEkJfWI/9HkzIJiFzlzmCYmtxZEZmgpmYjzqFsyXdgtrt5RH7cgIl4jZm5fBh+G1mmvbnvB9bv4oH6JGyNvxFiLxqy8j5xPBJ6t0Ps/5J1iN7JWCR2gvCtK7Znq9Pefm/PIVewXYQ26mWutHoqYGFdd6NzwJGxguBIQJupOnLEdavh1o+W+2ZA3qK8J3/GsUVDFfTO+wkrVCMosWxUeJReZZLw6AX9sEuH+G/jYHLHNZItsdGLkSvpH9rBxpNB5ayKEoKqomV7xWUFWzmqhtJnF9xjEgKaosCQR1KtPSb3igVrJIE744mHR9VQa+C1mrGHygZDOFLwNIVXnGwdeJBK3W8gfkUnauB2/KfzsUGJ82OHFntXjFKPyBMoHtV+EjfvToe5SxZQHjWwP670+GxWIOj9yWKFP7d5xOPprA5MuDumG+EKjRWd6qQQGZKVPRzXQaPZ7i1vkdMusBNHnL0g0Skbh0QB3QSeLHqwChasvXjNKtMg0yS7sFdy1ex2MZLOIyKiuh88F3Ro81CmNJHdRXSSKPaHB4p2k8c0Es80FYf6OMpGH4hk/k6Vwq89bgDglChmZ0eO4aTaYT36k15MnQ9AcvcUKX8iIDeKvDNJARdvg5Va+g/8U31VxwMqvoYvV6/e8gDahYF29GR6N7V0atNsJoZdUuXbG5Dqvs9PKgb9/WHlz8jXdGjzUKY0kd1FdJIo9ocHikdPj3ZQpdUQ9i9uZJKQ1QynQNb6FtDF4JoifSj4qzzB6/g5UwujFiOiCkRCkmA4aFt//9jwLGqG3y11JddPF2qNt/8VrSmxl2uE2ACaG1fX"
+  },
+  {
+    "topicId": "16",
+    "id": "16004",
+    "langCode": "vi",
+    "question": "J5Fn69Ma0YaG57ry8ekXBsii2vqgTPsT0Xnjjo5fHFm7fwYWG9pgn8yrHokMiXcl",
+    "answers": [
+      "have",
+      "hadn’t",
+      "haven’t",
+      "had"
+    ],
+    "correctAnswer": 2,
+    "level": 1,
+    "explanation": "9JwNOj7KtguIEgneIVLBhIEXhlCIxYtCLg6yN3KAchRjRNriUvz6iAgewmTrnTmNXLY5PT0pCGi9z/VtWZZJ5q2pczW073EZY9CtnZj4XuVKsel1jOnV5P3kzzh91TPzZP3YUakS+NlG611GYCqvaXI8/mcpV/9+rMPEN5ogTbO6W6dJPCIhiH3bpw1K/Ux9sMzZlFZzED/TpKWuSnTOKXLoFTK5tJ8SSu+68yi4vKPO6a0LQB/xXp5GTOLwtTVKrhxV+UaGtJe/zQxawBz1HH8p7Fac9KDp3B/QNHciBuRQ5BR/yvs5SV7B/Gs3aM6tx5yTzik3s4QPkVWWrEASarnZd0+76xydE/JgvGK8GbybDXlsNH9fHk+AIi0FOtTPEiRXNZlhm80OW/f6KWo91B9gqyYA/aGgAcSBN32lirPUBTEBUtSeWNN0NgJVOcYWhYN0AdmUpkikDMfMid56MyFkWWrMRwu6HhUNK07fsO3tDAhYD25NEh1n9Z087rDVmfjohMD8cxp0WkL/H44nX8jWAOhIAVCNsbSVpNgD3ax1S0FALiHt/FKYodN52Ai0q35mGPFTHf3aymUWxhNIZ7RtoECkp5RH+XhrBuKF9z9jRwxZvqT55upkl2KwAQjCPutXgHAcXlW4ZHFqlk0hc0OXBm19av0TjINKfpC+Wr9Y+dOxaWe8FwNV9Hc66MKPNxHpk6VuH6fioG69lr3qS4cCrsDwjzJTn5T0bKUcdxNKYL4BXHWEDQQTeUZ6moi6uC6H30nItqwLnlByrYhiqSBpj6TwX1SSl3DDnTZatkU\u003d"
+  },
+  {
+    "topicId": "16",
+    "id": "16005",
+    "langCode": "vi",
+    "question": "u2dnjmxxVdZvXC3R+g+c/fuWuhQe6EXrQS9KyWFcL3csU8A7Yv+oVO4l/X93rS5K703B5aX12UZBp2vef6xkew\u003d\u003d",
+    "answers": [
+      "won’t",
+      "are",
+      "will",
+      "aren’t"
+    ],
+    "correctAnswer": 0,
+    "level": 1,
+    "explanation": "n/ULZE9GCCEd537NauSeEzCtvls3PfANrVK7llv0COtLnjkRh6jTkOs0e2AzoA5TMzdYuy9oaM73ss7grNKxqQ+jGqFt01M0euvg6ykm9FhUa8UnVhtM92lrldv7O6B0HeMB+ylcfuzJL3TfXwGsdej8X6GRT4C0l3R69eSju51sMC49rGt70whnZnLCeZlcsQ9J0LDBTwEkwwSBGahjLEc9dgic7GNDo6ydoiVUqMRk1mKop26xqZ+FNuitaXwch/hv42ByxzWSLbHRi5Er6R/awcaTQeWsihKCqqJle8VblFnJAcsvsKhpPpLYGQWkfXcFwfxUKF/AeGHHNZ7Jf11ZGN9TzktqXprCzdTHPf+WxXuHVZyBQjXa2qVVNAQ63kL4P2s4zk0PPRqLXU4CPPQImOZEvLMT506R8kM02mLgyU8Wjv2aaU7BfjHgBduvXVgozVwKfue0S0YcvQnriEgL5gsyCcKrVuUflLF09BJnrcGKdRA6yntbYDJUgCBLsmAyZshir8gj1ng57x8hqr3YmwCqS3mwHMGbOheOGpNosg7QcZsDogVWOSiw63p100K3smiZG6eTZGpov6sbtlKeiJ8goIfdKV/AuOOwI4zWyuqeVB4Eq1J9FZTlPIIWmfjohMD8cxp0WkL/H44nX/qlmDrRVyVfSqLao1A/DA8NcPfBaU7md2BxY8B+dZvGceh9YRJ2eyz2qIhY1y7RhFOVq+uaMnKa8NXDPD/rIhQw0etZ/Jtfqdn2s3S+iDWNSaxFBLH2wUyNMvxPg1OL3g\u003d\u003d"
+  },
+  {
+    "topicId": "16",
+    "id": "16006",
+    "langCode": "vi",
+    "question": "skXVx8wD7IPNWot5YKwqy6AILWc0FurN8tVL7goMbdMNMhsTzZUhaDLDYB2UHQUf",
+    "answers": [
+      "haven’t",
+      "have",
+      "had",
+      "hadn’t"
+    ],
+    "correctAnswer": 1,
+    "level": 1,
+    "explanation": "n/ULZE9GCCEd537NauSeE87E+ZLv3VkRJhqqeeEwMzvCmAG8I8dzydE/wWWNmfAscEr37A9vkGPrgrk53m4UwiFkWWrMRwu6HhUNK07fsO3pBVbh/H44bRmz/HJZa3N3nzz9b2YwZ3ynE3c6pDyGukQXZ2nom++2dpKwDjuf+hIhY8jqZefybx2FqJIukkfhaPEYx8p0ZiBahFj4WzZGkLia0On3Yeoc+2ehcy9viSmnqhdhsUuBFt1eb9WslnwP1aAOyYzTOoKxE3+WtW4Vk8PnkwFAdFDUL/UwMcU6LOdIErqNv4WYKT8VFKRyXlJ4b3YFHenWhn1PAq8uonPfTCeN2guY9WPCaqcPrwnvxOvqBQa7Q4NQ+OZskgQDq92AoAVQYwKax7YvS2CIM2/f1pcNXghhkjKyXdT96jtCKNyv3cAff0Jd1e8zWFKmTSdDxp3rDYoV7mKjrrQYz/OwkvljsEHOStodKuxcZFMHO4SHoO2N2tVtdK3VjENXQGOx49PWOblvxbwrl3fbM1Nr2d6kLay3d7wGZmTXK1T4SfMgp1SKJN/WcBAE+T1APdMMl5G8fFthmTnV0eejlq9XxksBOFi7lPWK4ix/H0ewbKxo4P2EDoF7xVZvH+FGjBuHI2q39lNFeUVL6yniz142EEZT90lC8GwQCB3F8hDA7yjlWHITbbpfSY0D/WXUr244gXb0ZHo3tXRq02wmhl1S5dsbkOq+z08qBv39YeXPyNd0aPNQpjSR3UV0kij2hweKR0+PdlCl1RD2L25kkpDVDEWjvHpJ6yANzHn0iVcw1nZGU/dJQvBsEAgdxfIQwO8o+co49FUczEbRVO6T/eoLfg\u003d\u003d"
+  },
+  {
+    "topicId": "16",
+    "id": "16007",
+    "langCode": "vi",
+    "question": "LWDdmDndar2hl88Un6gGOrIxTgA1Tc6xEziDp1uDDtZnEe4rJ6LPSO0fT/CBFIVUd3pqc5+HzL7LPEBhafjecQ\u003d\u003d",
+    "answers": [
+      "did he",
+      "didn’t they",
+      "did they",
+      "didn’t he"
+    ],
+    "correctAnswer": 1,
+    "level": 2,
+    "explanation": "n/ULZE9GCCEd537NauSeE6XwK1B2o6qAiMA3M1ev/SUchb5X2dWo9QMwoAsM04uYu7BrIsL+kuQP2jG8gfNihQfm/mHzdmy5RXttJpl3RN9K6eRNMKAVQD5PZNpHxVZXORAELGAm2DpUlBXuhkWwc/qRSz/KvrIa1eiwr0HUXfJtMiwoR7JKS0az6eAXF8iu0fcX9uzBw/4OnxBtM6//DgLc4l7z+Dozs2NcX2sKsJgCp1ApjVoudpFZwoTS0I9YzdcV1EPWS783VU1Fd9M7GGuRULJQV0YHpp6dcaNI3MQvPzu4yle8m92HD8dc1JN/Y/EyfOp67yy87X1BRHw1gxMJTQegnVLh7Jk4Dto23O6crQT52GdwjpTB9+UyAtMAlLqmKIPtFAUpdTxR3pU2FGjxGMfKdGYgWoRY+Fs2RpBzSSZGpWowZfsZfQTnYsH1XjbwOxn6d15ouz7N5RkcxGZ6yTylApt/ga2KYnagErUFJm+yNkyBhOQo3XYUsBBiB+7T7aRP7DQstRHePQfa8oYHgg7vAks+GExuVHJpZA/ppI6fHuMJ2P99QZwcrVyMT0CHyp5wd56B7ToOtcSw4HrO5ClJYN3oKjvZLYtd6UYW0ARPaz73Zgyee97ACeylJt3CfjP7my9g+qdWsaBme1A5+JcOkCZjbdr5SqOaTCTMNQRydLKRakBeBCVidcEHzFXONOlC1rWtNkvDJeDON6WHsp2Mvvq1JeIUaeMwh0aE331oMPkUC+bskHXqzfUFSrvJKlHSqg0et6+pY0B0ugsj9cVTMITEpxAeyl/ZgL9lndObxbqmZxnDqpfk2o8FORAELGAm2DpUlBXuhkWwc1HTsBTA+zGUFJkyJzm49wOfHpH687KHYf1xInZ4jQHbQkDGu/29Z9n/UqwlMpY6XlE2pa5AXvpZlxp9W06PsxKqqRfr8hhYWAVxMsChx8A/S6g27vt44tpx88vL85SDQSCnVIok39ZwEAT5PUA90wwRC6m28MMU37nTE2YHz+XKUdOwFMD7MZQUmTInObj3AxC3nu0aCzi/G/+mwmIqRQehgbdd8Vit72RRkhu3RTDraunWvw8MobOC0r5RTqRZTLbgFupRBennd3YySsaHYids8hPJ6pSbHxBFGS64Xu/BEJq7/wsVybbuuakhD2tE6g\u003d\u003d"
+  },
+  {
+    "topicId": "16",
+    "id": "16008",
+    "langCode": "vi",
+    "question": "zZ/CqX7/CzWrxn6JmNMCyEq9wIipi9bJTpFZBN8ARcFpQYfMD6LUhdwKXHkNIo2e",
+    "answers": [
+      "will",
+      "does",
+      "do",
+      "are"
+    ],
+    "correctAnswer": 0,
+    "level": 2,
+    "explanation": "n/ULZE9GCCEd537NauSeE8kOiPG6wqv+YjoLhBIOgkfTCHb2HvP0gqguzCZbRpSYTtiov3suy5Uk94DT1hCh2JvzU0gc8lWnMuwmvfttCP6lh7KdjL76tSXiFGnjMIdGtEvdVGs2XaLjWJCDjKk+VEowlJzT534PRoGn5ho07dOxwwaR6zYNy28gqKMngSbvktpxEgegPtqOOmvSHf7Zi3Sarl9sclCvQbCCOkrQfGzduAerB55Pw2zXuAm6lrWe8uNnbLrimayZ95K1NG4XWV3Xy5OR7dfNXk3iVzWfFEBg7R/JQwkiSM8vdA9z3nNe/xizRRSNf5RnrLa8NbkD8GlNn2KiddcieFXB2ew2sqDPdY2lC0gNQQf8ryduXf78"
+  },
+  {
+    "topicId": "16",
+    "id": "16009",
+    "langCode": "vi",
+    "question": "ML4Yad5t0UMZ7QsIV9OJekbJ40e4aLQRpgF0Y8+Xt82S3UJ6f1RNSEpWkW9/QpccyA1Z8qM09elKE5q3Q+EGYQ\u003d\u003d",
+    "answers": [
+      "aren’t you",
+      "will you",
+      "don’t you",
+      "do you"
+    ],
+    "correctAnswer": 1,
+    "level": 2,
+    "explanation": "n/ULZE9GCCEd537NauSeE9HZiARiU+uEE+mKdXjx9ztPpNG2sOu5lLbTV+za9y023UDN/Vaa7yEBOLnMjBqso/NW9sa7NThICDtdDjLy/5PLV9+cPL9pPaYHlWwsFK2k+QdfZ7B7Mxlyn3EE425fKMkafm6UugDvA0fmxixD+ln24ijvZrXUG2HmymUo9QZXBlikmls2GQue0xfaqh55Sv0naehDSJh+V04dToMYzV1hBvwy5hA3fmHfiMctU+MEuCJ2s4gF28IgtOO87sNV1WcMvgvf43C6wjF+PTWtzuIWfKsa5WqBFDKwuYAi7ACTtnGpSLLfl5/9zEWcKgpJOShZhJyf68ODDue8C77Wg26MnTMzAHNTlZO1JzpuR6pnZh4SMmJkbn8FOCMqiqpb1boYlKeHDfrMjZKPsIlUotC1VQ4N2KPa6Oq54EplOl8Z"
+  },
+  {
+    "topicId": "16",
+    "id": "16010",
+    "langCode": "vi",
+    "question": "0USPYvS/Y4rbV9G8MlUZ4ciByZFbaA/tdkqxFmZEdUo\u003d",
+    "answers": [
+      "are",
+      "don’t",
+      "will",
+      "do"
+    ],
+    "correctAnswer": 2,
+    "level": 1,
+    "explanation": "n/ULZE9GCCEd537NauSeE8kOiPG6wqv+YjoLhBIOgkfNAQGAZgdv/BD1nPTxdlYYndA3/ZNeyrRm882+E8ANRvdiHbfoJdQxriFKR/0nSHuwFMG1Mg0FFXeW1e4abiXReUwOUW2A6vcTND4SHUMVwudPKvXnWjukVoUXQxlmN1p4SvjmfhG+FwKr6Zu3CehpdOeQDUqkZHBvyVErPk+seblSa0XURqdeXuAeuA4WML+/Esrl0/6SKx9N63XJ6+dOvKqLp6bcQYiDSy0oOwFwnDrk6z3AgKWvD4kc8hadnDq9q1HQZxkT03daiars3FNtVXK+7uHQpqguhU02u8yHr8slZL6/Mi+WftoukPsoxiNTldu623SoPfM7WVLqfQjt"
+  },
+  {
+    "topicId": "16",
+    "id": "16011",
+    "langCode": "vi",
+    "question": "kMPvG3MTGII92ekEpnlJlFLZJZw9ivUMekWh/eQ1JD8l+olpVy4A1wRaFa60ZaoL",
+    "answers": [
+      "don’t you",
+      "aren’t you",
+      "will you",
+      "do you"
+    ],
+    "correctAnswer": 2,
+    "level": 2,
+    "explanation": "n/ULZE9GCCEd537NauSeE9HZiARiU+uEE+mKdXjx9ztcfAKvYZKe15OU/7duYzyK8Rv4M6jdU5OxzIgPMoo4hfX3YkRMPpLgYs60yu5GFanFR+lvTLc7DK48TrrF5+OqrW2Fp59hxxnDFgKKjkXO0i1+ExKHplGX5dbF2hb5JU7CEmxhJwofHvVioS5NvSzjd0bAZVlNp0/LURnujfmVvcp9x44dB2iePUGZfbrUqOrZkX4Mpv6P0qubunEJSk+p/o+7TKk/laFc2EPxS0WFwclGbHsz8/arAYerwWpS/15wfMWnOOH9ywDaeeaUwKxQAV8icjdweUTYGAufZaN/UDUS5oWQSDMvbBk/FiJHIdWvargASZOtjl9OsHw3dshO8t2lsRBzI4aDMt71tfqQlz3yYXquFSpp96ohMhzEvhtn6nw6mxw8LQv+n/QczZ3B"
+  },
+  {
+    "topicId": "16",
+    "id": "16012",
+    "langCode": "vi",
+    "question": "GHVMR8aG8RfrjXUyB/cOvlAjEpQ8hm5IX3r6nWQPqk33TbrX4IJWqEPBMVvXpJwVhG8yGSMvH/7wUDZiLf6R4Q\u003d\u003d",
+    "answers": [
+      "there",
+      "it",
+      "she",
+      "they"
+    ],
+    "correctAnswer": 0,
+    "level": 2,
+    "explanation": "n/ULZE9GCCEd537NauSeE0S6y2P2h57KRtW4/JodRZO7GpjMjBlkptfSvo0wdyrevtvA9V/3gvWemzI7TXqKw6/hxx6lR00zstI4r+HtftAtfhMSh6ZRl+XWxdoW+SVOtbVspEkq6qucdwWYucUN+iUm9CA4AaiSwk74xXu6bNekPEMbFeaMNVSWk7V3p1lO98r0PosuDp6m/B9rYcqyjx5wOf4xXXeZwgJvs0+8yA8AULsIUzG82I1ChRIVNxfTe+cVSa1dbQauqO4L5RmB6+wOhBYvn1kxNBMu/K5Eeeiqt5jDISwDv8oRzn2Clnj7cY8xMAjeyE0+r19Q/EWmDXx3syyopA163w5lUFxpjrp4wciBGzDEjfuwsNk9aM2s6iYysHVnVNrtQMBfxfWfaC+PFowbZIGy2r7nfezsMyOegdfxTthBrLszaCQ6gdtg3H3rF1HVYiW82LkoC890xBwUkou63QPCqjTVX6NzTtPI4C6D0fqcsy7Yz4EvSYX3GMCVcLj/u79NGKP8OYWhf2fkPDECnZh1LmV2tKmbe2fqJjKwdWdU2u1AwF/F9Z9ocKhI23YTF4uwWbRO/pCQyjZOFybU5/uKFJEreRA0F1TUbtj0H3elHp85CAAV0sV/CM6pFap///5WVvo+j6JEzRKdToN7xeUjwA9INQm872SEbzIZIy8f/vBQNmIt/pHh"
+  },
+  {
+    "topicId": "16",
+    "id": "16013",
+    "langCode": "vi",
+    "question": "wKVgCGxQlXyoV3o7BnEXYRzAhlToIkYbFc5lhqyih4mlrV7vuPQEVYOCu6v3rW+O",
+    "answers": [
+      "was there",
+      "are they",
+      "were you",
+      "was them"
+    ],
+    "correctAnswer": 0,
+    "level": 2,
+    "explanation": "n/ULZE9GCCEd537NauSeE8Skrlytgut9ZsChJAAbem5Ai40lH5oOvJiw98yMqhBsTBAwW9Be6za18boUkjKPY6S6WHF1zWsF+zzHtI0HsZE0h7ISQY+H68gF9VrcTJA/WZh98f9RPOALhczE+iPEiLgidrOIBdvCILTjvO7DVdVnDL4L3+NwusIxfj01rc7iXG9ZS2c8xYP/2KQt3iAVEhsmhsBq6+BJln6/wGdiNjXejT6edu3CYiBei/mbb/RXD7bjiPe2KR5aw0FIivmliKMg53ksHj7CZC6iZ357gLHx6E9vSIUNDFtoiRPkqTZN8aanF65Hl4jZQAROzorleT4HmpdTlD8M3rXxQ895nRz7BAbnccvEwTcxPU2Xnj54Gsf5qQ7n7k/x5j+ZOVbWmPtVikPk34icMVkYIeuNfYqSMurePmWoj6HWYAdiJoiaoznhRoUx8n40todK4RB1AogrBhNQE43qTQvtrk9yWN6yrHCiPoF6Th0NykLlBrmdbDomT+8g00S35K+kp9q28P6qdoCtOyjg5ykzx7wDcgZTfVXHAyq+hi9Xr97yANqFgXb0ZHo3tXRq02wmhl1S5dsbkOq+z08qBv39YeXPyNd0aPNQpjSR3UV0kij2hweKR0+PdlCl1RD2L25kkpDVDAFyxkfUKLtKpH2H9zYE1jhb86i4Q7JSDB8WMNguCm2z1sFCaFppb+hdsRHi5cb27IRvMhkjLx/+8FA2Yi3+keE\u003d"
+  },
+  {
+    "topicId": "16",
+    "id": "16014",
+    "langCode": "vi",
+    "question": "CRlhXLeBapxH5p1YxvrtkP1ln5Eo0nNEXW5TP+dvnV0NMhsTzZUhaDLDYB2UHQUf",
+    "answers": [
+      "will",
+      "are",
+      "don’t",
+      "shall"
+    ],
+    "correctAnswer": 3,
+    "level": 2,
+    "explanation": "n/ULZE9GCCEd537NauSeE7T0g3qdz+7qOqns7JEBBosjlQM0uDZtUsoyhdzOAR8GNVZ1Yx7maLSLSb+vs0kg1n0vki/lfUvBoqNyOf+n6zG++mtryFC9Z/Eqxi6L6kbH3u6eJwPSk2heZ2WcB+oA1G92BR3p1oZ9TwKvLqJz30wnjdoLmPVjwmqnD68J78TrNeq5BGE8d0eqOed6sIKdpauOE9w2DBNefGkJrW2kNhuvEN8A8Qm0pvjipEOQZOxD"
+  },
+  {
+    "topicId": "16",
+    "id": "16015",
+    "langCode": "vi",
+    "question": "pzsCviit1D22klCfKGr4ndNU5b8pplJmzNDMz3oayQideU+rYo7j2I6OUBz7aqM7s/hzcgxjn4SIcGkyR/FwlQ\u003d\u003d",
+    "answers": [
+      "they",
+      "there",
+      "him",
+      "you"
+    ],
+    "correctAnswer": 0,
+    "level": 2,
+    "explanation": "n/ULZE9GCCEd537NauSeE0s2vbdBHATryhYwDe1iXEkz57GNNfXS4A/iArOjhFTKtsEYVPTwvVWHIO72qFJpPNbtd8Ik8w8+AttmLLaTpdcixqooPPW4WHS462Zh8GDtQPu84KStwRbY4SYehcdFMMvJXqoDH0zA89JuKmI4uRU4ip1QmJkpGrXVhGm5jD1pmn+9pQFzrIvtHAXjWXXsrYYPvTbx/YG9F7QhkNS9Nmxjci0QyVKEMSM2zp0FYBCNyZrsxmcqf4pZHweINuHeM6AtvUeOgvPQo2WKd04JldLvALI/jrPqeKWnBe95QA7GS746+zNAIE9bJD9vlik4KfVSiNsHPV50Y5SbtnnXKzDnXB9u16oR5sgx3msd1gEdGtyq8EmTI1rOvyVx4249GaXOaOuek7m5oqEWP1XcAwYoU19FMZr3HwSllkNDsQoGSULmfmm5KbYFW06VXXpMkLeZMtHTYIApXWs36jAy8Le65dL2yKw0tePPbxXH8u46Ql1L/EfbixVY5F6z0jnYqzp/VBucue49zE9ocxPbV8A04F1YlzQwyQAc1DS0r5wX45wDr4aPlaZwDEs+vyF0/FKpJPvm9PDNSmdZ+Mauica8hxgP4FxZnVRI483+ePpQ/32KWdP36R0jJa/4alaBsLyT6BdIQGJ1c2UGAFjy7hXIEyge1X4SN+9Oh7lLFlAeNbA/rvT4bFYg6P3JYoU/tyZ06n8kTk+ezFt+tgnYSy+xA4dTK3BEqmzkMvsH064S2Yrn4SXeftabsBupDp0QRaYL+GgwWOzRzmBVk+twH5lx27v0kPfSNqZzx0zHynWdQFyuosfoRxf6ObF9pcYsjHwnjBMNSG6zKpsJ6SCjY4ANcHF1D0IRV/nRnnUbwwYvaM8V2ivWGVnG2zw4UGT4Jxg4FzJ9u+ZVU+HdaO1NJ9i2S7HPz1kbYa+nlC/1GxmHBaaHuPyKMkpNb06+WgTcYsS3eMJekUFKomjJzGfZ/WaVTwwsar4EwLpNVDpFtHpKZ3aDz2N3cBbO0Kvyg4Ta08LVNuYe/dgSFzXeaNRAPWoTp57PzCsqH7fHznghQmJqNZLRCzuwjQU1V1QXWRnRAg\u003d\u003d"
+  },
+  {
+    "topicId": "16",
+    "id": "16016",
+    "langCode": "vi",
+    "question": "s3pgAorU9Cc51bi843k5+gYNrh2F67ij2v09aBqdU30crRqW5tj1Y+BBLLCoKxhc21rxvF0u2PcpOQlHNIiJQg\u003d\u003d",
+    "answers": [
+      "doesn’t",
+      "do",
+      "don’t",
+      "does"
+    ],
+    "correctAnswer": 1,
+    "level": 2,
+    "explanation": "n/ULZE9GCCEd537NauSeEyPrSpLWgu4q9ZRK79T0nhE2PL/66qMoGVvJNc3uzlmIl1aU08HFDlO4vOX08RqQgUwu0lTFNsZ+k3iUDRIOgMfAEjmVkwoow9RG5UmMrQDKjH8Sc5I9yoXDO2JvTbVKMs9tb/ZRV6ZEkL+JSlrYJj3+6cD8AOsxv1OM23HWfd6EfS+SL+V9S8Gio3I5/6frMQHa90BiCe72IdDBSyuYKjGV6TcRRQrytpIYQ27FGtgbn8iyur6BizdV1U0bmU8SjTGHXp6KgegtjcCkkykYSqDqtz/ZOYSORv/AQ7qynI322nKD9p4u901vuTXrY620MkT9zLYpZFyXWn2f2Bce0I+tW8HhwCkVhduHbGFPhM3s71bqvC3FgYIwIb0AJyw5aF9M6lDoUtsp9s5akk6x0l04LI6ZmiZDeCzjufQG6nz/GpmfNSteNfdyp/77xpwc2csdji1cj8u3YwtbK2N9VkrnPfbeAOsQJq5t1KL8H77sesFzkPqZxEJBuO1tCyQ292S6PLdf0ElVVohHun1k1zWH+G/jYHLHNZItsdGLkSvpH9rBxpNB5ayKEoKqomV7xWlyzBoUINmuCGseifaw/ntkQgEzC31G9tU1E6j54uUPetegBcpSvA1t7hp8eZTsIV5AR4YESmQ+G60xG6Pp4H2lh7KdjL76tSXiFGnjMIdGhN99aDD5FAvm7JB16s31BUq7ySpR0qoNHrevqWNAdLoLI/XFUzCExKcQHspf2YC/ZZ3Tm8W6pmcZw6qX5NqPBTkQBCxgJtg6VJQV7oZFsHNR07AUwPsxlBSZMic5uPcDnx6R+vOyh2H9cSJ2eI0B20JAxrv9vWfZ/1KsJTKWOl5RNqWuQF76WZcafVtOj7MSqqkX6/IYWFgFcTLAocfAP0uoNu77eOLacfPLy/OUg0Egp1SKJN/WcBAE+T1APdMMEQuptvDDFN+50xNmB8/lylHTsBTA+zGUFJkyJzm49wMQt57tGgs4vxv/psJiKkUHoYG3XfFYre9kUZIbt0Uw62rp1r8PDKGzgtK+UU6kWUy24BbqUQXp53d2MkrGh2InbPITyeqUmx8QRRkuuF7vwRCau/8LFcm27rmpIQ9rROo\u003d"
+  },
+  {
+    "topicId": "16",
+    "id": "16017",
+    "langCode": "vi",
+    "question": "LTe3eUG5A4/IZX+cHirIn88aZKHD+wLZP1ueZTEDDbzyM9XUzbUVoN5F8/005J79",
+    "answers": [
+      "let",
+      "let’s",
+      "don’t",
+      "do"
+    ],
+    "correctAnswer": 1,
+    "level": 2,
+    "explanation": "n/ULZE9GCCEd537NauSeE4w/lKLbj4ag0ag+vpQdBJHfallsXhqiPrpHeIzGBhuuDqP34ihsMgGIvfkJ3xOUgZ1phdms5dDBh6ZXkzM3AL/2aV8WVfVQ/RHiBSPMZQx4W6eiYs/CldHaQJWnaMIwYVDkFH/K+zlJXsH8azdozq3HnJPOKTezhA+RVZasQBJqfSiHBhL8M1PJBJr2aHnQCCgkCh2/qj40yI/1wdgz1AoQmrv/CxXJtu65qSEPa0Tq"
+  },
+  {
+    "topicId": "16",
+    "id": "16018",
+    "langCode": "vi",
+    "question": "xkJtDomF5lcroHUUJ/JTMxm4FXnGNKeaAFruhoMeHdMGGLBIIFysuv7un/xyjNtN/hJKcbBSwG6LdhWjbSKeXw\u003d\u003d",
+    "answers": [
+      "you",
+      "them",
+      "they",
+      "it"
+    ],
+    "correctAnswer": 3,
+    "level": 2,
+    "explanation": "n/ULZE9GCCEd537NauSeEwHi4yOToXy4gNb4Atz9l2m28+OWe7sEqgDxv/9dFfsWSwz8hhobEF3sOu4t1iPce4q0bVbm/ul0IwG9ow/Q5mPMQgFbmPRfOzljFsK0JGzgjH8Sc5I9yoXDO2JvTbVKMiZOHij4eIo/01im2FRrsoZPTFyYTsSZ3pzltPdsAeTfCnomoG75HhrjdrMFvGL8k2d9VZLEGp61DsvJW9KiiCji+mwg10hPvypJ1rPqjZYQKMORa1taZ4zkGKK/vmgGtEuqNope1TUhhi8qAcg7/tVVIBHtgK2+ml5T1th0ZjTSlow8k4Y0Rl4hxoyZxyhJTDrk6z3AgKWvD4kc8hadnDq9q1HQZxkT03daiars3FNt+4RJXZmWNqSIF+EE8FmsiuN87PtgJ+raCGvvboqRB4J/4m8Jcy5aU+CTnN5Y3Qf5ntILgUmb46PN2u9KuHJOX/5J3BxfeVv7YMxZPOzMh7d8ewGlkzG7C0HBM/U39Xx52NsSGw0qsmGirZkMIK3ps7EQmqE3cWLcVs9nMwZ8AG/nXS9Pp8tch05NT3ftXmObwDUWnj1we/otTgYxq5ZhB2Wd05vFuqZnGcOql+TajwU5EAQsYCbYOlSUFe6GRbBzUdOwFMD7MZQUmTInObj3A58ekfrzsodh/XEidniNAdsXfOYcHXif6wDpQ8KI+az+heeniFNk6WZRR7PO6vbV+PtVikPk34icMVkYIeuNfYpc+FbrPXvJA0Hzd+KpdVzntwkB5zYgN5Bl3B+Kjcd3yuYweiI6JJjxx2eyDRidLs/4NAP3k3X4FN4PSgm/AVhKlnwEzx24/kos0M/0kgiwt1g6m9R7VoKl0CRukxqvXOM\u003d"
+  },
+  {
+    "topicId": "16",
+    "id": "16019",
+    "langCode": "vi",
+    "question": "9u8lkjY7zizHsHhXSRABMJr29rsehXhVwDH3s54R0AL+EkpxsFLAbot2FaNtIp5f",
+    "answers": [
+      "do they",
+      "does it",
+      "doesn’t it",
+      "don’t they"
+    ],
+    "correctAnswer": 2,
+    "level": 2,
+    "explanation": "n/ULZE9GCCEd537NauSeEyi01a6sKX0FYVahPO04liLhBgNjVj5rhHHQauWrvENo2/q8ODwvGTy5hPZEEk6AIDOltZglwzzPXtdktukbkx9tRvd2Io0K7nMCJawSSTrHEXv5d0K9uJSJejOrKfh2domeDxfc6sHvoaMaw69G3dQYI0fsgYsrISGMbY0J/QcxYDrK/HzU8Ia/Pk0w/r8nwTs51wsuf4VpFqSBbzXUkXZUY6ofY20fPs6U2h0yVNgOUs+CHDINmjr8z26z/+Dfj+/TPcUMGwj50zE6hfesOXyL6Q3PnCtIqHifnUErQ4QWqNpZHelxjQKnVZ63DeK9mbftvBiptK0HWJKw9CaStqVFJ8UsE1DvDNE5l0y6ejhk7oPVX0Gw0pUXhutpdpTOfUIWUpFnRbTzP4dnxQVavkzNstPXnNQjCGrW5QDiYxC3EUrScwSWkQXac3DEM0NsCA+/KYxhbJw7Pj7sPhA9ZJs6f1QbnLnuPcxPaHMT21fAKDn0cRwcxgwuNZQa7Y4Lz8gG0LYuhLsru6+iqfpls/XlNyU0PAI8i5p85y41mOvgn4OQygmNb5OHf0Q5YvDPCSrhUzOMsePJrAwWEtHViXyQ6Y0wDNXWD0JJIWCXuxnY35+fEPBX616TgRXBIcET7pv6mwiAuz/FSIyoSBGKHQ3Dnun0+cJMHLvR3dCYSAdFOOPfWYHmQHSN8kDaZ4qdL8GwwNKN/kla+lnjyE1bUaRlndObxbqmZxnDqpfk2o8Fnzz9b2YwZ3ynE3c6pDyGupDpjTAM1dYPQkkhYJe7GdgnF6VjGluZFwh9SsWuGE+gJqJC9Iy8xJESAMSXiRPECtKLC8VTspP54/7kydEbPeM//24KdiURfdyW6qBwICFPBjotDMa7DUY8asHrFsglqYRvMhkjLx/+8FA2Yi3+keE\u003d"
+  },
+  {
+    "topicId": "16",
+    "id": "16020",
+    "langCode": "vi",
+    "question": "6DrbA7P0xYcfgFYrN21m3XhKDnmGdMvM1bAXX2fFZ1U\u003d",
+    "answers": [
+      "does she",
+      "do you",
+      "do they",
+      "can you"
+    ],
+    "correctAnswer": 3,
+    "level": 2,
+    "explanation": "n/ULZE9GCCEd537NauSeE/yjRfUZyseY5nT+QvRBI+HIRJkO2yxx0PIMdkFvl4kxO4eGswinSSZVtDsJA4GagBXWcj6NNkHpI0i6t87CCNRti3xSfz+wARBc0Utw9Wk307cHtEvs+0Q1FwbQVX7LF01N0t3e4+m8/t195KLB87YIf3XQXwLjgU8UjW6XEjgdc3eCLhGQsRI+55CAKChqpMg3Tfqn9DMBmSGzTCq5u8DLWoSp6+f1akHddVLClp8DRSfFLBNQ7wzROZdMuno4ZO6D1V9BsNKVF4braXaUzn0cJou3ppP88o4+aRmX0cbBkPm1E4girdPbhjzHUcWsBWVIa5Blk1qC9S3BiSxIXth1EmhAVc0gGBMk0KtA9zw9"
+  },
+  {
+    "topicId": "16",
+    "id": "16021",
+    "langCode": "vi",
+    "question": "RKMKYKuPdUcL/vciG0AWtJ9zIHaSwX5jp5Ui3vuhag8\u003d",
+    "answers": [
+      "do you",
+      "does it",
+      "do they",
+      "would you"
+    ],
+    "correctAnswer": 3,
+    "level": 3,
+    "explanation": "n/ULZE9GCCEd537NauSeE5Ccqf3NAA9qvTd4ODKP6V+BFBGvc1pwOyGDpd9t+ID7sVVht4P6ZP2tOPN22LI+N3lBtvhuhO3YnaeCh3dEQhSWEygNTS+Bgk2+YYKyWXlpXwUXzao/VTIQb1p68IKxCsHnhinC8TD654w3D7lcHfX31aKYbRMWb8Q9+DMOqMVw3TGgCvDUpfsCltqIsKPUBL0N+3ZBCjt45yQxTwNUsEKT0hgSJPP0ojYjUYyiK1c8h/hv42ByxzWSLbHRi5Er6R/awcaTQeWsihKCqqJle8U6y+JOS4+1m+KJ1+DpT/UYXxqSJCc5b3y3hrF7dqPy4rJ84cXLTeKP2RO8T7cYxEs\u003d"
+  },
+  {
+    "topicId": "16",
+    "id": "16022",
+    "langCode": "vi",
+    "question": "M0MhlkdgAf9gGAhTiGFA8SqgB+Bu757QRSA+bAQHLPQJhItstG78AON+6trMX9rFq7rsdzq3j+/ePpGE+OlyzA\u003d\u003d",
+    "answers": [
+      "will",
+      "don’t",
+      "do",
+      "won’t"
+    ],
+    "correctAnswer": 3,
+    "level": 1,
+    "explanation": "n/ULZE9GCCEd537NauSeEzCtvls3PfANrVK7llv0COu+fvMIFnMH8QDAqdKZZV2fS18TYvTGXeyNnnVQWKcF+chdF0TYvwf7q3wbDJdjm2l/yRuh5K/qYugBh47XkyU/Nxt4IF7pKJT1gPKL1L1UGAHBMca8RgPxphAn+ChWubUoKiAmOO8OGA5khI+PlTsWZz8Hbz1LQ7UgPPXfd/qwQX2gRf50Qf7gvJeuc40epR0PEq1ZOxDfIYUeu4hEjvwrUeX5vr7sc8CgeKRDfDUnrer1Xc3CYC3oA8VLiJU8EP5ZTxORUAAHPXR2HP9h0LuJbWX7SXJj28UwZn5Q5XGUldHGwtWCSkuMHPYYIvINLeYIlsiMcZKHnpkq83Wcoa9NOcimEOA0BsQruHpPJViGpmDufuv9SZoMBaQhUuC1M1QPvymMYWycOz4+7D4QPWSbOn9UG5y57j3MT2hzE9tXwNYkNmTzc0WnPbakBB/AbnS4/+Pb7G/Txfe9CD/CZKfVNxHEHDt/QgZkODmYlGEqwJ+DkMoJjW+Th39EOWLwzwkq4VMzjLHjyawMFhLR1Yl8kOmNMAzV1g9CSSFgl7sZ2N+fnxDwV+tek4EVwSHBE+47LmPGmA7H7T1FGx5BpsWayaepcF5rrg5jNyN+H/akaBjAlXC4/7u/TRij/DmFoX9n5DwxAp2YdS5ldrSpm3tn6iYysHVnVNrtQMBfxfWfaHCoSNt2ExeLsFm0Tv6QkMo2Thcm1Of7ihSRK3kQNBdUnNYGgzEfeWIRVidGDEbg+NSv/U2CSDXMBBWzqDbqLlY\u003d"
+  },
+  {
+    "topicId": "16",
+    "id": "16023",
+    "langCode": "vi",
+    "question": "We+wGsTVUpxGd4ZicitS5Sv04mYhA0OxqMzJyRO4qxMrR44QrkRPDxvkInrkfsfU",
+    "answers": [
+      "didn’t",
+      "couldn’t",
+      "wasn’t",
+      "did"
+    ],
+    "correctAnswer": 1,
+    "level": 1,
+    "explanation": "n/ULZE9GCCEd537NauSeE0Vdb3H8PXF0a75dbS0J3h8mX48TUqBZVh6w+zkAJWZEaPEYx8p0ZiBahFj4WzZGkL+YsxuGfALYDEssH1ApALJRnjKkMX7Z4H/xY3uVd7CK8fgY4CW/NPOWjbGZhmZx2bHPowZI0LwV/9vs/pP7Y2OF9W+td0B+G7hb0DapmTQ76RQONZboG2abu9b3wXpaIv0EAHn4r+ARso0mdMymfX33eOHs0PdrtskOgCO+Ja1PT4ERolPXe+nv4CHndmoB3TZ+9NZlP6YxWNxm6RcyvCvtQrOydVoUmZgxVwy3y4vVqmJO4CttlLzX3cqu74HCNTS2LuMyOvQZ8/BH/uoYlQhl/p6J4EVGZ05OAVe3M2UcUOQUf8r7OUlewfxrN2jOrceck84pN7OED5FVlqxAEmppBKhyP0xZs0jCp60ITwbliveTrsarfnCeUcCNvpoghF1X8lnlbJhXtqTBaq9XMhf5Ekk4s6ArfWPkQs7UXPHGTeCq9QtwG5Se8e4E0F5Gcp2wXIa4jtoZqIVebIOb/vgXu/mz7ioQaJa4F+pIn+IyNxHpk6VuH6fioG69lr3qS2MYD0zgKzY0PfCJbYKz0gx/ZYQff8yI6Tb5lwH0cj4vUcLxWiUULdLCGh61QxgmuZm7KIlVGeiCJh07fG2VJfvYP4SWBfJT4HU46/cw7FbEIYHgtpetcO1Swnpd32/ddqM54UaFMfJ+NLaHSuEQdQIHiDm+56h+/dMz5xJrsT4PtLQU3dlehtn4L/ZINXgxWKuwH1QvNWijpV8gGOVC9jUs3h5NFQbIWDRZsm1bN+4g0u8UqawwtnWi9Fdom5XbMA\u003d\u003d"
+  },
+  {
+    "topicId": "16",
+    "id": "16024",
+    "langCode": "vi",
+    "question": "2l33ruy3IiflFHf8wzGWk+NR710/dH8MHYw8Cq3UUfb7UAskuplbkSwUIRiCRFh9",
+    "answers": [
+      "doesn’t it",
+      "is it",
+      "does it",
+      "isn’t it"
+    ],
+    "correctAnswer": 3,
+    "level": 2,
+    "explanation": "n/ULZE9GCCEd537NauSeE5aptU3O8VcgcsB2heZZ5n/XmvjXVokPCvmof7eks7+kTTvrBTCRBtbApqkmbe88gIUujvRktzvCAvjBoTImHRfAyvNWZK8yFJRw5LWgk8/XEiTH4JtbhhKFoBRJjthQIRlumVVSIFjtyteXswHWB1709KfKd5G+rGCnnwRFTeoRQpcMoEAq+aRumZDbiBCXV3zZuClfGmROAewfgSU5kCTPKLF+LTSqFjtmpSCd34DVjvK0IZBKHqGCQj8dAGIyd31DQtO9vnfU6BdJ0hRiH9CCOyuvxPCY5rHoS0xLMMk/G4Q5Zll0S9dy17W2jqrWcilrn/OKN5v+duI/PXk6u26fuD46q1czmcTKhzlZ/Y7Mh/hv42ByxzWSLbHRi5Er6R/awcaTQeWsihKCqqJle8VpCagsz54pO1SPxHKnyimOTVBOaUGLIUI8IsGOIAPFFa4EbGGKOJs+7ICY3LUxZogAULsIUzG82I1ChRIVNxfThG8yGSMvH/7wUDZiLf6R4Q\u003d\u003d"
+  },
+  {
+    "topicId": "16",
+    "id": "16025",
+    "langCode": "vi",
+    "question": "C3bQ2V0LqhFaXU4MdbbjT0AWuwingphawWf9oPjXR6d3empzn4fMvss8QGFp+N5x",
+    "answers": [
+      "doesn’t he",
+      "isn’t he",
+      "is he",
+      "does he"
+    ],
+    "correctAnswer": 1,
+    "level": 2,
+    "explanation": "n/ULZE9GCCEd537NauSeE5aptU3O8VcgcsB2heZZ5n9Hqq3B+6zyzRbjIqX4jNuxH07pVI97bWLlSDn5/FNFhiqPfOtz+1imBX300aJ+NefJnjfJikobfRiWSHjAqQGvdcxJToOu2xVLgHV2SnzQjsZhx85DNTDYV16aBwiFDuwZwXXdNFqbOCQAq/h4+dv5augKj+oPCkIP5yLehIkI3LX/YZmYW9BgfSkgaDf44ZH72PIbWxJYACZXXwQlUey9YMfsoOUFGDX66dLycb2fPrRjZq6epJhpOEbbtRmH7kisqEqv7v/CJ7FFKiO4rSfEdyxdVsIfTLbLsTdPS4XG7g353m9bMOYuYn4hfvbAoz7JRmx7M/P2qwGHq8FqUv9ecHzFpzjh/csA2nnmlMCsUFF7a2W+CNHcA+5I4QWBZgTo2oBxJk29bOqYWngJ3+Vcl9b1OwPzeMxJUEIesO7fM7yT6BdIQGJ1c2UGAFjy7hW1VQ4N2KPa6Oq54EplOl8Z"
+  },
+  {
+    "topicId": "16",
+    "id": "16026",
+    "langCode": "vi",
+    "question": "rgRDpD0EA+KNqcRMYJzE9J9zIHaSwX5jp5Ui3vuhag8\u003d",
+    "answers": [
+      "is she",
+      "doesn’t she",
+      "does she",
+      "isn’t she"
+    ],
+    "correctAnswer": 3,
+    "level": 1,
+    "explanation": "n/ULZE9GCCEd537NauSeE5aptU3O8VcgcsB2heZZ5n8S/U+VR4G6pLZTQp+ix9RMH07pVI97bWLlSDn5/FNFhiqPfOtz+1imBX300aJ+NefJnjfJikobfRiWSHjAqQGvdcxJToOu2xVLgHV2SnzQjniDZkPZEwsR1XqhN1VWXh8ZwXXdNFqbOCQAq/h4+dv5augKj+oPCkIP5yLehIkI3LX/YZmYW9BgfSkgaDf44ZH72PIbWxJYACZXXwQlUey9YMfsoOUFGDX66dLycb2fPiEdZi6oalSKe34X0I7cYqO7sGsiwv6S5A/aMbyB82KFBGPQRq+BjCgFmDPEn2sT9CMIXi8BWAYK440plmHgckUQqFSODFhoJfjcBUff7b0BGWX6KMAl76O6K0gD69RzjTUonDU3Kix9emEYzqy2Y1J2P1x73oGqe40WesGOhWgTTYjvPhkCsblDCIUvELndXLVVDg3Yo9ro6rngSmU6Xxk\u003d"
+  },
+  {
+    "topicId": "16",
+    "id": "16027",
+    "langCode": "vi",
+    "question": "Qg3ZQyPoFZnwXiW22UxsqjAk3QalveLAoUPRbKdV4HvxEmFz5DSFQUihiQLa9ddX",
+    "answers": [
+      "did",
+      "should",
+      "shouldn’t",
+      "do"
+    ],
+    "correctAnswer": 1,
+    "level": 1,
+    "explanation": "n/ULZE9GCCEd537NauSeEwyoXJBK9b48YsIcBBbjb6JGjyZt2IFDpDzzFPMaSE8bFt7/yd06RxophnQ50namzsPlBJz5GXRXCZby+VbpVu8h+oNv3m5bE5rXmbDPPaSxDoZRut8yH8yDnA6pC74hH4OnGusA9LssPIVgaccgrqDAICtaRAHa9dYcJirMbafxNScGy/KJfCDAOdHRSt48XGEuHn2x+lLJ61JTw6nFHW5y4XATAwkYAvLeyrzEmtRw13T1VP2RA3k7FFzuAfs4UpSkyQFAdYAdaZ4m4rnOEgZDFLC7Y0pf6KfSveF6tx3hx0okThTHZU2x+pTYw6JzOdAfIc72zk1lDcZ7aO0zwvzWr8M57SAZgP9dyNCAV7WU2tU/sQjviURFyTlvxuD1biBT18XNNvSJsXD9aQ3Sy5394Yclr0vYzXwPVV5BvkspRNb7xrlUB5yzgGPLMHAWgHl6ea4ULfan+YDivI5nGg4QTVewodeSOgDwczU9pDxs/eASK0/1wNQe6graMp0vPiUm9CA4AaiSwk74xXu6bNe+EUagQfCsNHWGwvQ/BzHiacmoP4nqPZSWz6s8ZwYs8XqQWMGwS4k28h2/hHyTQrEAULsIUzG82I1ChRIVNxfTKbZKO4xgDElDolparp8nzwGgpobcnLLcIDvwZ7Od/WJQHmWF/7dXvcGUelRdKmF/SwE4WLuU9YriLH8fR7BsrGjg/YQOgXvFVm8f4UaMG4cWlWiTaPM5SLE12fP75KStlDsGX7s42vFQwIgkonRgAE4p8dYSgGiyw1yWhZ8r3zPRCR0qPedlhGLlF+a7Z/9phrk1pSPCpHQhKvqrrIe+v8Kb+dc0DLECyGAzFj1ddpxP+EFr3bAi4OwslVg7VXxPORAELGAm2DpUlBXuhkWwcwgB+XTyjTL7Xp3lnLZT27STSl8bKnPnqYNZHALagyvkksFO7OlqTbKJVmqw1qN/5M6x6/3zUhp5my8rG3FM7FM\u003d"
+  },
+  {
+    "topicId": "16",
+    "id": "16028",
+    "langCode": "vi",
+    "question": "snUQyWMXcuQMvOeUnKKlbzCCgDHpUidmx9KqP1S5rs4txMGJh7rlY4OmeTC8EvhDbJOYTJbp14xrAhhlPmNbIw\u003d\u003d",
+    "answers": [
+      "should",
+      "do",
+      "don’t",
+      "shouldn’t"
+    ],
+    "correctAnswer": 3,
+    "level": 1,
+    "explanation": "n/ULZE9GCCEd537NauSeEzXomgASnMzjDcQ9sQLkShs4hke3Re5gwMMIXBpmdj054x+FaDYTLojBD8zgirG1I8dNtZzkKGzEwqUVlr+Xp7yAYWN8AP7/FFJ9PzxMdVznH/fj8KD+WiAiVGDZdo8Anb9SmP+6LNol9WBln8wxPmw4U5pyyLzx6Y9kBJ/m2stoq2zNSlUOHyogDkZALsVp8WZuQfXHc+NdOKzcnLXYIZI2rWYiQdV2me5DAaGYTshZEJn8KKDlX4MWH+ZtZ6xJZ1L78XnfPxbcTA1gc2EMMPWMnTMzAHNTlZO1JzpuR6pnOn9UG5y57j3MT2hzE9tXwCfTa4Kr3vFYKZmaH8xHawBELXH+ApEahelKdMF4PQosy5wmqw8mg/eaxXV9a2iLUmRG9nf66rELKSfXtWZ7sZo37HhQPjS12cE8+tsdgysvUZ4ypDF+2eB/8WN7lXewijpPW5fzmGGsvAcDehug91kMStfTmpO/sC4WUxwPNY7jYAF7uUvngSN0QpUTwMvM1cBer64tckenDAtZSWNAu7V1hFLGpaCOMwu0XzsLhJPxiz/P07JmzVjA+RjtsA5HQv2BO5gaeUpFkLcGuEJlX7T44oL48UBorgEYIEGIBOBhfHsBpZMxuwtBwTP1N/V8eU4rtHwhM4gS2YKJ9mq+rEYXpbK5sG9eq/TLsDIu+a+5sFdy1ex2MZLOIyKiuh88F3Ro81CmNJHdRXSSKPaHB4p2k8c0Es80FYf6OMpGH4hkCAH5dPKNMvteneWctlPbtCzeHk0VBshYNFmybVs37iBrilYRzl/Vkkv5+msQP6J0cRM+cqCc+VJkCPjJgZxKD9NHGy4zbYLXqAwrg+ziwni92JsAqkt5sBzBmzoXjhqTmf7C7b1vaRg03zMrIKWrStbe16uy5UEVwOat8cYEkV2H6wxXyhQw/Ms/+so8BEU8y/EHN7FY2Tva3Zp5KGdsBTexODnwbOW7Pb0WnTPWBR+EbzIZIy8f/vBQNmIt/pHh"
+  },
+  {
+    "topicId": "16",
+    "id": "16029",
+    "langCode": "vi",
+    "question": "BKUTXBCVrOrChtF+9Ojk+fujOjN+T6bWpg7uY/6jPfu08mNxyJmv2JyVuCjVjufh",
+    "answers": [
+      "does he",
+      "won’t he",
+      "are you",
+      "don’t I"
+    ],
+    "correctAnswer": 1,
+    "level": 2,
+    "explanation": "n/ULZE9GCCEd537NauSeEzCtvls3PfANrVK7llv0COtmBybQjvTDPDlKKQdA7cGQB/YrSrrmUeROBX3lQNIT6sjXKLD+7BU/exFZVCUdzpIylu6GlTROGhxYkLPzgSXE7VsT9JDl0UvA1I11UoumlIDt0UhObl2HZHNOVtkQ2TrQC29s5FMQn2Dk3W8Sp3SxW5M73GqNjJgbMbIma2b+s9E3qRhCZnsl2Vrqi33oosJoLeAPe8koAc2aT6Xiix9b+dsO3DpLmpFHCY5Q9hdGBvV46SXpc4yRsAdVD09hwj/Eh0C2vnrzTgGgEpkNYjbzKBF8OgpFrlR376NeCfPsMnKjbOo0OEedk9g4E0EwCjO5Ip62hcNI0G9MzdpYFzg60s/uzS3ZptXFSIxOtLXmSJVZr0zpZLjZ+YQioYsXeOlFJ8UsE1DvDNE5l0y6ejhk7oPVX0Gw0pUXhutpdpTOffcl/3dp8hC2leDCa3dvvea324dLrmkPSX639QaxMAckz4/Qqn5+NnBWBXL4FVLqaD+6+orvX1b+ASQY+xUhWocsQ2P71SgqucAU81/SVudxVYTIqb8RP+s1xierFbUQx6IWEYR6SyLfKxjA74RopB2B2xzs+jeRea5oEz3pkouy3QzcaNxCAjGLz1ExX+gxgiOA4jK3pdu0aFACGlCalaZ8bCyNercbWccbS/XG2HH3r5LElAfoCWoyI59m2LSxtemPkNDkYveX/KJ4epaPs+O1IxnlP/RqSHTG5I+5XXVyMpbuhpU0ThocWJCz84ElxO1bE/SQ5dFLwNSNdVKLppSA7dFITm5dh2RzTlbZENk60AtvbORTEJ9g5N1vEqd0sVuTO9xqjYyYGzGyJmtm/rPRN6kYQmZ7Jdla6ot96KLCJJBiaUmZTFynR7BBp77XhA\u003d\u003d"
+  },
+  {
+    "topicId": "16",
+    "id": "16030",
+    "langCode": "vi",
+    "question": "/bca91m3GVoT/nrWSZXlx5bFRbTE3Bs7pfVgTlYkAYqjn6sGsiSloTEYjjqS+u06y0QbKih8pVG0+35xgq7xLg\u003d\u003d",
+    "answers": [
+      "can’t she",
+      "doesn’t she",
+      "do I",
+      "does she"
+    ],
+    "correctAnswer": 0,
+    "level": 2,
+    "explanation": "n/ULZE9GCCEd537NauSeE5ozs2Orsbjk/eWBLvFZ8mOEODXPZS12zIWcMQ6dvcs4J52C92fgZDFhmIl/cBHRt0/4lFp2eZslmASWSqv07/GavoFOsuZU9XVaroOANWim8WULlPjpTAzYbGHnHGVNUMzOSyP8C9KXqyDt/fQIZPZXGaZdLrXcmByKEqDXc8YbLDRjpj0Swkc9Wv8W5/rYFasOdeI1AjcsI8QHqqMQNN5wDv0k6wB8tpYa1rov0NG6+znXgZ2mwux513nMpRd4uD6j67M5d2IEAY14GJEikayylZv/BgqieF3UOkGB+MuH2fAPIWIftuEU/HS7SrjTvMS0tccjBYvmGhmYbW8YortVLxQ/DIS7yRFi5k9PhOW1vrBF9hJ6bsYdtIXdUEpmMKY+9twzB5A8qGstO8J+Ry3B/xUv6i+uv9YME7Db9zXLYgMCtqGHUWiT1tI5cvmNDkUnxSwTUO8M0TmXTLp6OGTug9VfQbDSlReG62l2lM59NSeG0GFnN0vIgBmxPl7rdY2k6cb/AZpp3k3ZNaI/SrUR1mAQbpmQUie1xuu9MPeBv993RGTw1D1y2lEb0Z945vR9XiwAATvNxe0AjeCKA+lSV0ygX4dcjBZc8uo6kkRHP7r6iu9fVv4BJBj7FSFahyxDY/vVKCq5wBTzX9JW53FVhMipvxE/6zXGJ6sVtRDHohYRhHpLIt8rGMDvhGikHYHbHOz6N5F5rmgTPemSi7LdDNxo3EICMYvPUTFf6DGCI4DiMrel27RoUAIaUJqVpnxsLI16txtZxxtL9cbYcfevksSUB+gJajIjn2bYtLG16Y+Q0ORi95f8onh6lo+z47UjGeU/9GpIdMbkj7lddXIylu6GlTROGhxYkLPzgSXE7VsT9JDl0UvA1I11UoumlIDt0UhObl2HZHNOVtkQ2TrQC29s5FMQn2Dk3W8Sp3SxW5M73GqNjJgbMbIma2b+s9E3qRhCZnsl2Vrqi33oosIkkGJpSZlMXKdHsEGnvteE"
+  },
+  {
+    "topicId": "16",
+    "id": "16031",
+    "langCode": "vi",
+    "question": "Q7LJnhQ8J6qucr4Gv7EeReonrgPmueyZw1Uia7y3+jt3empzn4fMvss8QGFp+N5x",
+    "answers": [
+      "does she",
+      "doesn’t she",
+      "won’t he",
+      "will he"
+    ],
+    "correctAnswer": 1,
+    "level": 2,
+    "explanation": "n/ULZE9GCCEd537NauSeEyi01a6sKX0FYVahPO04liIqxr7AKdwl9Px9KQAIfsmemyY33bHu5ltnVCqJAohlhw4v2rB/l9iYmgohwbM7S2qO8rQhkEoeoYJCPx0AYjJ3QZf6wy+z8HV322gxTUEWH5ncRxE+54xzKnliMuuP7UcJbsTQ0PY7ulTX6yBYPLudVxmmXS613JgcihKg13PGGyw0Y6Y9EsJHPVr/Fuf62BWrDnXiNQI3LCPEB6qjEDTenOEsc3vhnr8yrTA9y8gKa7EDh1MrcESqbOQy+wfTrhJgxfbhHhVnL3/tuZ0UIQ3n0D71RGMviIauX0bm8znvLxK98p6gGmOp0dMjCO9PzjCdmhDHyaagdT4uJtrZXkxPFpMRivqYbJQX2ORcFhPAFlsrjl9zTCvcm80ttyY2Nz3WNDSgahVGTRmX0B4wkLA3rMBWEpZdArlwWQDsiyFP11DkFH/K+zlJXsH8azdozq3HnJPOKTezhA+RVZasQBJqEAUYP7DoMYELxHYJwb1+fwq385t6scGpfRMxymLjtbS++QQyd6S6XmKlanuBHvRoBCw6gHRLOXE8bbUnH37K3g+iY96xvgZLIpXZgao9lt1HQuv18rziO6IK1cZ1l9GzpqX5ijxaYCpNO9Q7nAXhG5DFNlk7d3lcsJqXhwPJh6h2sBQD+wSYHdCIH2k3Cmsm9WT/8QUoFad8LJhmEvyvgbH4pTU0hVMofnlIWNaiqT9oMfNHhvKIyy9cxP4oEQgDx54t+Mzf8O1CuDujqHmzZklJu8calhbbduFOUnWouuV0vC/gqE6cEQe/YEQj/2pKxiMxZIQy4jzLRUIQHiXaUdBelnY5xbHvKcfUDpdh44GQLNgJs1X8jvuSwiBAyJ4cXAbB+YjDHjjqvbgza4riAu82v0Z/fcP5lnDcx33S8nN1LaI4bfXtypxVqJ2zzu0ouBvJfg+BgIyWtXzBQDcGMlbyQIBVeOVLldu1gI6+Ew1PUsIoASAeBCoo7jsOSXDk"
+  },
+  {
+    "topicId": "16",
+    "id": "16032",
+    "langCode": "vi",
+    "question": "XBqtbG6huInP898gIlLC1tMbtsaEMh5nGU5an9WtuJvsl8UXSToOPLOIpBlY5is8",
+    "answers": [
+      "do I",
+      "are you",
+      "may I",
+      "am I"
+    ],
+    "correctAnswer": 2,
+    "level": 2,
+    "explanation": "n/ULZE9GCCEd537NauSeE4pCqlxdFsvTXqwMaRxVmfEF20OjnviIhf9UCfTSq3T9gKwVejHj7sxEYndNYwyO7KgBjv9u96BGXOc8N2lBJtaKXzHgzx/8oZUscyraKFkQRxYfH0GtIiyMdtD5R9ZGDrpy4Qp+VYsnjVa5hBLZiUtQ5BR/yvs5SV7B/Gs3aM6tx5yTzik3s4QPkVWWrEASavQtqCe4U5QUFShWWzL5w4AK5qGPX0/YucXAuRRsL5VnmXlIgc5y8mYhnf8tuwLPqZqfb3wdSXYL8pzRZk1LenGEbzIZIy8f/vBQNmIt/pHh"
+  },
+  {
+    "topicId": "16",
+    "id": "16033",
+    "langCode": "vi",
+    "question": "YRyHp4NpbqF3ggXkNiJlMC3QhhWPJpaK2cCcmz4C5Drr8xt6B5Yu0X3QBuDjq/tN",
+    "answers": [
+      "isn’t that",
+      "isn’t it",
+      "is it",
+      "is that"
+    ],
+    "correctAnswer": 1,
+    "level": 2,
+    "explanation": "n/ULZE9GCCEd537NauSeE5aptU3O8VcgcsB2heZZ5n/1mWtfWV6QGUkZmPEnIzrDn8lapPQx4YxmnLvOwrQro5s3ICCI7y/XBlGfvoHkzh5RxLfOkRI+qJ6yoHHtoPAnhCtJC9qZe8ffN8Aj34pdcrmLErlCZ+Ryv2qopWwPqEJHGT0j169lYsCfRUL9Y/zyiTsRX0ubnaN0j01/AexcUDSKWylkGUe76P27VCobHgcCVfysm/QtggLQILFJKtw9MbTKRN2aQ6kIAxEbL4Vn2iTHGnKyC5NkAwmGuSIEuG2nPR2ZHHToKBzWNAMYASNW6ydksD6yIKBpt6iLSPIjVjFAblZ+bwr6a/ovZAL/6Qj+NDWrpdH5XQFZF1wb2IabOBb/rHK85USJyEIQi78zavNPWSXE9LOh85t/FC70PXY\u003d"
+  },
+  {
+    "topicId": "16",
+    "id": "16034",
+    "langCode": "vi",
+    "question": "aKF5Bt5W+mwK/zRk+tVAvWAplg2jTDLQYJjgRvMQFvwLdbMZNhZKd9S1Ebbm2Ywz",
+    "answers": [
+      "isn’t it",
+      "does this",
+      "is it",
+      "does that"
+    ],
+    "correctAnswer": 0,
+    "level": 2,
+    "explanation": "n/ULZE9GCCEd537NauSeE5aptU3O8VcgcsB2heZZ5n+urJiZTramlTtJhLTlvf9gr+HHHqVHTTOy0jiv4e1+0JDx3UgIhAZgWADWgdTtNAj4jF0kani7c2cggGz1KBH9ugTGOTqtS21wXp+7Lw2+uzp/VBucue49zE9ocxPbV8CY981Im8iHZynIEE5mBuk3doQF+jL7B/uRcpkn4tMvdCMV8TyA9mIUWq35V21xrYl2E3ly63mztMuBOrjTCXPxivlOyUBRE2Q93QIoFSzHJWVrTMqldFkJtf+SkpWzGGQKeiagbvkeGuN2swW8YvyTOuTrPcCApa8PiRzyFp2cOr2rUdBnGRPTd1qJquzcU21ubafRMOXa8Sce3CbCP6KBS3G/PPpIDxRbIOnufYzvQBPR/nVY/Z2nbIM2gFdlRTnzT1klxPSzofObfxQu9D12"
+  },
+  {
+    "topicId": "16",
+    "id": "16035",
+    "langCode": "vi",
+    "question": "0xCMF5JnBRj7JZxjqonB0yHnke0O4fsQXMXo4yhA2Tzr8xt6B5Yu0X3QBuDjq/tN",
+    "answers": [
+      "isn’t it",
+      "is it",
+      "does it",
+      "doesn’t it"
+    ],
+    "correctAnswer": 0,
+    "level": 2,
+    "explanation": "n/ULZE9GCCEd537NauSeE5aptU3O8VcgcsB2heZZ5n/TcwfWce+8iKufN1ldlb5xG73Qil9mZEZJ/k1j3jiCZbLnOb7+ccbMTWkpJkbxfyDX2HuUB6roX4Fr+XveM6nWEauQAu7zOARVraew1b+vRR+0yjAkpkepPu5xaZBjBFnMfMXhu+Hct/kUqr9bs1StO5+TJZZXbrYwkrFEfW63UU1OhrLCLqO0iqVTB96sVrzAXq+uLXJHpwwLWUljQLu1dYRSxqWgjjMLtF87C4ST8UIF86EMs+jLDU4grMsl+iYNMqA/d6d4j1qN0xj+bidQvskOyi1jDMffF7Qn5i8x08Vaen/KJRA/zwm4rLUPMUq9oSmmONUtJj+rJOD/GKbN"
+  },
+  {
+    "topicId": "16",
+    "id": "16036",
+    "langCode": "vi",
+    "question": "tYaTB7z/1txuq08KAu4yYkhZ5PnrMLwJ2lVoulh1OH7ahOX83GYYAmvjfZf4K4sZPsCeb4h9WIpm3T6iLNqvRQ\u003d\u003d",
+    "answers": [
+      "didn’t he",
+      "does he",
+      "did he",
+      "did him"
+    ],
+    "correctAnswer": 0,
+    "level": 1,
+    "explanation": "n/ULZE9GCCEd537NauSeE6XwK1B2o6qAiMA3M1ev/SWpON3hlTV5fl3dGj59xF39XLY5PT0pCGi9z/VtWZZJ5tSTNOOH7NffHLTxt31Wj2KNL1AIpg1OXV7hBK6LH9Lq3sZdV36LZ2+EL55gVhNGaZTdAsYjooPb+i3O3Z8HYyeoSZwIcpyx5M2rQGXY9N4rXRoPSDZQfAAw4QtpGBBob6onms783D3jM0lU1Nb4tHBdyT/vY0Hjz8A7dhmgYPEsbMJsIc3zcV2ebUS2a1M8oMBer64tckenDAtZSWNAu7V1hFLGpaCOMwu0XzsLhJPx8aw0nb0CeEeaGPExHucmFQ4myX29z1uciwISrrwmm4m1EBbEFJaUpNGHPdz1G8bwzFmMJu5Igyxs+/XGGWJwX9b9llj4uLyq63nnU4bxgwKjIOd5LB4+wmQuomd+e4Cx8ehPb0iFDQxbaIkT5Kk2TfGmpxeuR5eI2UAETs6K5Xk+B5qXU5Q/DN618UPPeZ0cppLwqueWr7VNSNRWbPO/XhTdCSoQlwMJNrj/XroIDJwOBVUp7ZW6H3J4rdu6bhr0QFyuosfoRxf6ObF9pcYsjHwnjBMNSG6zKpsJ6SCjY4ChxeszgfQGCmwtIff08NFU+bvpVoG8UdJgmq6Wp8BjQMybbClfEmeE06N2f0eB60Pt671OtukZ47TUlo6zdo9j5aGmfqBLyNZGQnUXy2CcCeNBg3OKOGkHK1fJgt/3IoVAXK6ix+hHF/o5sX2lxiyMZuBRy1Q2zPRc/aCZlsKGa+aBqKzb11sOLtMiRCnQhYnpECctFdNZQTJO9T+8dJPB2e30GmRNvo6JwKegzH0j0otpDtMJNOZsfWLETu1rKan5yjj0VRzMRtFU7pP96gt+"
+  },
+  {
+    "topicId": "16",
+    "id": "16037",
+    "langCode": "vi",
+    "question": "uBiUTbanMsPEJTP4OqMZ8Am9qO5meRZGdjMHlgP6znq7fwYWG9pgn8yrHokMiXcl",
+    "answers": [
+      "aren’t",
+      "needn’t",
+      "don’t",
+      "shouldn’t"
+    ],
+    "correctAnswer": 1,
+    "level": 2,
+    "explanation": "n/ULZE9GCCEd537NauSeE30wmPv1/nmuwVEak9KDBIJXYgb/ER4kgwGinZmQK/pbL5OhtMfcv2puDlWyKkIqult+0w5ZN8C7YLKH/ia1ohqFH+wnKXbxSEGl+VTACWxii4R7N67N0cKM7XlIkvk2b5HQM8+8iQH/z37ZDfYp9zVe4p8d2nhYQbMBpyWrLXwftAXE3RPHB82Ga5tQzDc0VnBiOWTa4yzC9+ki8UtQ+r6nPR2ZHHToKBzWNAMYASNW6ydksD6yIKBpt6iLSPIjVkKbrkvsxWCJSPxIH/ovYN/FPItHPOCjq3UsQfFkYSUI6R4jLkDbCMDRHL6L+QbdELYMkAzJ5/NHhYfD1+I0i0M\u003d"
+  },
+  {
+    "topicId": "16",
+    "id": "16038",
+    "langCode": "vi",
+    "question": "vs8thWMx0WBfoWEk83R2nNM6+/v239Td6NKM6hErFH0WPUQfbUBxM3VJB+eIXAd+hG8yGSMvH/7wUDZiLf6R4Q\u003d\u003d",
+    "answers": [
+      "need",
+      "is",
+      "must",
+      "does"
+    ],
+    "correctAnswer": 2,
+    "level": 2,
+    "explanation": "n/ULZE9GCCEd537NauSeE2MKTafdOT29rAUizN7WcpliMtYxvyVNahjQlB8MzWvmGBgl9EUlMgDyYBcQgHQl3LCMlgEQ7a7c/MK3/+GAeVLhLpEN0RSdXa6gSddSGLCwvESuS9X53Mh7+1AsBgPTD+YWphAcLdUMkmL/m5bRDoWgrARBq9p2TQoQL7k8BCbuN/UhgNycnsFJP72Wykfsa8Ber64tckenDAtZSWNAu7V1hFLGpaCOMwu0XzsLhJPxYOeVlao8xdshErAhBOFLNQA6Ol5v+k1calEgb1b8AONBz6hG4SadPdo2U/drOolSPH6AT1AYkWofnnh8mC0LFfgv79IyWLLiFOKvA8xQbi4Qmrv/CxXJtu65qSEPa0Tq"
+  },
+  {
+    "topicId": "16",
+    "id": "16039",
+    "langCode": "vi",
+    "question": "Q5zaix7m8xbvB2TgVhtupHPNYb/ZqV9Pqh3U9aXEzUcChsTdXydT1/YOD431BjMX",
+    "answers": [
+      "isn’t",
+      "doesn’t",
+      "does",
+      "is"
+    ],
+    "correctAnswer": 0,
+    "level": 2,
+    "explanation": "n/ULZE9GCCEd537NauSeE5aptU3O8VcgcsB2heZZ5n9RPctZahmOyNEUjcg2B5GqL5OhtMfcv2puDlWyKkIqusEPxlaRsRCoqaqRIigtotdxgIGsMee3hBAUNKiPRqyeRPN/h3ti9U+3jmcC3FXwwznDck7U0mnToUXnoG93Q1rf4MJbirI6A8FA/0KGKAsCpYeynYy++rUl4hRp4zCHRgpywq+qEOH5ztMhB1hHfbquq9Cuf8zDp0BHCDVfVMcAWCRhjKkDgFX9YxlYuVZkkscIjgwcTfXHBPBCz764SLNJIL7dgm7k2G0bjE9+LP88ixHUPluqGfsT4JKZ5aiNXkmMAzmXRYB7557XIHEkcLLfh7WiWZFckMMiOiiHKeh8MZanoznESJJDTbX9yfJlT7ocdYjiWgFUScpMVplbl0IsNGOmPRLCRz1a/xbn+tgV/ga8pAMFkJjQJZCqWvsqm8lGbHsz8/arAYerwWpS/15wfMWnOOH9ywDaeeaUwKxQuG8qG08sDMEheLZf28O1fUqDGhrulK7EQvBBtQMVC84i8/4SCKk8A60A8mn1J5bPkYEzzWa3bQkGiSTJRLA4o+x7TiJZI6QBd601rtumAuy8leBBF4B/+NY9uPZOgcYg"
+  },
+  {
+    "topicId": "16",
+    "id": "16040",
+    "langCode": "vi",
+    "question": "D0cXz0bF0AKPzqYJIosbEWtiGaqqGDSGP6MrKuo86495R4R58NL0zV7UOuJfRB9r",
+    "answers": [
+      "are",
+      "have",
+      "do",
+      "haven’t"
+    ],
+    "correctAnswer": 3,
+    "level": 2,
+    "explanation": "n/ULZE9GCCEd537NauSeE5Qj/nzuHjE7+LFufmFXekI6Qqlh8NDoE2XYbI68B0Y02EcOJ70hikzwKkavb2Sf0MIWDt3TAlr6fOs8qXbi7mwK2bNQYKUrFcnXijFKPqy4bCcVEgWRzPdzIRTXy9aGLQAL/v2WwSuS0n9qsWp60L3604lVS3/1YrYNkppJlS9NejfxcntC9fEVE/w04Awa72v608RZbLaPb0+OEgIkTnqG29DRc9z66TD+1K6i1JXvpyBAnoTuQusGrjMjSddfDer1Xc3CYC3oA8VLiJU8EP5ZTxORUAAHPXR2HP9h0LuJKQvBNBw7VVQV54I1LM8QdTFdixp+w1WVS4AToxPZj+c+aSklzTNAEsImA9dqnE0RGif4QKl22EAjERjRwa/1Nw\u003d\u003d"
+  },
+  {
+    "topicId": "16",
+    "id": "16041",
+    "langCode": "vi",
+    "question": "rqA+yuJRwe+jwLnHdMAtFmup+Wc09b7C7vKGvtuzz6Uuw5A0WeTlcIOwdVWzfFmO",
+    "answers": [
+      "doesn’t",
+      "didn’t",
+      "hadn’t",
+      "had"
+    ],
+    "correctAnswer": 2,
+    "level": 2,
+    "explanation": "n/ULZE9GCCEd537NauSeEyUsgCWM2G/qGF+FtI54WsgsqtY7LgNeGTJt2aJQ+mbnpGlMGZuWMuKP5TmHqeJXbYHzPEsGyX/Sv3a3eZ6OESlvp23sT3ie9zJ53xWtTfAd5Nt+vq54nTZpCfcAGmxsgpiTrDSgwyZ70h28WEChKvlmyXYmki6YYMNbSxDusxt3qtUIRPBoOxV0tTHLlKvDitt75UIBk6IeyAw2jxh09PCFNK2qmygY5HehegEG87Zt6vVdzcJgLegDxUuIlTwQ/llPE5FQAAc9dHYc/2HQu4lhQuPTKHLOQZgquf2xbGekz8K5PImySXlEW87df8cPiSRKWUfewWbEA3NuKn5UXvVoVB7Ki3CLh3NIfbvKPe1b"
+  },
+  {
+    "topicId": "16",
+    "id": "16042",
+    "langCode": "vi",
+    "question": "5dP0+UmjG1FsGem9vqtyhl8efekw6N49stIZVT/o3rkgIQrBB1EUqr4nQQ/yXSE0",
+    "answers": [
+      "hadn’t",
+      "did",
+      "didn’t",
+      "wouldn’t"
+    ],
+    "correctAnswer": 3,
+    "level": 2,
+    "explanation": "n/ULZE9GCCEd537NauSeE6RmzlQQ6OmsvwGogvRQWgNjRNriUvz6iAgewmTrnTmNVt9bsaOHznhC6xf78zYNuqjSMHHTSlZ/p38ELdoQFecF+6/0Y5qCwN4lhtPwlaLPaMiX1B9ameA6ZpPZnqFx1AYqdw+YCUrNccWQjXphokNcZDLuoZ9tLX4CiaG95dQNGEJh7k12R3+EYNeNs9BR0lQuBNuEMTK3jJ641UZZfd2IZskw786aCG03fyhOmc5ByUZsezPz9qsBh6vBalL/XnB8xac44f3LANp55pTArFDTE80TSOiTqr2P7OozYaDNt7Sks2jBk3oN/ucD/NaWsFApApGM6mLKCozvy6dmxWy8leBBF4B/+NY9uPZOgcYg"
+  },
+  {
+    "topicId": "16",
+    "id": "16043",
+    "langCode": "vi",
+    "question": "XL4VbmqYn5ZOVRl3SwDdIIKYLWwNx/YS4CwmcH+N2aUasgJD6HpBvoUeS6szVfjg4iL9q2wBYl0IHo/Bv/7Idg\u003d\u003d",
+    "answers": [
+      "they",
+      "she",
+      "it",
+      "one"
+    ],
+    "correctAnswer": 3,
+    "level": 2,
+    "explanation": "n/ULZE9GCCEd537NauSeE77LVNiF1LSh1IWCgg4il+/jDhsewFualKYfjeLx+O84HZL7ZcNwEdZ9WkKpn/RG5XVpI40EqxqFspu4twR49mNo4Ux3f9e5m59I1u/Koi6fi741xHN0iK/1d/BtQLiJZmK8lLrlT3QB8ZYXoPgng3C6Q0R5y5iXVp16x2vjL1MJEm0Wy0E76ZNnxfoq58AjWK0/j+ae0Ir4V7/uWdbKOU/q9V3NwmAt6APFS4iVPBD+WU8TkVAABz10dhz/YdC7iaUlU7xpdwNsrm4roZPht/w2n6MLb1yef3nAvPyBpZcypKmBZHp3jlCFrdzDecB2iWaZkB8UXHMwN27fwePazQDcbQR2M7Zh80sVGhbXUR4F88/h6DohonTrQfOXIZkZDRCau/8LFcm27rmpIQ9rROo\u003d"
+  },
+  {
+    "topicId": "16",
+    "id": "16044",
+    "langCode": "vi",
+    "question": "OB4GHIip/fjI0J1sgVj9EsE8rGBcgKM2Np0EQfOeJdp0OrBxv7j8/8de5STLAByp",
+    "answers": [
+      "was",
+      "wasn’t",
+      "did",
+      "didn’t"
+    ],
+    "correctAnswer": 2,
+    "level": 2,
+    "explanation": "n/ULZE9GCCEd537NauSeE1/vdA2jQ/5Oj7cfbi6JHpR4WjB/LhRXBeWxakPNGeJZw/fUQHroeFu0T/+ZDzLJwRx7dr/BqBQomMb1dokWp3DzUQCMh64UxBpTfwiR5iASHDHgQAcR2Byi8V91m8PUehlfLSdKRhQuXZMuGQlTgcvQ4fuFxJRH89UZ6QaKGXpRrt1B8hpCglomHgww2KDAN9d09VT9kQN5OxRc7gH7OFLO6a0LQB/xXp5GTOLwtTVKrhxV+UaGtJe/zQxawBz1HEPiJ8Obu7a+L1ONThlMZjTzmT9yzAdQMf3mHvlwL1ZmxojXUywWuL1/kL8QLvGepgiMOPKEo+O3Pr5BsMdwWhH1fkDXENoGGhYxQSuQCJgdy2kHIhlf7pZdhFyaJcCstbEPHR0zRaciR1IFrcAJhb3A9Ps5JoQjpfXDPLu79ZkWLhNh0S2Vn9eORGsgHlpRUsHv70bowGCBL1fp4ImrJYt6kCMhoVM6kLLpftO6zqly6lCUYXrp73UknqfiuZvrPUFqTCrlBA5w4320eMsHXciAl1InX1Zb2XKt3Gi5mHKw2DY6byUbF2K5py7PJJIXb7yGSdx3LEgHit8XwDZD1WzfuJubrb7gHGgSslXUo4GC2aovxRtE3tqmxNPCtIqtKFjNy3AtMYsFMOIICAa/QcUjTXeDTCtW2B4GXRxc3YXE"
+  },
+  {
+    "topicId": "16",
+    "id": "16045",
+    "langCode": "vi",
+    "question": "uTSzFiBUsLdQGdVx5/AicLKF44YztGrRSQlVinKU1CygLEyVZk5ec/upK6T9SClD",
+    "answers": [
+      "aren’t",
+      "do",
+      "don’t",
+      "are"
+    ],
+    "correctAnswer": 2,
+    "level": 1,
+    "explanation": "n/ULZE9GCCEd537NauSeExPBFkHOzVfM7Gwo6MtAVXd/sM1C12ui009lzqenLiWiRqIql3RQ0QkWcsBqfVNfUOUIavAlur13LZ8bRmte3yYVn95sK7FfslJWyPn+lYBZo1td63I6K4aT9TrAcgux7zkQBCxgJtg6VJQV7oZFsHOEiz5HivPLkLwf4AbfZEmhzoow6apJcCt3v3dKOjhprqIIIfrz9MGtczv/uLMKzfRN9JziI7QXWqOlVK0dzb2Ym8r9SNjeQgJhmQhEwCh4Lk3djoWcuPC07lJBR2F7el1ID3g3VvG/j2IxXeTIuscduWU8LDwpjRobh0rc5Mrb35uljHRrr++ISIcFLts6VpRt1Xj5qYRToaRtKFwqFPQD2UEbzycgw7WoybPMEj21PKcgQJ6E7kLrBq4zI0nXXw3q9V3NwmAt6APFS4iVPBD+WU8TkVAABz10dhz/YdC7iTvIhfMFRe8MvHJJqnqk8+vW6vzlgWih/K3l7A8QfQZKoNn6iHjx8RjMwNoKz4rvnE2han+Ss60LKRCX/izM01E\u003d"
+  },
+  {
+    "topicId": "16",
+    "id": "16046",
+    "langCode": "vi",
+    "question": "GHgFe2Ohq35MBZsZVnyC6FJRd9LAbt0+tLPnJQ6h3D0MKjAc0BaC0wr37+YQsFji",
+    "answers": [
+      "do",
+      "have",
+      "haven’t",
+      "don’t"
+    ],
+    "correctAnswer": 2,
+    "level": 1,
+    "explanation": "n/ULZE9GCCEd537NauSeE5Qj/nzuHjE7+LFufmFXekKC3Hvlyc7yQHzVDtxih3ghoKJsoCcr0UoSICRnaq4+tRk0jGxxFoXyCEQ5cXl7TIX/QV1XL3Ea8p5gwWSNynk7f8kboeSv6mLoAYeO15MlP6eYSlCNIg9I+bHSnmqQjLo9QTTJ855903Xg5d/OKM0h2Gu5riOh6EIJ43ta7j005WBlJdz+TnJF4jUpLlYmgOjuxrTxDXEcBVJ1ZfwXiCk2jt0a+DmmiDRd3h/2OPTiY64cVflGhrSXv80MWsAc9RwMsi3QzaUt1v/vsfnHhF4VOuTrPcCApa8PiRzyFp2cOr2rUdBnGRPTd1qJquzcU23ezMNNAo0pvl6ENspDBKuNeJZFhGnMt2fTr3p3R3ST/6RSRVs60cp438QcaO8WhjyhmEyNiCnBF7GVQ1KBUxOMfco2/q36AizLXiSGLelmqIXGRpND5WD+9YClX3TgRw/l9EHYB7H2Qv4I+efBUrmE05LOEqdZxtfcl3Ft8onIKuVx4qlIY7H6AbRwuMFyesqAkiUNbqKYerjCW8ANgJjj00eeV2YYZnACd2g2CAOiD7+Lg4s2acNMiFVnMg+1deK76WJMFwLdtBNLsKHTWTqKZbXiGVe8jIAK+p6gEXLXhPYrrLdo4aYuc8j6Qko35dkNcPfBaU7md2BxY8B+dZvGceh9YRJ2eyz2qIhY1y7RhLaSD7Y0nb2jjWBmGc+N39wUrNkQKFt75zEicpgoFpe2FRhPEvznoA9fzZfNZAA9zYRvMhkjLx/+8FA2Yi3+keE\u003d"
+  },
+  {
+    "topicId": "16",
+    "id": "16047",
+    "langCode": "vi",
+    "question": "hHZ2yowbeigRR98owojphmrxHVYZfOZqcaR+A/lr6k7YGVR0+RLygVflUBZbiqUINU+RErrBj+eYl2CS26TLCQ\u003d\u003d",
+    "answers": [
+      "is",
+      "does",
+      "isn’t",
+      "doesn’t"
+    ],
+    "correctAnswer": 2,
+    "level": 1,
+    "explanation": "n/ULZE9GCCEd537NauSeE5aptU3O8VcgcsB2heZZ5n++fvMIFnMH8QDAqdKZZV2fS18TYvTGXeyNnnVQWKcF+SvUXYgI+ZPRZwtDUXo6Tx239lI8X0fBJJxf55I3eqKV0r+v6JnvN7rnEt34XbgyyqziRaWpcJu9lpHEdoCLFyzS46cxeAXnPw2VdoP98MoXhCS3hy2YQpfpCLkOUDrHWGBlJdz+TnJF4jUpLlYmgOjuxrTxDXEcBVJ1ZfwXiCk2ITLKm5na9v4C1Hm6bRD5QzlOQn+2iw6jCtWFQ9u1i/1PQIfKnnB3noHtOg61xLDgYrOdoWbe1qc8XPb/8bgVBU1ICuuzpANDLtFo7d3DiGm/P/ufuXoScTKUraJ1NmrGN27Hyh2SIuvkZsW2n64YNMs4B9uoW1l3cQgDxZCuiR432Tk6mUZmwIAFooMYnGMRxLHwWEavM19VxPJC+mhPZgfn3JG4TA77p5f90ZmvOdK92JsAqkt5sBzBmzoXjhqTaLIO0HGbA6IFVjkosOt6dYLA5P/NOBoOqPgNLYTa7NBut7j0bRAjC5cBpudFCseqxlrbD40N5a9J9CfuRwJmyyG6XCR6XGr8Z5EnTMGwfBsU2zbSbXJHaxhzNS2M+RYBG8pZXHCiGAGYD/VMVVfZl+Vx4qlIY7H6AbRwuMFyesofBIm0WxiYtm4Po4FG22WNUzc8++xa8u/SAUetRrWNekbA0bQvW7nyH3D8i/WrIzZRmAMnxzBV/EGFP6MK5VH/"
+  },
+  {
+    "topicId": "16",
+    "id": "16048",
+    "langCode": "vi",
+    "question": "I63DxAc/PLynJ+X8NMq1xfGe/yWD/kM5suYEs0/VUpj8O4171mvTQdqIycyA+MouNeIQD35j1bQuKnxwJ0Moog\u003d\u003d",
+    "answers": [
+      "didn’t",
+      "is",
+      "isn’t",
+      "did"
+    ],
+    "correctAnswer": 0,
+    "level": 1,
+    "explanation": "n/ULZE9GCCEd537NauSeE6XwK1B2o6qAiMA3M1ev/SUsqtY7LgNeGTJt2aJQ+mbnpGlMGZuWMuKP5TmHqeJXbYHzPEsGyX/Sv3a3eZ6OESlRLDXdChggnQLpFCxX9FqNZJSyYg6U2VuIKDwBBv5U9G780dbFvVglJAG+rpWN8eyzKPVIcbXs60j+N7igZNaqEFjqfrjDbvRtZIcf24DMwnwAlgtO8pK5R1iFbkqUYDewKP8VZiywl7k2kOr5XAZomJXwZMbeBDCTuI3M5uH+PldV5Mry2+Olhj6vLW/COkD4wHta8ruoS+8aHG1qWA9hgTa40vP7axJtaKfB6IP/EWE53DK9pbs6deo/0KQdAcwO03qAfgnuhwlRS5M+//fSgEuukb3Y2WC/nxl2pTOj2/bgp8iz01OaE3C/K6ve2buRcRmzXU4mc1wdxy45Kjs9AWhTV1NGz6Evg2EglYpLg47ytCGQSh6hgkI/HQBiMnebMx5v88nUJCowYVqs6b526vVdzcJgLegDxUuIlTwQ/llPE5FQAAc9dHYc/2HQu4knHbSSTl91wFIAL1smnXeDEZMWQt+68aAEByZaiEBitesXfN8rYoGidIkMwvKyz7ar65n/DS1diSxRKyICSZ1w5O30XCZAUalin2uUm4IATBP05ZPX12INcZxJiJnNBn4\u003d"
+  },
+  {
+    "topicId": "16",
+    "id": "16049",
+    "langCode": "vi",
+    "question": "Zs6+CF5wTkD0vh4nwfvxCnAI5E6ADITzpJ36ceqSLOaURzjeEGzEAxwzCa1Gl8Wu",
+    "answers": [
+      "am I",
+      "may I",
+      "do I",
+      "don’t I"
+    ],
+    "correctAnswer": 1,
+    "level": 2,
+    "explanation": "n/ULZE9GCCEd537NauSeE4pCqlxdFsvTXqwMaRxVmfGzSY6rqw7+BjGyGhOYbMi8v9nqmkhDYiEO0Lm3orBMZlgmHUihqGOf07tIDU3l3dOuaisJsL2RUXzkeg04G8U4r+mAeacyDNU/6h3++ENEmaJfmWoKo8QZZqOXQT5iH2yeC/1sEpRTYj2jnPBFBqtyRSfFLBNQ7wzROZdMuno4ZO6D1V9BsNKVF4braXaUzn00XjC/OVLcqR4jkq4Egul/qLCStq1KTF0gDUgl+mrtxxZFXQnvCHZUOazdeC8/JIv024TKRCVUoGg3aJClRPT/jiSO7ZRZo8C8Z05IsOd8mWhUHsqLcIuHc0h9u8o97Vs\u003d"
+  }
+]
