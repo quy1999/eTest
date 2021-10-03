@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F3E2E2"
     android:orientation="vertical"
+    android:background="@drawable/unnamed"
     tools:context=".MainActivity">
 
     <TextView
@@ -30,7 +30,7 @@
         <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:background="@mipmap/ic_launcher" />
+            android:background="@drawable/screen" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -75,5 +75,60 @@
 
     </LinearLayout>
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30sp"
+        android:layout_marginRight="10dp"
+        android:background="#FFF"
+        android:elevation="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="Dịch Văn Bản"
+            android:textColor="#090909"
+            android:textSize="15sp"
+
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30sp"
+        android:layout_marginRight="10dp"
+        android:background="#FFF"
+        android:elevation="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="Cài đặt"
+            android:textColor="#090909"
+            android:textSize="15sp"
+
+            />
+
+
+    </LinearLayout>
 
 </LinearLayout>
