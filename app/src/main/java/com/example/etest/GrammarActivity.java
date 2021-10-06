@@ -1,6 +1,7 @@
 package com.example.etest;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -44,7 +45,6 @@ public class GrammarActivity extends AppCompatActivity {
 
 
 
-
         rcvGrammar.setHasFixedSize(true);
         adapterActivity = new AdapterActivity(NumberList);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(GrammarActivity.this);
@@ -55,11 +55,7 @@ public class GrammarActivity extends AppCompatActivity {
 
 
     }
-    public void onclickPlay(View view) {
-        Intent intent = new Intent(GrammarActivity.this, DefineActivity.class);
-        startActivity(intent);
 
-    }
 
 
 }
