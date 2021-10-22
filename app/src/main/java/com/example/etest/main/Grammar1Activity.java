@@ -16,14 +16,6 @@ public class Grammar1Activity extends AppCompatActivity {
         setContentView(R.layout.activity_grammar1);
 
 
-        Bundle bundle=getIntent().getExtras();
-        if(bundle ==null){
-
-            return;
-        }
-        NameGrammar nameGrammar=(NameGrammar) bundle.get("name");
-
-
 
 
 

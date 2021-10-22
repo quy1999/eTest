@@ -14,6 +14,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.etest.WebViewActivity;
 import com.example.etest.main.Grammar1Activity;
 import com.example.etest.model.NameGrammar;
 import com.example.etest.R;
@@ -55,11 +56,11 @@ public class AdapterGrammar extends RecyclerView.Adapter<AdapterGrammar.NameView
     }
 
     private void onClickGoOoView(NameGrammar nameGrammar) {
-        Intent intent = new Intent(mcontext, Grammar1Activity.class);
-        Bundle bundle = new Bundle();
-        bundle.putSerializable("name", nameGrammar);
-        intent.putExtras(bundle);
+        Intent intent = new Intent(mcontext, WebViewActivity.class);
+        intent.putExtra("NAME",nameGrammar.getNameGrammar());
         mcontext.startActivity(intent);
+
+
 
 
     }
