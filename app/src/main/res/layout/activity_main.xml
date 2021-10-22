@@ -4,39 +4,48 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@drawable/unnamed"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    tools:context=".main.MainActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#3F51B5"
-        android:text="Ngữ Pháp tiếng anh"></TextView>
+        android:background="#4B3AE1"
+        android:text="Ngữ Pháp tiếng Anh"
+        android:textColor="#111"
+        android:textSize="25dp"
+        android:padding="20dp"
+
+        >
+
+    </TextView>
 
 
     <LinearLayout
         android:id="@+id/llnguphap"
+        android:onClick="onclickPlay"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
         android:background="#FFF"
         android:elevation="5dp"
-        android:onClick="onclickPlay"
         android:orientation="horizontal">
-
 
         <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:background="@drawable/screen" />
+            android:background="@mipmap/hinhanh" />
+
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="14dp"
             android:text="Ngữ Pháp"
+            android:elevation="5dp"
 
             android:textColor="#1B1919"
             android:textSize="15sp"
@@ -51,7 +60,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="30sp"
+        android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
         android:background="#FFF"
         android:elevation="5dp"
@@ -60,7 +69,7 @@
         <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:background="@mipmap/ic_launcher" />
+            android:background="@mipmap/baitap" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -69,6 +78,7 @@
             android:text="Bài Tập"
             android:textColor="#090909"
             android:textSize="15sp"
+            android:elevation="5dp"
 
             />
 
@@ -80,7 +90,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="30sp"
+        android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
         android:background="#FFF"
         android:elevation="5dp"
@@ -89,25 +99,27 @@
         <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:background="@mipmap/ic_launcher" />
+            android:background="@mipmap/dichvanban" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="14dp"
+            android:layout_marginTop="10dp"
             android:text="Dịch Văn Bản"
             android:textColor="#090909"
             android:textSize="15sp"
+            android:elevation="5dp"
 
             />
 
 
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="30sp"
+        android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
         android:background="#FFF"
         android:elevation="5dp"
@@ -116,15 +128,46 @@
         <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:background="@mipmap/ic_launcher" />
+            android:background="@mipmap/ngongu" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="14dp"
-            android:text="Cài đặt"
+            android:text="Ngôn Ngữ"
             android:textColor="#090909"
             android:textSize="15sp"
+            android:elevation="5dp"
+
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#FFF"
+        android:elevation="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@mipmap/caidat" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="Cài Đặt"
+            android:textColor="#090909"
+            android:textSize="15sp"
+            android:elevation="5dp"
 
             />
 
