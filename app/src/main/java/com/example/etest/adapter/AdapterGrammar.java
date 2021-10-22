@@ -6,8 +6,10 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -23,11 +25,11 @@ public class AdapterGrammar extends RecyclerView.Adapter<AdapterGrammar.NameView
     private List<NameGrammar> nameGrammarList; //thêm lish danh sách cách name
     private Context mcontext;
 
-    public AdapterGrammar(Context context,List<NameGrammar> nameGrammarList) {
+
+    public AdapterGrammar(Context context, List<NameGrammar> nameGrammarList) {
         this.nameGrammarList = nameGrammarList;
         this.mcontext = context;
     }
-
 
 
     @NonNull
@@ -59,6 +61,7 @@ public class AdapterGrammar extends RecyclerView.Adapter<AdapterGrammar.NameView
         intent.putExtras(bundle);
         mcontext.startActivity(intent);
 
+
     }
 
     @Override
@@ -70,6 +73,7 @@ public class AdapterGrammar extends RecyclerView.Adapter<AdapterGrammar.NameView
 
     }
 
+
     public class NameViewHolder extends RecyclerView.ViewHolder {
 
         private TextView tvName;
@@ -79,6 +83,7 @@ public class AdapterGrammar extends RecyclerView.Adapter<AdapterGrammar.NameView
             super(itemView);
             tvName = itemView.findViewById(R.id.tvName);
             layoutItem = itemView.findViewById(R.id.layout_item);
+
 
         }
     }

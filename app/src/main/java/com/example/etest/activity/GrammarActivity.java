@@ -5,6 +5,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.webkit.WebView;
 
 import com.example.etest.model.NameGrammar;
 import com.example.etest.R;
@@ -18,10 +19,12 @@ public class GrammarActivity extends AppCompatActivity {
     private RecyclerView rcvView;
     private AdapterGrammar adapterGrammar;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_grammar);
+
 
 
         rcvView = (RecyclerView) findViewById(R.id.rcvView); //ánh xạ rcvView
@@ -67,4 +70,6 @@ public class GrammarActivity extends AppCompatActivity {
 
         return list;
     }
+
+
 }
