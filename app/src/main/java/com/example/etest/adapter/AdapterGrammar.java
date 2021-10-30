@@ -2,22 +2,20 @@ package com.example.etest.adapter;
 
 import android.content.Context;
 import android.content.Intent;
-import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.webkit.WebView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.etest.WebViewActivity;
-import com.example.etest.main.Grammar1Activity;
+import com.example.etest.activity.PresentActivity;
 import com.example.etest.model.NameGrammar;
 import com.example.etest.R;
+import com.example.etest.model.Present;
 
 import java.util.List;
 
@@ -31,6 +29,7 @@ public class AdapterGrammar extends RecyclerView.Adapter<AdapterGrammar.NameView
         this.nameGrammarList = nameGrammarList;
         this.mcontext = context;
     }
+
 
 
     @NonNull
@@ -64,6 +63,7 @@ public class AdapterGrammar extends RecyclerView.Adapter<AdapterGrammar.NameView
 
 
     }
+
 
     @Override
     public int getItemCount() {

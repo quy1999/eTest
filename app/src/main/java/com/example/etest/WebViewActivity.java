@@ -2,14 +2,21 @@ package com.example.etest;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.webkit.WebView;
 import android.widget.Toast;
 
+import com.example.etest.activity.GrammarActivity;
+import com.example.etest.activity.PresentActivity;
+import com.example.etest.main.MainActivity;
+import com.example.etest.model.Present;
+
 public class WebViewActivity extends AppCompatActivity {
-    private static final String TAG = "WebViewActivity";
     private WebView webView;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +29,10 @@ public class WebViewActivity extends AppCompatActivity {
         Toast.makeText(this, intent.getStringExtra("NAME"), Toast.LENGTH_LONG).show();
 
         switch (name) {
-
+            case "Các thì trong tiếng anh":
+                Intent intent1 = new Intent(WebViewActivity.this, PresentActivity.class);
+                startActivity(intent1);
+                break;
             case "Các dạng thức của động từ":
                 webView.loadUrl("file:///android_asset/detail/14.html");
                 break;

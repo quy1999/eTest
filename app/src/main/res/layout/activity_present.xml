@@ -4,32 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:elevation="5dp"
-    tools:context=".activity.GrammarActivity">
+    tools:context=".activity.PresentActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#1E38CA"
         android:padding="10dp"
-        android:text="Ngữ Pháp"
+        android:text="Các thì trong tiếng anh"
         android:textSize="25dp"
         tools:ignore="MissingConstraints"
 
         />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rcvView"
+        android:id="@+id/rcvViewpresent"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="50dp"
-        android:elevation="5dp"
-        android:background="#E1E1DC"
-
-        >
-
-    </androidx.recyclerview.widget.RecyclerView>
-
+        android:background="#D6D6C8"
+        android:elevation="5dp"></androidx.recyclerview.widget.RecyclerView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_present"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#CFCFBD"
+    android:layout_marginTop="7dp"
+    android:elevation="5dp"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFF"
+        android:elevation="5dp"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/vnpresent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="5dp"
+            android:text="Thì hiện tại đơn"
+            android:textColor="#171616"
+            android:textSize="15dp"
+
+            />
+
+        <TextView
+            android:id="@+id/enpresent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vnpresent"
+            android:elevation="5dp"
+            android:text="Simple present"
+            android:textColor="#171616"
+            android:textSize="13dp" />
+
+
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
+
+
+
+
