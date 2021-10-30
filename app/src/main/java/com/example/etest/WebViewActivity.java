@@ -11,6 +11,7 @@ import android.widget.Toast;
 
 import com.example.etest.activity.GrammarActivity;
 import com.example.etest.activity.PresentActivity;
+import com.example.etest.activity.TypeWorksActivity;
 import com.example.etest.main.MainActivity;
 import com.example.etest.model.Present;
 
@@ -39,7 +40,10 @@ public class WebViewActivity extends AppCompatActivity {
             case "Động từ khuyết thiếu":
                 webView.loadUrl("file:///android_asset/detail/15.html");
                 break;
-
+            case "Các loại từ":
+                Intent intent2 = new Intent(WebViewActivity.this, TypeWorksActivity.class);
+                startActivity(intent2);
+               break;
             case "So sánh câu trong Tiếng Anh":
                 webView.loadUrl("file:///android_asset/detail/26.html");
                 break;

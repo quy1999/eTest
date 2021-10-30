@@ -11,8 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".WebViewPrisentActivity"></activity>
-        <activity android:name=".activity.PresentActivity"></activity>
+        <activity android:name=".WebViewTypesNameActivity"></activity>
+        <activity android:name=".activity.TypeWorksActivity" />
+        <activity android:name=".WebViewPrisentActivity" />
+        <activity android:name=".activity.PresentActivity" />
         <activity android:name=".WebViewActivity" />
         <activity android:name=".activity.GrammarActivity" />
         <activity android:name=".main.MainActivity">

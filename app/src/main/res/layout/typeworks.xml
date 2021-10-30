@@ -3,9 +3,9 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="#CFCFBD"
-    android:id="@+id/layout_present"
     android:layout_marginTop="7dp"
     android:elevation="5dp"
+    android:id="@+id/layout_types"
     android:orientation="vertical">
 
 
@@ -18,23 +18,23 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/vnpresent"
+            android:id="@+id/typesvnname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:elevation="5dp"
-            android:text="Thì hiện tại đơn"
+            android:text="Danh từ"
             android:textColor="#171616"
             android:textSize="15dp"
 
             />
 
         <TextView
-            android:id="@+id/enpresent"
+            android:id="@+id/typesenname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/vnpresent"
+            android:layout_below="@+id/typesvnname"
             android:elevation="5dp"
-            android:text="Simple present"
+            android:text="Nouns"
             android:textColor="#171616"
             android:textSize="13dp" />
 

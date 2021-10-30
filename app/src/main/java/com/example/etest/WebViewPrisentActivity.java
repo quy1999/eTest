@@ -15,7 +15,6 @@ public class WebViewPrisentActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web_view_prisent);
-
         webViewpresent = (WebView) findViewById(R.id.webviewpresent);
         webViewpresent.getSettings().setJavaScriptEnabled(true);
         Intent intent = getIntent();
@@ -32,6 +31,9 @@ public class WebViewPrisentActivity extends AppCompatActivity {
                 webViewpresent.loadUrl("file:///android_asset/detail/3.html");
                 break;
             case "Thì hiện tại hoàn thành":
+                webViewpresent.loadUrl("file:///android_asset/detail/4.html");
+                break;
+            case "Các loại từ":
                 webViewpresent.loadUrl("file:///android_asset/detail/4.html");
                 break;
             case "Thì hiện tại hoàn thành tiếp diễn":
