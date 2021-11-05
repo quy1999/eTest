@@ -46,6 +46,8 @@ public class AdapterGrammar extends RecyclerView.Adapter<AdapterGrammar.NameView
             holder.tvName.setText(nameGrammar.getNameGrammar());
         }
 
+        String epkieu=String.valueOf(position).concat(" " + nameGrammarList.get(position).getNameGrammar() );
+        holder.tvName.setText(epkieu);
         holder.layoutItem.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

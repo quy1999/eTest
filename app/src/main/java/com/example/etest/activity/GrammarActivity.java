@@ -51,6 +51,8 @@ public class GrammarActivity extends AppCompatActivity {
         list.add(new NameGrammar("Sự kết hợp từ"));
         list.add(new NameGrammar("Mệnh đề"));
         list.add(new NameGrammar("Ngữ âm"));
+        list.add(new NameGrammar("Câu điều kiện"));
+        list.add(new NameGrammar("Câu điều ước"));
         list.add(new NameGrammar("Cụm động từ"));
         list.add(new NameGrammar("Một số động từ đặc biệt(need,dare,to be,get)"));
         list.add(new NameGrammar("Câu hỏi"));

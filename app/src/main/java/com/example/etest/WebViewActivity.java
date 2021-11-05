@@ -71,6 +71,12 @@ public class WebViewActivity extends AppCompatActivity {
             case "Ngữ âm":
                 webView.loadUrl("file:///android_asset/detail/37.html");
                 break;
+            case "Câu điều kiện":
+                webView.loadUrl("file:///android_asset/detail/30.html");
+                break;
+            case "Câu điều ước":
+                webView.loadUrl("file:///android_asset/detail/31.html");
+                break;
             case "Cụm động từ":
                 webView.loadUrl("file:///android_asset/detail/39.html");
                 break;

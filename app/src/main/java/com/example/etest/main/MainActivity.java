@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
+import com.example.etest.activity.ExamActivity;
 import com.example.etest.activity.GrammarActivity;
 import com.example.etest.R;
 
@@ -27,6 +28,11 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, GrammarActivity.class);
         startActivity(intent);
 
+
+    }
+    public void onclickPlaybt(View view){
+        Intent intent=new Intent(MainActivity.this, ExamActivity.class);
+        startActivity(intent);
 
     }
 
