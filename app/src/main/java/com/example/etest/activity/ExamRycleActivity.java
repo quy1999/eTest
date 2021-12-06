@@ -1,10 +1,10 @@
 package com.example.etest.activity;
 
+import android.os.Bundle;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
-import android.os.Bundle;
 
 import com.example.etest.R;
 import com.example.etest.adapter.ExamRycleAdapter;
@@ -28,5 +28,8 @@ public class ExamRycleActivity extends AppCompatActivity {
         rcvView.setAdapter(adapter);
 
 
+
     }
+
+
 }

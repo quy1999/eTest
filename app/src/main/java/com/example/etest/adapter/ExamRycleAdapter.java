@@ -1,15 +1,16 @@
 package com.example.etest.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.etest.NavigationActivity;
 import com.example.etest.R;
 import com.example.etest.activity.ExamRycleActivity;
 
@@ -19,6 +20,7 @@ public class ExamRycleAdapter extends RecyclerView.Adapter<ExamRycleAdapter.View
     private String[] mData;
     private LayoutInflater mInflater;
     private ItemClickListener mitemClickListener;
+    private Context context;
 
     public ExamRycleAdapter(Context context, String[] data) {
         mInflater = LayoutInflater.from(context);
@@ -67,6 +69,10 @@ public class ExamRycleAdapter extends RecyclerView.Adapter<ExamRycleAdapter.View
 
     public void setClickListener(ExamRycleActivity itemClickListener) {
         this.mitemClickListener = mitemClickListener;
+        Intent intent=new Intent(context, NavigationActivity.class);
+        intent.putExtra("Name" , mData ); //truyền dữ liệu qua lại giữa các activity
+        context.startActivity(intent);
+
     }
 
     public interface ItemClickListener {
