@@ -1,7 +1,6 @@
 package com.example.etest.adapter;
 
 import android.content.Context;
-import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,7 +9,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.etest.NavigationActivity;
 import com.example.etest.R;
 import com.example.etest.activity.ExamRycleActivity;
 
@@ -51,13 +49,22 @@ public class ExamRycleAdapter extends RecyclerView.Adapter<ExamRycleAdapter.View
         public ViewHoder(@NonNull View itemView) {
             super(itemView);
             mtextview = itemView.findViewById(R.id.mtextview);
-            itemView.setOnClickListener(this);
+            //itemView.setOnClickListener(this);
+            mtextview.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    mitemClickListener.onItemClick(v,getAdapterPosition());
+                }
+            });
         }
 
         @Override
         public void onClick(View v) {
             if (mitemClickListener != null)
-                mitemClickListener.onItemClick(v, getAdapterPosition());
+                if(v.getId() == R.id.mtextview){
+                    mitemClickListener.onItemClick(v, getAdapterPosition());
+                }
+
         }
 
     }
@@ -68,14 +75,11 @@ public class ExamRycleAdapter extends RecyclerView.Adapter<ExamRycleAdapter.View
     }
 
     public void setClickListener(ExamRycleActivity itemClickListener) {
-        this.mitemClickListener = mitemClickListener;
-        Intent intent=new Intent(context, NavigationActivity.class);
-        intent.putExtra("Name" , mData ); //truyền dữ liệu qua lại giữa các activity
-        context.startActivity(intent);
+        this.mitemClickListener = itemClickListener;
 
     }
 
-    public interface ItemClickListener {
+    public interface ItemClickListener   {
         void onItemClick(View view, int position);
     }
 }

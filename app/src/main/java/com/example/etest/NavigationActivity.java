@@ -2,42 +2,36 @@ package com.example.etest;
 
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.fragment.app.FragmentManager;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.etest.adapter.NavigationAdapter;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
 import com.google.android.material.snackbar.Snackbar;
 
-import java.util.ArrayList;
-import java.util.List;
+import Dethi.ExamOne;
+import Dethi.ExamTwo;
+import Dethi.HomeFragment;
 
 public class NavigationActivity extends AppCompatActivity {
 
-    private RecyclerView rcvNavigation;
-    private NavigationAdapter navigationAdapter;
     private AppBarConfiguration mAppBarConfiguration;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        rcvNavigation = (RecyclerView) findViewById(R.id.rcvNavigation);
-        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
-        rcvNavigation.setLayoutManager(linearLayoutManager);
-        navigationAdapter = new NavigationAdapter(this,getListName());
-        rcvNavigation.getAdapter();
-
-        setContentView(R.layout.activity_navigation);
+        setContentView(R.layout.activity_navigation2);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         FloatingActionButton fab = findViewById(R.id.fab);
@@ -48,7 +42,7 @@ public class NavigationActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
-        DrawerLayout drawer = findViewById(R.id.drawer_layout);
+        final DrawerLayout drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
@@ -59,6 +53,32 @@ public class NavigationActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
+
+
+        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+                int id = menuItem.getItemId();
+                if (id == R.id.home) {
+                    HomeFragment examOne=new HomeFragment();
+                    FragmentManager manager=getSupportFragmentManager();
+                    manager.beginTransaction().replace(R.id.nav_host_fragment,examOne,examOne.getTag()).commit();
+                } else if (id == R.id.De1) {
+                    ExamOne examOne=new ExamOne();
+                    FragmentManager manager=getSupportFragmentManager();
+                    manager.beginTransaction().replace(R.id.nav_host_fragment,examOne,examOne.getTag()).commit();
+
+
+                } else if (id == R.id.De2) {
+                    ExamTwo examOne=new ExamTwo();
+                    FragmentManager manager=getSupportFragmentManager();
+                    manager.beginTransaction().replace(R.id.nav_host_fragment,examOne,examOne.getTag()).commit();
+
+                }
+                drawer.closeDrawer(GravityCompat.START);
+                return true;
+            }
+        });
     }
 
     @Override
@@ -66,6 +86,7 @@ public class NavigationActivity extends AppCompatActivity {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.navigation, menu);
         return true;
+
     }
 
     @Override
@@ -75,10 +96,10 @@ public class NavigationActivity extends AppCompatActivity {
                 || super.onSupportNavigateUp();
     }
 
-    private List<String> getListName() {
-        List<String> list = new ArrayList<>();
-        list.add(new String("1"));
 
-        return list;
-    }
+
+
+
+
+
 }

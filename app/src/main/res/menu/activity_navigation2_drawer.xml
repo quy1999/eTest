@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+
+    </group>
+    <item android:title="Đề thi trắc nghiệm">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/De1"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="Đề 1" />
+
+                <item
+                    android:id="@+id/De2"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="Đề 2" />
+                <item
+                    android:id="@+id/De3"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="Đề 3" />
+                <item
+                    android:id="@+id/De4"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="Đề 4" />
+                <item
+                    android:id="@+id/De5"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="Đề 5" />
+                <item
+                    android:id="@+id/De6"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="Đề 6" />
+                <item
+                    android:id="@+id/De7"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="Đề 7" />
+                <item
+                    android:id="@+id/De8"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="Đề 8" />
+                <item
+                    android:id="@+id/De9"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="Đề 9" />
+                <item
+                    android:id="@+id/De10"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="Đề 10" />
+            </group>
+        </menu>
+    </item>
+</menu>

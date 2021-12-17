@@ -13,6 +13,7 @@
             android:name=".NavigationActivity"
             android:label="@string/title_activity_navigation"
             android:theme="@style/NoActionBar"></activity>
+        <activity android:name=".activity.BasicTitleActivity" />
         <activity android:name=".activity.ExamRycleActivity" />
         <activity android:name=".activity.ExambasicActivity" />
         <activity android:name=".activity.ExamActivity" />
@@ -22,13 +23,14 @@
         <activity android:name=".activity.PresentActivity" />
         <activity android:name=".WebViewActivity" />
         <activity android:name=".activity.GrammarActivity" />
-        <activity android:name=".main.MainActivity">
+        <activity android:name=".activity." />
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-    </application>
+        </application>
+    </manifest>
 
-</manifest>
+
