@@ -16,13 +16,16 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
+import com.example.etest.question.DPHelper;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
 import com.google.android.material.snackbar.Snackbar;
 
-import Dethi.ExamOne;
-import Dethi.ExamTwo;
-import Dethi.HomeFragment;
+import com.example.etest.Dethi.ExamOne;
+import com.example.etest.Dethi.ExamTwo;
+import com.example.etest.Dethi.HomeFragment;
+
+import java.io.IOException;
 
 public class NavigationActivity extends AppCompatActivity {
 
@@ -79,6 +82,13 @@ public class NavigationActivity extends AppCompatActivity {
                 return true;
             }
         });
+
+        DPHelper dpHelper=new DPHelper(this);
+        try {
+            dpHelper.createDataBase();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     @Override

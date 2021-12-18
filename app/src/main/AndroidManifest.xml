@@ -22,15 +22,17 @@
         <activity android:name=".WebViewPrisentActivity" />
         <activity android:name=".activity.PresentActivity" />
         <activity android:name=".WebViewActivity" />
-        <activity android:name=".activity.GrammarActivity" />
-        <activity android:name=".activity." />
+        <activity android:name=".ViewPage.ScreenSlideActivity" />
+        <activity android:name=".main.MainActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </application>
-    </manifest>
+        </activity>
+    </application>
+</manifest>
+
 
 

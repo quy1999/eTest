@@ -1,4 +1,4 @@
-package Dethi;
+package com.example.etest.Dethi;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

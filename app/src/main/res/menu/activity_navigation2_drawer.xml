@@ -16,44 +16,23 @@
                 <item
                     android:id="@+id/De1"
                     android:icon="@drawable/ic_menu_camera"
-                    android:title="Đề 1" />
+                    android:title="Bộ đề cơ bản" />
 
                 <item
                     android:id="@+id/De2"
                     android:icon="@drawable/ic_menu_camera"
-                    android:title="Đề 2" />
+                    android:title="Bộ đề thi A2" />
                 <item
                     android:id="@+id/De3"
                     android:icon="@drawable/ic_menu_camera"
-                    android:title="Đề 3" />
+                    android:title="Bộ đề thi A2" />
                 <item
                     android:id="@+id/De4"
                     android:icon="@drawable/ic_menu_camera"
-                    android:title="Đề 4" />
-                <item
-                    android:id="@+id/De5"
-                    android:icon="@drawable/ic_menu_camera"
-                    android:title="Đề 5" />
-                <item
-                    android:id="@+id/De6"
-                    android:icon="@drawable/ic_menu_camera"
-                    android:title="Đề 6" />
-                <item
-                    android:id="@+id/De7"
-                    android:icon="@drawable/ic_menu_camera"
-                    android:title="Đề 7" />
-                <item
-                    android:id="@+id/De8"
-                    android:icon="@drawable/ic_menu_camera"
-                    android:title="Đề 8" />
-                <item
-                    android:id="@+id/De9"
-                    android:icon="@drawable/ic_menu_camera"
-                    android:title="Đề 9" />
-                <item
-                    android:id="@+id/De10"
-                    android:icon="@drawable/ic_menu_camera"
-                    android:title="Đề 10" />
+                    android:title="Bộ đề ngẫu nhiên" />
+
+
+
             </group>
         </menu>
     </item>

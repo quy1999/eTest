@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="Dethi.Home">
+    tools:context="com.example.etest.Dethi.Home">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView

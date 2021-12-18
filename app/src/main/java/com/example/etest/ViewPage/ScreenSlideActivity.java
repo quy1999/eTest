@@ -1,25 +1,34 @@
-package ViewPage;
+package com.example.etest.ViewPage;
+
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
 import com.example.etest.R;
+import com.example.etest.question.Question;
+import com.example.etest.question.QuestionControl;
+
+
+import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class ScreenSlideActivity extends FragmentActivity {
+
+
+public class ScreenSlideActivity extends AppCompatActivity {
     /**
      * The number of pages (wizard steps) to show in this demo.
      */
-    private static final int NUM_PAGES = 5;
+    private static final int NUM_PAGES = 20;
 
     /**
      * The pager widget, which handles animation and allows swiping horizontally to access previous
@@ -31,6 +40,9 @@ public class ScreenSlideActivity extends FragmentActivity {
      * The pager adapter, which provides the pages to the view pager widget.
      */
     private PagerAdapter pagerAdapter;
+    QuestionControl questionControl;
+    ArrayList<Question> arr_ques;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,7 +54,19 @@ public class ScreenSlideActivity extends FragmentActivity {
         pagerAdapter = new ScreenSlidePagerAdapter(getSupportFragmentManager());
         mPager.setAdapter(pagerAdapter);
         mPager.setPageTransformer(true, new ZoomOutPageTransformer());
+
+        questionControl = new QuestionControl(this); //màn hình hiện tại
+        arr_ques = new ArrayList<Question>();
+        arr_ques = questionControl.getQuestion(1, "english");
+        for (int i=0;i<arr_ques.size();i++){
+            Log.d("Quy123","english");
+        }
     }
+
+    public ArrayList<Question> getData() {
+        return arr_ques;
+    }
+
 
     @Override
     public void onBackPressed() {
@@ -67,7 +91,7 @@ public class ScreenSlideActivity extends FragmentActivity {
 
         @Override
         public Fragment getItem(int position) {
-            return new ScreenSlidePageFragment();
+            return ScreenSlidePageFragment.create(position);
         }
 
         @Override
@@ -75,6 +99,7 @@ public class ScreenSlideActivity extends FragmentActivity {
             return NUM_PAGES;
         }
     }
+
     public class ZoomOutPageTransformer implements ViewPager.PageTransformer {
         private static final float MIN_SCALE = 0.85f;
         private static final float MIN_ALPHA = 0.5f;
