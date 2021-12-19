@@ -1,15 +1,14 @@
 package com.example.etest.activity;
 
+import android.os.Bundle;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.os.Bundle;
-import android.webkit.WebView;
-
-import com.example.etest.model.NameGrammar;
 import com.example.etest.R;
 import com.example.etest.adapter.AdapterGrammar;
+import com.example.etest.model.NameGrammar;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,17 +19,15 @@ public class GrammarActivity extends AppCompatActivity {
     private AdapterGrammar adapterGrammar;
 
 
-    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_grammar);
 
 
-
         rcvView = (RecyclerView) findViewById(R.id.rcvView); //ánh xạ rcvView
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
         rcvView.setLayoutManager(linearLayoutManager); //khỏi tạo
-        adapterGrammar = new AdapterGrammar(this,getListName());
+        adapterGrammar = new AdapterGrammar(this, getListName());
         rcvView.setAdapter(adapterGrammar);
 
     }

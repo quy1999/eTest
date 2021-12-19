@@ -6,7 +6,7 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/home"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_home_black_24dp"
             android:title="@string/menu_home" />
 
     </group>
@@ -15,20 +15,20 @@
             <group android:checkableBehavior="single">
                 <item
                     android:id="@+id/De1"
-                    android:icon="@drawable/ic_menu_camera"
+                    android:icon="@drawable/ic_event_note_black_24dp"
                     android:title="Bộ đề cơ bản" />
 
                 <item
                     android:id="@+id/De2"
-                    android:icon="@drawable/ic_menu_camera"
+                    android:icon="@drawable/ic_event_note_black_24dp"
                     android:title="Bộ đề thi A2" />
                 <item
                     android:id="@+id/De3"
-                    android:icon="@drawable/ic_menu_camera"
-                    android:title="Bộ đề thi A2" />
+                    android:icon="@drawable/ic_event_note_black_24dp"
+                    android:title="Bộ đề nâng cao" />
                 <item
                     android:id="@+id/De4"
-                    android:icon="@drawable/ic_menu_camera"
+                    android:icon="@drawable/ic_event_note_black_24dp"
                     android:title="Bộ đề ngẫu nhiên" />
 
 

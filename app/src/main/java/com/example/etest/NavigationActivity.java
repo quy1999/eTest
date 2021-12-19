@@ -16,14 +16,13 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
+import com.example.etest.Dethi.ExamOne;
+import com.example.etest.Dethi.ExamTwo;
+import com.example.etest.Dethi.HomeFragment;
 import com.example.etest.question.DPHelper;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
 import com.google.android.material.snackbar.Snackbar;
-
-import com.example.etest.Dethi.ExamOne;
-import com.example.etest.Dethi.ExamTwo;
-import com.example.etest.Dethi.HomeFragment;
 
 import java.io.IOException;
 
@@ -70,7 +69,6 @@ public class NavigationActivity extends AppCompatActivity {
                     ExamOne examOne=new ExamOne();
                     FragmentManager manager=getSupportFragmentManager();
                     manager.beginTransaction().replace(R.id.nav_host_fragment,examOne,examOne.getTag()).commit();
-
 
                 } else if (id == R.id.De2) {
                     ExamTwo examOne=new ExamTwo();

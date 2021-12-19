@@ -55,6 +55,7 @@ public class ExamOne extends Fragment {
         arrExam.add(new Exam("Đề số 9"));
         arrExam.add(new Exam("Đề số 10"));
 
+
         examAdapter = new ExamAdapter(getActivity(), arrExam);
         gridViewExam.setAdapter(examAdapter);
 

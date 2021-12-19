@@ -16,6 +16,7 @@
         <activity android:name=".activity.BasicTitleActivity" />
         <activity android:name=".activity.ExamRycleActivity" />
         <activity android:name=".activity.ExambasicActivity" />
+        <activity android:name=".activity.GrammarActivity" />
         <activity android:name=".activity.ExamActivity" />
         <activity android:name=".WebViewTypesNameActivity" />
         <activity android:name=".activity.TypeWorksActivity" />

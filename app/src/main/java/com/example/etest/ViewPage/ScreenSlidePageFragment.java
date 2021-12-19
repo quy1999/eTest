@@ -1,6 +1,7 @@
 package com.example.etest.ViewPage;
 
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -32,15 +33,16 @@ public class ScreenSlidePageFragment extends Fragment {
     private String mParam1;
     private String mParam2;
     private int PageNumber;
-    TextView tvNum,tvQuestion;
-    RadioButton radA,radB,radC,radD;
+    TextView tvNum, tvQuestion;
+    RadioButton radA, radB, radC, radD;
     RadioGroup radGroup;
     ArrayList<Question> arr_Que;
     View view;
+    TextView edtTime;
+    CountDownTimer Timer;
 
 
-
-    public static String Key="english";
+    public static String Key = "english";
 
     public ScreenSlidePageFragment() {
         // Required empty public constructor
@@ -72,10 +74,17 @@ public class ScreenSlidePageFragment extends Fragment {
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
 
-        arr_Que=new ArrayList<Question>();
-        ScreenSlideActivity screenSlideActivity= (ScreenSlideActivity) getActivity();
-        arr_Que=screenSlideActivity.getData();
-        PageNumber=getArguments().getInt(Key);    //lấy về
+        arr_Que = new ArrayList<Question>();
+        ScreenSlideActivity screenSlideActivity = (ScreenSlideActivity) getActivity();
+        arr_Que = screenSlideActivity.getData();
+        PageNumber = getArguments().getInt(Key);    //lấy về
+
+
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
 
     }
 
@@ -83,19 +92,17 @@ public class ScreenSlidePageFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-       View view = (ViewGroup) inflater.inflate(R.layout.fragment_screen_slide_page, container, false); //
-        tvNum=(TextView)view.findViewById(R.id.tvNum);
-        tvQuestion=(TextView)view.findViewById(R.id.tvQuestion);
-        radA=(RadioButton)view.findViewById(R.id.radA);
-        radB=(RadioButton)view.findViewById(R.id.radB);
-        radC=(RadioButton)view.findViewById(R.id.radC);
-        radD=(RadioButton)view.findViewById(R.id.radD);
-        radGroup=(RadioGroup)view.findViewById(R.id.radGroup);
+        View view = (ViewGroup) inflater.inflate(R.layout.fragment_screen_slide_page, container, false); //
+        tvNum = (TextView) view.findViewById(R.id.tvNum);
+        tvQuestion = (TextView) view.findViewById(R.id.tvQuestion);
+        radA = (RadioButton) view.findViewById(R.id.radA);
+        radB = (RadioButton) view.findViewById(R.id.radB);
+        radC = (RadioButton) view.findViewById(R.id.radC);
+        radD = (RadioButton) view.findViewById(R.id.radD);
+        radGroup = (RadioGroup) view.findViewById(R.id.radGroup);
 
 
-
-
-        tvNum.setText("Câu" +(PageNumber+1));
+        tvNum.setText("Câu" + (PageNumber + 1));
         tvQuestion.setText(arr_Que.get(PageNumber).getQuestion());
         radA.setText(arr_Que.get(PageNumber).getAns_a());
         radB.setText(arr_Que.get(PageNumber).getAns_b());
@@ -103,7 +110,7 @@ public class ScreenSlidePageFragment extends Fragment {
         radD.setText(arr_Que.get(PageNumber).getAns_d());
 
 
-       return view;
+        return view;
 
     }
 
@@ -112,14 +119,17 @@ public class ScreenSlidePageFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
 
-
     }
-    public static ScreenSlidePageFragment create(int pageNumber){
-        ScreenSlidePageFragment screenSlidePageFragment=new ScreenSlidePageFragment();
-        Bundle bundle=new Bundle(); //gói dữ liệu gửi đi
-        bundle.putInt(Key,pageNumber);
+
+    public static ScreenSlidePageFragment create(int pageNumber) {
+        ScreenSlidePageFragment screenSlidePageFragment = new ScreenSlidePageFragment();
+        Bundle bundle = new Bundle(); //gói dữ liệu gửi đi
+        bundle.putInt(Key, pageNumber);
         screenSlidePageFragment.setArguments(bundle);
         return screenSlidePageFragment;
 
     }
+
+
 }
+
