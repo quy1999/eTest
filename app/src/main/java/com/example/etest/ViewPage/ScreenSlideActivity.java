@@ -1,9 +1,16 @@
 package com.example.etest.ViewPage;
 
 
+import android.app.Dialog;
+import android.content.Intent;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
+import android.widget.GridView;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
@@ -13,11 +20,12 @@ import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
 import com.example.etest.R;
+import com.example.etest.adapter.CheckAnserAdapter;
 import com.example.etest.question.Question;
 import com.example.etest.question.QuestionControl;
 
-
 import java.util.ArrayList;
+import java.util.concurrent.TimeUnit;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -28,20 +36,25 @@ public class ScreenSlideActivity extends AppCompatActivity {
     /**
      * The number of pages (wizard steps) to show in this demo.
      */
-    private static final int NUM_PAGES = 20;
+    private static final int NUM_PAGES = 40;
 
     /**
      * The pager widget, which handles animation and allows swiping horizontally to access previous
      * and next wizard steps.
      */
     private ViewPager mPager;
-
+    Button cautiep;
     /**
      * The pager adapter, which provides the pages to the view pager widget.
      */
     private PagerAdapter pagerAdapter;
+    TextView time;
+    ImageView imgkiemtra;
     QuestionControl questionControl;
     ArrayList<Question> arr_ques;
+    Counter counter;
+    String de;
+    int num;
 
 
     @Override
@@ -51,16 +64,33 @@ public class ScreenSlideActivity extends AppCompatActivity {
 
         // Instantiate a ViewPager and a PagerAdapter.
         mPager = (ViewPager) findViewById(R.id.pager);
+        cautiep = findViewById(R.id.cautiep);
+        time = findViewById(R.id.time);
+        counter = new Counter(10 * 80 * 1000, 1000);
         pagerAdapter = new ScreenSlidePagerAdapter(getSupportFragmentManager());
         mPager.setAdapter(pagerAdapter);
         mPager.setPageTransformer(true, new ZoomOutPageTransformer());
 
+        Intent intent = getIntent();
+        de = intent.getStringExtra("num");
+        num = intent.getIntExtra("sub", 0);
+
         questionControl = new QuestionControl(this); //màn hình hiện tại
         arr_ques = new ArrayList<Question>();
         arr_ques = questionControl.getQuestion(1, "english");
-        for (int i=0;i<arr_ques.size();i++){
-            Log.d("Quy123","english");
+        for (int i = 0; i < arr_ques.size(); i++) {
+            Log.d("Quy123", "english");
         }
+
+        imgkiemtra.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                checkAnswer();
+
+
+            }
+        });
+        counter.start();
     }
 
     public ArrayList<Question> getData() {
@@ -138,4 +168,54 @@ public class ScreenSlideActivity extends AppCompatActivity {
             }
         }
     }
+
+    public void checkAnswer() {
+        final Dialog dialog=new Dialog(getApplicationContext());
+        dialog.setContentView(R.layout.checkanswer);
+        CheckAnserAdapter checkAnserAdapter=new CheckAnserAdapter(arr_ques,this);
+        GridView gridView=(GridView)(dialog.findViewById(R.id.gridview));
+        gridView.setAdapter(checkAnserAdapter);
+
+        gridView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dialog.dismiss();
+            }
+        });
+
+        Button button;
+        button=findViewById(R.id.button);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+
+
+            }
+        });
+
+        dialog.show();
+    }
+
+    public class Counter extends CountDownTimer {
+
+        public Counter(long millisInFuture, long countDownInterval) {
+            super(millisInFuture, countDownInterval);
+        }
+
+        @Override
+        public void onTick(long millisUntilFinished) {
+            String countTime = String.format("%02d:%02d", TimeUnit.MILLISECONDS.toMinutes(millisUntilFinished), TimeUnit.MILLISECONDS.toSeconds(millisUntilFinished) - TimeUnit.MINUTES.toSeconds(
+                    TimeUnit.MILLISECONDS.toMinutes(millisUntilFinished)));
+            time.setText(countTime);
+        }
+
+        @Override
+        public void onFinish() {
+            time.setText("00:00");
+        }
+    }
 }
+
+

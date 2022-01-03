@@ -21,8 +21,8 @@ import com.google.firebase.auth.FirebaseAuth;
 public class SignUpActivity extends AppCompatActivity {
 
 
-    private EditText etemail, etpassword;
-    private TextView tvlogin, tvforgotpassword, tvsignup;
+    private EditText atemail, atpassword;
+    private TextView tvlogin, tvforgotpassword, tvsignupa;
     private FirebaseAuth auth;
 
 
@@ -31,21 +31,12 @@ public class SignUpActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
 
-        etemail = findViewById(R.id.etEmail);
-        etpassword = findViewById(R.id.etPassword);
-        tvlogin = findViewById(R.id.tvLogin);
-        tvforgotpassword = findViewById(R.id.tvForgotPassword);
-        tvsignup = findViewById(R.id.tvSignUp);
+        atemail = findViewById(R.id.suEmail);
+        atpassword = findViewById(R.id.suPassword);
+        tvsignupa = findViewById(R.id.tvSignUpA);
+        auth=FirebaseAuth.getInstance();
 
-        tvlogin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                signup();
-            }
-
-
-        });
-        tvsignup.setOnClickListener(new View.OnClickListener() {
+        tvsignupa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 signup();
@@ -54,31 +45,33 @@ public class SignUpActivity extends AppCompatActivity {
     }
 
     private void signup() {
-        String email, pass;
-        email = etemail.getText().toString();
-        pass = etpassword.getText().toString();
+        String semail, spass;
+        semail = atemail.getText().toString();
+        spass = atpassword.getText().toString();
 
-        if (TextUtils.isEmpty(email)) {
+        if (TextUtils.isEmpty(semail)) {
             Toast.makeText(this, "Vui lòng nhập email", Toast.LENGTH_LONG).show();
         }
 
-        if (TextUtils.isEmpty(email)) {
+        if (TextUtils.isEmpty(semail)) {
             Toast.makeText(this, "Vui lòng nhập mật khẩu", Toast.LENGTH_LONG).show();
         }
-
-        auth.createUserWithEmailAndPassword(email,pass).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-            @Override
-            public void onComplete(@NonNull Task<AuthResult> task) {
-                if(task.isSuccessful()){
-                    Toast.makeText(getApplicationContext(),"Tạo tài khoản thành công",Toast.LENGTH_LONG).show();
+        if(semail  != "") {
+            auth.createUserWithEmailAndPassword(semail, spass).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                @Override
+                public void onComplete(@NonNull Task<AuthResult> task) {
+                    if (task.isSuccessful()) {
+                        Toast.makeText(getApplicationContext(), "Tạo tài khoản thành công", Toast.LENGTH_LONG).show();
+                        Intent intent = new Intent(SignUpActivity.this, MainActivity.class);
+                        startActivity(intent);
+                    } else {
+                        Toast.makeText(getApplicationContext(), "Tạo tài khoản không thành công vui lòng nhập lại", Toast.LENGTH_LONG).show();
+                    }
                 }
-                else {
-                    Toast.makeText(getApplicationContext(),"Tạo tài khoản không thành công vui lòng nhập lại",Toast.LENGTH_LONG).show();
-                }
-            }
-        });
-        Intent intent=new Intent(SignUpActivity.this, MainActivity.class);
-        startActivity(intent);
+            });
+        }else {
+            Toast.makeText(getApplicationContext(), "Nhập thông tin đăng nhập", Toast.LENGTH_LONG).show();
+        }
     }
 
 

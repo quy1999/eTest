@@ -19,7 +19,7 @@ public class QuestionControl extends Question {
 
         ArrayList<Question> data = new ArrayList<Question>();
         SQLiteDatabase dp = dpHelper.getReadableDatabase();
-        Cursor cursor = dp.rawQuery("SELECT * FROM tracnghiem WHERE num_exam='" + num_exam + "' AND subject ='" + subject + "'", null); //đọc dữ liệu
+        Cursor cursor = dp.rawQuery("SELECT * FROM tracnghiem ", null); //đọc dữ liệu
         cursor.moveToFirst();
         do {
             Question item;

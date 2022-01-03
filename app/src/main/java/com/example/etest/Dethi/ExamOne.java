@@ -63,6 +63,9 @@ public class ExamOne extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long i) {
                 Intent intent = new Intent(getActivity(), ScreenSlideActivity.class);
+                intent.putExtra("num",i+1);
+                intent.putExtra("sub","de thi A2");
+
                 startActivity(intent);
             }
         });

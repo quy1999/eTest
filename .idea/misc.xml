@@ -1,6 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/eTest/app/src/main/res/drawable-v24/bg_button_violet.xml" value="0.20416666666666666" />
+        <entry key="..\:/eTest/app/src/main/res/drawable-v24/bg_et_enter.xml" value="0.20416666666666666" />
+        <entry key="..\:/eTest/app/src/main/res/drawable/bg_button_violet.xml" value="0.1109375" />
+        <entry key="..\:/eTest/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.13854166666666667" />
+        <entry key="..\:/eTest/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/eTest/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/eTest/app/src/main/res/layout/activity_basic_title.xml" value="0.18802083333333333" />
+        <entry key="..\:/eTest/app/src/main/res/layout/activity_exam.xml" value="0.1" />
+        <entry key="..\:/eTest/app/src/main/res/layout/activity_exam_rycle.xml" value="0.1" />
+        <entry key="..\:/eTest/app/src/main/res/layout/activity_exambasic.xml" value="0.1" />
+        <entry key="..\:/eTest/app/src/main/res/layout/activity_grammar.xml" value="0.25" />
+        <entry key="..\:/eTest/app/src/main/res/layout/activity_login.xml" value="0.23475046210720887" />
+        <entry key="..\:/eTest/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/eTest/app/src/main/res/layout/activity_navigation2.xml" value="0.12" />
+        <entry key="..\:/eTest/app/src/main/res/layout/activity_present.xml" value="0.1" />
+        <entry key="..\:/eTest/app/src/main/res/layout/activity_sign_up.xml" value="0.17395833333333333" />
+        <entry key="..\:/eTest/app/src/main/res/layout/activity_web_view_prisent.xml" value="0.11413043478260869" />
+        <entry key="..\:/eTest/app/src/main/res/layout/activity_web_view_types_name.xml" value="0.11865942028985507" />
+        <entry key="..\:/eTest/app/src/main/res/layout/app_bar_main.xml" value="0.11865942028985507" />
+        <entry key="..\:/eTest/app/src/main/res/layout/app_bar_navigation.xml" value="0.2" />
+        <entry key="..\:/eTest/app/src/main/res/layout/checkanswer.xml" value="0.18802083333333333" />
+        <entry key="..\:/eTest/app/src/main/res/layout/content_navigation.xml" value="0.11865942028985507" />
+        <entry key="..\:/eTest/app/src/main/res/layout/examrycle.xml" value="0.12907608695652173" />
+        <entry key="..\:/eTest/app/src/main/res/layout/fragment_exam_one.xml" value="0.1" />
+        <entry key="..\:/eTest/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/eTest/app/src/main/res/layout/fragment_home2.xml" value="0.1" />
+        <entry key="..\:/eTest/app/src/main/res/layout/fragment_home3.xml" value="0.1" />
+        <entry key="..\:/eTest/app/src/main/res/layout/fragment_screen_slide_activity.xml" value="0.17" />
+        <entry key="..\:/eTest/app/src/main/res/layout/fragment_screen_slide_page.xml" value="0.33" />
+        <entry key="..\:/eTest/app/src/main/res/layout/fragment_slideshow.xml" value="0.1" />
+        <entry key="..\:/eTest/app/src/main/res/layout/grid_answer.xml" value="0.18802083333333333" />
+        <entry key="..\:/eTest/app/src/main/res/layout/item_gridview_exam.xml" value="0.1" />
+        <entry key="..\:/eTest/app/src/main/res/layout/item_user.xml" value="0.2" />
+        <entry key="..\:/eTest/app/src/main/res/layout/nav_header_navigation.xml" value="0.1" />
+        <entry key="..\:/eTest/app/src/main/res/layout/navigation.xml" value="0.1" />
+        <entry key="..\:/eTest/app/src/main/res/layout/present.xml" value="0.25" />
+        <entry key="..\:/eTest/app/src/main/res/layout/typeworks.xml" value="0.12907608695652173" />
+        <entry key="..\:/eTest/app/src/main/res/menu/activity_navigation2_drawer.xml" value="0.17239583333333333" />
+        <entry key="..\:/eTest/app/src/main/res/menu/navigation.xml" value="0.14739583333333334" />
+        <entry key="..\:/eTest/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1109375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

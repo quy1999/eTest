@@ -76,16 +76,15 @@ public class DPHelper extends SQLiteOpenHelper {
 
     private void copyDataBase() throws IOException {
 
-        //mo db trong thu muc assets nhu mot input stream
         InputStream myInput = myContext.getAssets().open(DB_NAME);
 
-        //duong dan den db se tao
+
         String outFileName = DB_PATH + DB_NAME;
 
-        //mo db giong nhu mot output stream
+
         OutputStream myOutput = new FileOutputStream(outFileName);
 
-        //truyen du lieu tu inputfile sang outputfile
+
         byte[] buffer = new byte[1024];
         int length;
         while ((length = myInput.read(buffer)) > 0) {
@@ -103,8 +102,7 @@ public class DPHelper extends SQLiteOpenHelper {
         boolean dbExist = checkDataBase(); //kiem tra db
 
         if (dbExist) {
-            //khong lam gi ca, database da co roi
-//            copyDataBase();
+
         } else {
             this.getReadableDatabase();
             try {

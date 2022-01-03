@@ -10,6 +10,9 @@
         android:label="@string/app_name"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
+            android:name=".activity.HistoryActivity"
+            android:exported="false" />
+        <activity
             android:name=".activity.SignUpActivity"
             android:exported="false" />
         <activity
@@ -30,7 +33,6 @@
         <activity android:name=".activity.PresentActivity" />
         <activity android:name=".WebViewActivity" />
         <activity android:name=".ViewPage.ScreenSlideActivity" />
-
         <activity android:name=".activity.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -38,8 +40,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
     </application>
 
 </manifest>

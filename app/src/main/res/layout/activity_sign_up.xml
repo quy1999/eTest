@@ -69,7 +69,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tvFuture" />
             <EditText
-                android:id="@+id/etEmail"
+                android:id="@+id/suEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="62dp"
@@ -87,7 +87,7 @@
 
 
             <EditText
-                android:id="@+id/etPassword"
+                android:id="@+id/suPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="62dp"
@@ -99,12 +99,12 @@
                 android:paddingStart="16dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/etEmail"
+                app:layout_constraintTop_toBottomOf="@id/suEmail"
                 tools:ignore="RtlSymmetry" />
 
 
             <TextView
-                android:id="@+id/tvSignUp"
+                android:id="@+id/tvSignUpA"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginStart="62dp"
@@ -117,7 +117,7 @@
                 android:textColor="@color/white"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/etPassword" />
+                app:layout_constraintTop_toBottomOf="@id/suPassword" />
 
             <TextView
                 android:id="@+id/tvForgotPassword"
