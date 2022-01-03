@@ -18,6 +18,7 @@ import com.example.etest.R;
 import com.example.etest.activity.ExamActivity;
 import com.example.etest.activity.GrammarActivity;
 import com.example.etest.activity.LoginActivity;
+import com.example.etest.activity.SettingActivity;
 
 public class MainActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
@@ -78,6 +79,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void onclickPlaybt(View view) {
         Intent intent = new Intent(MainActivity.this, ExamActivity.class);
+        startActivity(intent);
+
+    }
+    public void onclickPlaysetting(View view) {
+        Intent intent = new Intent(MainActivity.this, SettingActivity.class);
         startActivity(intent);
 
     }

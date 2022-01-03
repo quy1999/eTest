@@ -9,6 +9,9 @@ import androidx.fragment.app.Fragment;
 
 import com.example.etest.NavigationActivity;
 import com.example.etest.R;
+import com.example.etest.model.Examtwwo;
+
+import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -20,6 +23,10 @@ public class ExamTwo extends Fragment {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
+
+    ArrayList<Examtwwo> arr = new ArrayList<Examtwwo>();
+
+
 
     // TODO: Rename and change types of parameters
     private String mParam1;
@@ -62,5 +69,8 @@ public class ExamTwo extends Fragment {
         // Inflate the layout for this fragment
         ((NavigationActivity) getActivity()).getSupportActionBar().setTitle("Đề 2");
         return inflater.inflate(R.layout.fragment_exam_two, container, false);
+
+
+
     }
 }

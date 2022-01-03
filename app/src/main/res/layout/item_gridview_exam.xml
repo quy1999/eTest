@@ -9,7 +9,7 @@
         android:id="@+id/imageView"
         android:layout_width="50dp"
         android:layout_height="57dp"
-        android:src="@drawable/hinhanh" />
+        android:src="@drawable/logo" />
 
     <TextView
         android:id="@+id/dethi"
