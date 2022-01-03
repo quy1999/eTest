@@ -11,17 +11,15 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.etest.WebViewActivity;
-import com.example.etest.activity.PresentActivity;
-import com.example.etest.model.NameGrammar;
 import com.example.etest.R;
-import com.example.etest.model.Present;
+import com.example.etest.WebViewActivity;
+import com.example.etest.model.NameGrammar;
 
 import java.util.List;
 
 public class AdapterGrammar extends RecyclerView.Adapter<AdapterGrammar.NameViewHolder> {
 
-    private List<NameGrammar> nameGrammarList; //thêm lish danh sách cách name
+    private List<NameGrammar> nameGrammarList;
     private Context mcontext;
 
 
@@ -40,7 +38,7 @@ public class AdapterGrammar extends RecyclerView.Adapter<AdapterGrammar.NameView
     }
 
     @Override
-    public void onBindViewHolder(@NonNull NameViewHolder holder, int position) { // đây là hàm bìn dữ liệu lên list
+    public void onBindViewHolder(@NonNull NameViewHolder holder, int position) {
         final NameGrammar nameGrammar = nameGrammarList.get(position);
         if (nameGrammar != null) {
             holder.tvName.setText(nameGrammar.getNameGrammar());

@@ -1,19 +1,14 @@
 package com.example.etest;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.webkit.WebView;
 import android.widget.Toast;
 
-import com.example.etest.activity.GrammarActivity;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.etest.activity.PresentActivity;
 import com.example.etest.activity.TypeWorksActivity;
-import com.example.etest.main.MainActivity;
-import com.example.etest.model.Present;
 
 public class WebViewActivity extends AppCompatActivity {
     private WebView webView;
@@ -43,7 +38,7 @@ public class WebViewActivity extends AppCompatActivity {
             case "Các loại từ":
                 Intent intent2 = new Intent(WebViewActivity.this, TypeWorksActivity.class);
                 startActivity(intent2);
-               break;
+                break;
             case "So sánh câu trong Tiếng Anh":
                 webView.loadUrl("file:///android_asset/detail/26.html");
                 break;
@@ -126,7 +121,10 @@ public class WebViewActivity extends AppCompatActivity {
                 webView.loadUrl("file:///android_asset/detail/2000.html");
                 break;
 
+
+
         }
+
 
     }
 }
