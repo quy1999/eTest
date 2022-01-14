@@ -95,16 +95,22 @@ public class LoginActivity extends AppCompatActivity {
     private void onClickForGotPassword() {
         auth = FirebaseAuth.getInstance();
         String emailAddress = etemail.getText().toString();
+        String email;
+        email=etemail.getText().toString();
 
+        if ( TextUtils.isEmpty(email)) {
+            Toast.makeText(this, "Vui lòng nhập email để đổi mật khẩu", Toast.LENGTH_LONG).show();
+            return;
+        }
         auth.sendPasswordResetEmail(emailAddress)
                 .addOnCompleteListener(new OnCompleteListener<Void>() {
                     @Override
                     public void onComplete(@NonNull Task<Void> task) {
                         if (task.isSuccessful()) {
-                            Toast.makeText(getApplicationContext(), "Email sent", Toast.LENGTH_LONG).show();
+                            Toast.makeText(getApplicationContext(), "Vui lòng truy cập email để xác minh đổi mật khẩu", Toast.LENGTH_LONG).show();
 
                         } else {
-                            Toast.makeText(getApplicationContext(), "Forgot Password fail", Toast.LENGTH_LONG).show();
+                            Toast.makeText(getApplicationContext(), "Đổi mật khẩu lỗi", Toast.LENGTH_LONG).show();
                         }
                     }
                 });
@@ -118,15 +124,23 @@ public class LoginActivity extends AppCompatActivity {
         email = etemail.getText().toString();
         pass = etpassword.getText().toString();
 
+
+        if (TextUtils.isEmpty(pass) && TextUtils.isEmpty(email)) {
+            Toast.makeText(this, "Vui lòng nhập email hoặc mật khẩu", Toast.LENGTH_LONG).show();
+            return;
+        }
+
         if (TextUtils.isEmpty(email)) {
             Toast.makeText(this, "Vui lòng nhập email", Toast.LENGTH_LONG).show();
             return;
         }
 
-        if (TextUtils.isEmpty(email)) {
+        if (TextUtils.isEmpty(pass)) {
             Toast.makeText(this, "Vui lòng nhập mật khẩu", Toast.LENGTH_LONG).show();
             return;
         }
+
+
 
         auth.signInWithEmailAndPassword(email, pass).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override

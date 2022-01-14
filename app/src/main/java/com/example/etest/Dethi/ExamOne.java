@@ -54,6 +54,11 @@ public class ExamOne extends Fragment {
         arrExam.add(new Exam("Đề số 8"));
         arrExam.add(new Exam("Đề số 9"));
         arrExam.add(new Exam("Đề số 10"));
+        arrExam.add(new Exam("Đề số 11"));
+        arrExam.add(new Exam("Đề số 12"));
+        arrExam.add(new Exam("Đề số 13"));
+        arrExam.add(new Exam("Đề số 14"));
+        arrExam.add(new Exam("Đề số 15"));
 
 
         examAdapter = new ExamAdapter(getActivity(), arrExam);

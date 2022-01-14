@@ -5,6 +5,7 @@ import android.os.CountDownTimer;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
@@ -27,7 +28,8 @@ public class ScreenSlidePageFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
+    private static final String ARG_CHECK = "check";
+    public int check; //kiểm tra đáp án
 
     // TODO: Rename and change types of parameters
     private String mParam1;
@@ -39,6 +41,7 @@ public class ScreenSlidePageFragment extends Fragment {
     ArrayList<Question> arr_Que;
     View view;
     TextView edtTime;
+    ImageView imgclock;
     CountDownTimer Timer;
 
 
@@ -52,11 +55,11 @@ public class ScreenSlidePageFragment extends Fragment {
      * @return A new instance of fragment ScreenSlidePageFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static ScreenSlidePageFragment newInstance(String param1, String param2) {
+    public static ScreenSlidePageFragment newInstance(String param1, String param2, int check) {
         ScreenSlidePageFragment fragment = new ScreenSlidePageFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
+        args.putInt(ARG_CHECK,check);
         fragment.setArguments(args);
         return fragment;
     }
@@ -66,13 +69,14 @@ public class ScreenSlidePageFragment extends Fragment {
         super.onCreate(savedInstanceState);
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
+
         }
 
         arr_Que = new ArrayList<Question>();
         ScreenSlideActivity screenSlideActivity = (ScreenSlideActivity) getActivity();
         arr_Que = screenSlideActivity.getData();
-        PageNumber = getArguments().getInt(Key);    //lấy về
+        PageNumber = getArguments().getInt(Key);
+        check=getArguments().getInt(ARG_CHECK);       //lấy dữ liệu trong Fragment
 
 
     }
@@ -84,10 +88,10 @@ public class ScreenSlidePageFragment extends Fragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, //creat and return view
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = (ViewGroup) inflater.inflate(R.layout.fragment_screen_slide_page, container, false); //
+        final View view = (ViewGroup) inflater.inflate(R.layout.fragment_screen_slide_page, container, false); //
         tvNum = (TextView) view.findViewById(R.id.tvNum);
         tvQuestion = (TextView) view.findViewById(R.id.tvQuestion);
         radA = (RadioButton) view.findViewById(R.id.radA);
@@ -95,14 +99,20 @@ public class ScreenSlidePageFragment extends Fragment {
         radC = (RadioButton) view.findViewById(R.id.radC);
         radD = (RadioButton) view.findViewById(R.id.radD);
         radGroup = (RadioGroup) view.findViewById(R.id.radGroup);
+        imgclock = (ImageView) view.findViewById(R.id.imgclock);
 
 
-        tvNum.setText("Câu" + (PageNumber + 1));
-        tvQuestion.setText(arr_Que.get(PageNumber).getQuestion());
-        radA.setText(arr_Que.get(PageNumber).getAns_a());
-        radB.setText(arr_Que.get(PageNumber).getAns_b());
-        radC.setText(arr_Que.get(PageNumber).getAns_c());
-        radD.setText(arr_Que.get(PageNumber).getAns_d());
+        tvNum.setText("Câu" + " " + (PageNumber + 1));
+
+        if (PageNumber < 30) {
+
+
+            tvQuestion.setText(arr_Que.get(PageNumber).getQuestion());
+            radA.setText(arr_Que.get(PageNumber).getAns_a());
+            radB.setText(arr_Que.get(PageNumber).getAns_b());
+            radC.setText(arr_Que.get(PageNumber).getAns_c());
+            radD.setText(arr_Que.get(PageNumber).getAns_d());
+        }
 
 
         return view;
@@ -116,7 +126,7 @@ public class ScreenSlidePageFragment extends Fragment {
 
     }
 
-    public static ScreenSlidePageFragment create(int pageNumber) {
+    public static ScreenSlidePageFragment create(int pageNumber,int check) {
         ScreenSlidePageFragment screenSlidePageFragment = new ScreenSlidePageFragment();
         Bundle bundle = new Bundle(); //gói dữ liệu gửi đi
         bundle.putInt(Key, pageNumber);

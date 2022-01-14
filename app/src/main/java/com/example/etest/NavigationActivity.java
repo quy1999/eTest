@@ -16,7 +16,9 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
+import com.example.etest.Dethi.ExamFour;
 import com.example.etest.Dethi.ExamOne;
+import com.example.etest.Dethi.ExamThree;
 import com.example.etest.Dethi.ExamTwo;
 import com.example.etest.Dethi.HomeFragment;
 import com.example.etest.question.DPHelper;
@@ -66,14 +68,25 @@ public class NavigationActivity extends AppCompatActivity {
                     FragmentManager manager=getSupportFragmentManager();
                     manager.beginTransaction().replace(R.id.nav_host_fragment,examOne,examOne.getTag()).commit();
                 } else if (id == R.id.De1) {
-                    ExamOne examOne=new ExamOne();
+                    ExamOne examone=new ExamOne();
                     FragmentManager manager=getSupportFragmentManager();
-                    manager.beginTransaction().replace(R.id.nav_host_fragment,examOne,examOne.getTag()).commit();
+                    manager.beginTransaction().replace(R.id.nav_host_fragment,examone,examone.getTag()).commit();
 
                 } else if (id == R.id.De2) {
-                    ExamTwo examOne=new ExamTwo();
+                    ExamTwo examtwo=new ExamTwo();
                     FragmentManager manager=getSupportFragmentManager();
-                    manager.beginTransaction().replace(R.id.nav_host_fragment,examOne,examOne.getTag()).commit();
+                    manager.beginTransaction().replace(R.id.nav_host_fragment,examtwo,examtwo.getTag()).commit();
+
+                } else if (id == R.id.De3){
+                    ExamThree examthree= new ExamThree();
+                    FragmentManager manager=getSupportFragmentManager();
+                    manager.beginTransaction().replace(R.id.nav_host_fragment,examthree,examthree.getTag()).commit();
+
+                } else if (id == R.id.De4){
+                    ExamFour examfour= new ExamFour();
+                    FragmentManager manager=getSupportFragmentManager();
+                    manager.beginTransaction().replace(R.id.nav_host_fragment,examfour,examfour.getTag()).commit();
+
 
                 }
                 drawer.closeDrawer(GravityCompat.START);

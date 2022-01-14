@@ -36,14 +36,15 @@ public class ScreenSlideActivity extends AppCompatActivity {
     /**
      * The number of pages (wizard steps) to show in this demo.
      */
-    private static final int NUM_PAGES = 40;
+    private static final int NUM_PAGES = 30;
 
     /**
      * The pager widget, which handles animation and allows swiping horizontally to access previous
      * and next wizard steps.
      */
     private ViewPager mPager;
-    Button cautiep;
+    Button btnnext;
+    Button btnprevious, btnsubmit;
     /**
      * The pager adapter, which provides the pages to the view pager widget.
      */
@@ -54,7 +55,9 @@ public class ScreenSlideActivity extends AppCompatActivity {
     ArrayList<Question> arr_ques;
     Counter counter;
     String de;
+    public int check = 0;
     int num;
+    Button btnclose;
 
 
     @Override
@@ -64,9 +67,13 @@ public class ScreenSlideActivity extends AppCompatActivity {
 
         // Instantiate a ViewPager and a PagerAdapter.
         mPager = (ViewPager) findViewById(R.id.pager);
-        cautiep = findViewById(R.id.cautiep);
+        btnnext = findViewById(R.id.btnnext);
+        btnprevious = findViewById(R.id.btnprevious);
         time = findViewById(R.id.time);
-        counter = new Counter(10 * 80 * 1000, 1000);
+        btnclose = findViewById(R.id.btnclose);
+        btnsubmit = findViewById(R.id.btnsubmit);
+        imgkiemtra = findViewById(R.id.imgkiemtra);
+        counter = new Counter(10 * 240 * 1000, 1000);
         pagerAdapter = new ScreenSlidePagerAdapter(getSupportFragmentManager());
         mPager.setAdapter(pagerAdapter);
         mPager.setPageTransformer(true, new ZoomOutPageTransformer());
@@ -82,6 +89,14 @@ public class ScreenSlideActivity extends AppCompatActivity {
             Log.d("Quy123", "english");
         }
 
+
+        btnsubmit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
         imgkiemtra.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -91,7 +106,25 @@ public class ScreenSlideActivity extends AppCompatActivity {
             }
         });
         counter.start();
+
+        btnnext.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mPager.setCurrentItem(getItem(+1), true);
+
+
+            }
+        });
+        btnprevious.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mPager.setCurrentItem(getItem(-1), true);
+
+
+            }
+        });
     }
+
 
     public ArrayList<Question> getData() {
         return arr_ques;
@@ -121,7 +154,7 @@ public class ScreenSlideActivity extends AppCompatActivity {
 
         @Override
         public Fragment getItem(int position) {
-            return ScreenSlidePageFragment.create(position);
+            return ScreenSlidePageFragment.create(position, check);
         }
 
         @Override
@@ -170,30 +203,11 @@ public class ScreenSlideActivity extends AppCompatActivity {
     }
 
     public void checkAnswer() {
-        final Dialog dialog=new Dialog(getApplicationContext());
+        final Dialog dialog = new Dialog(getApplicationContext());
         dialog.setContentView(R.layout.checkanswer);
-        CheckAnserAdapter checkAnserAdapter=new CheckAnserAdapter(arr_ques,this);
-        GridView gridView=(GridView)(dialog.findViewById(R.id.gridview));
+        CheckAnserAdapter checkAnserAdapter = new CheckAnserAdapter(arr_ques, this);
+        GridView gridView = (GridView) (dialog.findViewById(R.id.gridview));
         gridView.setAdapter(checkAnserAdapter);
-
-        gridView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                dialog.dismiss();
-            }
-        });
-
-        Button button;
-        button=findViewById(R.id.button);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-
-
-
-            }
-        });
 
         dialog.show();
     }
@@ -216,6 +230,12 @@ public class ScreenSlideActivity extends AppCompatActivity {
             time.setText("00:00");
         }
     }
+
+    private int getItem(int i) {
+        return mPager.getCurrentItem() + i;
+    }
+
+
 }
 
 

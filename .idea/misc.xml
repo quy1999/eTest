@@ -13,17 +13,17 @@
         <entry key="..\:/eTest/app/src/main/res/drawable/ic_menu_camera.xml" value="0.20416666666666666" />
         <entry key="..\:/eTest/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.20416666666666666" />
         <entry key="..\:/eTest/app/src/main/res/layout/activity_basic_title.xml" value="0.18802083333333333" />
-        <entry key="..\:/eTest/app/src/main/res/layout/activity_exam.xml" value="0.1" />
+        <entry key="..\:/eTest/app/src/main/res/layout/activity_exam.xml" value="0.25" />
         <entry key="..\:/eTest/app/src/main/res/layout/activity_exam_rycle.xml" value="0.1" />
         <entry key="..\:/eTest/app/src/main/res/layout/activity_exambasic.xml" value="0.1" />
         <entry key="..\:/eTest/app/src/main/res/layout/activity_grammar.xml" value="0.25" />
         <entry key="..\:/eTest/app/src/main/res/layout/activity_history.xml" value="0.18802083333333333" />
         <entry key="..\:/eTest/app/src/main/res/layout/activity_login.xml" value="0.23475046210720887" />
         <entry key="..\:/eTest/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/eTest/app/src/main/res/layout/activity_navigation2.xml" value="0.12" />
+        <entry key="..\:/eTest/app/src/main/res/layout/activity_navigation2.xml" value="0.15" />
         <entry key="..\:/eTest/app/src/main/res/layout/activity_present.xml" value="0.1" />
         <entry key="..\:/eTest/app/src/main/res/layout/activity_setting.xml" value="0.25" />
-        <entry key="..\:/eTest/app/src/main/res/layout/activity_sign_up.xml" value="0.17395833333333333" />
+        <entry key="..\:/eTest/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
         <entry key="..\:/eTest/app/src/main/res/layout/activity_web_view_prisent.xml" value="0.11413043478260869" />
         <entry key="..\:/eTest/app/src/main/res/layout/activity_web_view_types_name.xml" value="0.11865942028985507" />
         <entry key="..\:/eTest/app/src/main/res/layout/app_bar_main.xml" value="0.11865942028985507" />
@@ -31,11 +31,16 @@
         <entry key="..\:/eTest/app/src/main/res/layout/checkanswer.xml" value="0.18802083333333333" />
         <entry key="..\:/eTest/app/src/main/res/layout/content_navigation.xml" value="0.11865942028985507" />
         <entry key="..\:/eTest/app/src/main/res/layout/examrycle.xml" value="0.12907608695652173" />
+        <entry key="..\:/eTest/app/src/main/res/layout/fragment_blank.xml" value="0.18802083333333333" />
+        <entry key="..\:/eTest/app/src/main/res/layout/fragment_exam_four.xml" value="0.18802083333333333" />
         <entry key="..\:/eTest/app/src/main/res/layout/fragment_exam_one.xml" value="0.1" />
+        <entry key="..\:/eTest/app/src/main/res/layout/fragment_exam_three.xml" value="0.18802083333333333" />
+        <entry key="..\:/eTest/app/src/main/res/layout/fragment_exam_two.xml" value="0.12409420289855072" />
+        <entry key="..\:/eTest/app/src/main/res/layout/fragment_gallery.xml" value="0.12409420289855072" />
         <entry key="..\:/eTest/app/src/main/res/layout/fragment_home.xml" value="0.1" />
         <entry key="..\:/eTest/app/src/main/res/layout/fragment_home2.xml" value="0.1" />
         <entry key="..\:/eTest/app/src/main/res/layout/fragment_home3.xml" value="0.1" />
-        <entry key="..\:/eTest/app/src/main/res/layout/fragment_screen_slide_activity.xml" value="0.17" />
+        <entry key="..\:/eTest/app/src/main/res/layout/fragment_screen_slide_activity.xml" value="0.22" />
         <entry key="..\:/eTest/app/src/main/res/layout/fragment_screen_slide_page.xml" value="0.33" />
         <entry key="..\:/eTest/app/src/main/res/layout/fragment_slideshow.xml" value="0.1" />
         <entry key="..\:/eTest/app/src/main/res/layout/grid_answer.xml" value="0.18802083333333333" />

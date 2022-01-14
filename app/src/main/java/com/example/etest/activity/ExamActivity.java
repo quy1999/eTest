@@ -1,13 +1,13 @@
 package com.example.etest.activity;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.etest.NavigationActivity;
 import com.example.etest.R;
-import com.example.etest.main.MainActivity;
 
 public class ExamActivity extends AppCompatActivity {
 
@@ -19,7 +19,7 @@ public class ExamActivity extends AppCompatActivity {
     }
 
     public void onclickPlayExam(View view) {
-        Intent intent = new Intent(ExamActivity.this, ExamRycleActivity.class);
+        Intent intent = new Intent(ExamActivity.this, NavigationActivity.class);
         startActivity(intent);
 
     }

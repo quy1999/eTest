@@ -49,19 +49,27 @@ public class SignUpActivity extends AppCompatActivity {
         semail = atemail.getText().toString();
         spass = atpassword.getText().toString();
 
-        if (TextUtils.isEmpty(semail)) {
+
+        if (TextUtils.isEmpty(semail) && TextUtils.isEmpty(spass)) {
+            Toast.makeText(this, "Vui lòng nhập email hoặc mật khẩu", Toast.LENGTH_LONG).show();
+            return;
+        }
+
+        if (TextUtils.isEmpty(semail) ) {
             Toast.makeText(this, "Vui lòng nhập email", Toast.LENGTH_LONG).show();
         }
 
-        if (TextUtils.isEmpty(semail)) {
+        if (TextUtils.isEmpty(spass)) {
             Toast.makeText(this, "Vui lòng nhập mật khẩu", Toast.LENGTH_LONG).show();
         }
+
+
         if(semail  != "") {
             auth.createUserWithEmailAndPassword(semail, spass).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                 @Override
                 public void onComplete(@NonNull Task<AuthResult> task) {
                     if (task.isSuccessful()) {
-                        Toast.makeText(getApplicationContext(), "Tạo tài khoản thành công", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "Bạn đã tạo tài khoản thành công", Toast.LENGTH_LONG).show();
                         Intent intent = new Intent(SignUpActivity.this, MainActivity.class);
                         startActivity(intent);
                     } else {
@@ -72,6 +80,12 @@ public class SignUpActivity extends AppCompatActivity {
         }else {
             Toast.makeText(getApplicationContext(), "Nhập thông tin đăng nhập", Toast.LENGTH_LONG).show();
         }
+    }
+
+    public void onclickLogin(View view){
+        Intent intent=new Intent(SignUpActivity.this,LoginActivity.class);
+        startActivity(intent);
+
     }
 
 

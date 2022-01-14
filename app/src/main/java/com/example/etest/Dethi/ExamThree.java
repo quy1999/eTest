@@ -20,14 +20,19 @@ import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link ExamTwo#newInstance} factory method to
+ * Use the {@link ExamThree#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class ExamTwo extends Fragment {
+public class ExamThree extends Fragment {
+
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
+
+    // TODO: Rename and change types of parameters
+    private String mParam1;
+    private String mParam2;
 
     Button btnClick;
     ExamAdapter examAdapter;
@@ -35,12 +40,7 @@ public class ExamTwo extends Fragment {
     ArrayList<Exam> arrExam = new ArrayList<Exam>();
     View view;
 
-
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
-
-    public ExamTwo() {
+    public ExamThree() {
         // Required empty public constructor
     }
 
@@ -50,11 +50,11 @@ public class ExamTwo extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment ExamTwo.
+     * @return A new instance of fragment ExamThree.
      */
     // TODO: Rename and change types and number of parameters
-    public static ExamTwo newInstance(String param1, String param2) {
-        ExamTwo fragment = new ExamTwo();
+    public static ExamThree newInstance(String param1, String param2) {
+        ExamThree fragment = new ExamThree();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -69,18 +69,15 @@ public class ExamTwo extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
-
-
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        ((NavigationActivity) getActivity()).getSupportActionBar().setTitle("Bộ đề thi A2");
-        view = inflater.inflate(R.layout.fragment_exam_two, container, false);
-
-        gridViewExam = view.findViewById(R.id.GridViewTwo);
+        view = inflater.inflate(R.layout.fragment_exam_three, container, false);
+        ((NavigationActivity) getActivity()).getSupportActionBar().setTitle("Bộ đề nâng cao");
+        gridViewExam = view.findViewById(R.id.GridViewThree);
 
         arrExam.add(new Exam("Đề số 1"));
         arrExam.add(new Exam("Đề số 2"));
@@ -101,6 +98,7 @@ public class ExamTwo extends Fragment {
         examAdapter = new ExamAdapter(getActivity(), arrExam);
         gridViewExam.setAdapter(examAdapter);
 
+
         gridViewExam.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long i) {
@@ -114,8 +112,5 @@ public class ExamTwo extends Fragment {
 
 
         return view;
-
-
-
     }
 }
