@@ -2,6 +2,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/main_background"
     android:orientation="vertical">
 
 
@@ -99,6 +100,7 @@
             android:layout_height="wrap_content"
             android:background="#25CADF"
             android:text="Câu tiếp"
+            android:padding="5dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -107,6 +109,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="#25CADF"
+            android:padding="5dp"
             android:text="Câu trước "
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -121,11 +124,23 @@
         android:background="#3B1D70">
 
         <Button
+            android:id="@+id/btnexit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#25CADF"
+            android:padding="5dp"
+            android:text="Thoát "
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <Button
             android:id="@+id/btnsubmit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="#25CADF"
             android:text="Nộp bài"
+            android:padding="5dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 

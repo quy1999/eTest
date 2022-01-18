@@ -5,7 +5,6 @@ import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.CountDownTimer;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.GridView;
@@ -20,6 +19,7 @@ import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
 import com.example.etest.R;
+import com.example.etest.activity.ResultActivity;
 import com.example.etest.adapter.CheckAnserAdapter;
 import com.example.etest.question.Question;
 import com.example.etest.question.QuestionControl;
@@ -54,10 +54,10 @@ public class ScreenSlideActivity extends AppCompatActivity {
     QuestionControl questionControl;
     ArrayList<Question> arr_ques;
     Counter counter;
-    String de;
     public int check = 0;
-    int num;
+    int num_exam;
     Button btnclose;
+    String subject;
 
 
     @Override
@@ -79,20 +79,26 @@ public class ScreenSlideActivity extends AppCompatActivity {
         mPager.setPageTransformer(true, new ZoomOutPageTransformer());
 
         Intent intent = getIntent();
-        de = intent.getStringExtra("num");
-        num = intent.getIntExtra("sub", 0);
+        subject=intent.getStringExtra("subject");
+        num_exam = intent.getIntExtra("num_exam",0);
+
 
         questionControl = new QuestionControl(this); //màn hình hiện tại
         arr_ques = new ArrayList<Question>();
-        arr_ques = questionControl.getQuestion(1, "english");
-        for (int i = 0; i < arr_ques.size(); i++) {
-            Log.d("Quy123", "english");
-        }
+        arr_ques = questionControl.getQuestion(num_exam,subject);
+
+
+
+
 
 
         btnsubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                finish();
+                Intent intent = new Intent(ScreenSlideActivity.this, ResultActivity.class);
+                intent.putExtra("arr_ques",arr_ques);
+                startActivity(intent);
 
             }
         });
@@ -124,6 +130,7 @@ public class ScreenSlideActivity extends AppCompatActivity {
             }
         });
     }
+
 
 
     public ArrayList<Question> getData() {

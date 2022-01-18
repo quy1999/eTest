@@ -1,5 +1,6 @@
 package com.example.etest.ViewPage;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.view.LayoutInflater;
@@ -38,7 +39,7 @@ public class ScreenSlidePageFragment extends Fragment {
     TextView tvNum, tvQuestion;
     RadioButton radA, radB, radC, radD;
     RadioGroup radGroup;
-    ArrayList<Question> arr_Que;
+    ArrayList<Question> arr_ques;
     View view;
     TextView edtTime;
     ImageView imgclock;
@@ -46,6 +47,7 @@ public class ScreenSlidePageFragment extends Fragment {
 
 
     public static String Key = "english";
+
 
     public ScreenSlidePageFragment() {
         // Required empty public constructor
@@ -55,13 +57,15 @@ public class ScreenSlidePageFragment extends Fragment {
      * @return A new instance of fragment ScreenSlidePageFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static ScreenSlidePageFragment newInstance(String param1, String param2, int check) {
+    public static ScreenSlidePageFragment newInstance(String param1, String param2, int check, ArrayList<Question> arr_Que) {
         ScreenSlidePageFragment fragment = new ScreenSlidePageFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
-        args.putInt(ARG_CHECK,check);
+        args.putInt(ARG_CHECK, check);
         fragment.setArguments(args);
         return fragment;
+
+
     }
 
     @Override
@@ -72,11 +76,12 @@ public class ScreenSlidePageFragment extends Fragment {
 
         }
 
-        arr_Que = new ArrayList<Question>();
+        arr_ques = new ArrayList<Question>();
         ScreenSlideActivity screenSlideActivity = (ScreenSlideActivity) getActivity();
-        arr_Que = screenSlideActivity.getData();
+        arr_ques = screenSlideActivity.getData();
         PageNumber = getArguments().getInt(Key);
-        check=getArguments().getInt(ARG_CHECK);       //lấy dữ liệu trong Fragment
+        check = getArguments().getInt(ARG_CHECK);
+        //lấy dữ liệu trong Fragment
 
 
     }
@@ -86,6 +91,7 @@ public class ScreenSlidePageFragment extends Fragment {
         super.onStart();
 
     }
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, //creat and return view
@@ -101,23 +107,34 @@ public class ScreenSlidePageFragment extends Fragment {
         radGroup = (RadioGroup) view.findViewById(R.id.radGroup);
         imgclock = (ImageView) view.findViewById(R.id.imgclock);
 
+        radGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup group, int checkedId) {
+                arr_ques.get(PageNumber).position = checkedId;
+
+
+            }
+        });
+
 
         tvNum.setText("Câu" + " " + (PageNumber + 1));
 
-        if (PageNumber < 30) {
+        if (PageNumber < 30 && arr_ques.size() > 0) {
 
 
-            tvQuestion.setText(arr_Que.get(PageNumber).getQuestion());
-            radA.setText(arr_Que.get(PageNumber).getAns_a());
-            radB.setText(arr_Que.get(PageNumber).getAns_b());
-            radC.setText(arr_Que.get(PageNumber).getAns_c());
-            radD.setText(arr_Que.get(PageNumber).getAns_d());
+            tvQuestion.setText(arr_ques.get(PageNumber).getQuestion());
+            radA.setText(arr_ques.get(PageNumber).getAns_a());
+            radB.setText(arr_ques.get(PageNumber).getAns_b());
+            radC.setText(arr_ques.get(PageNumber).getAns_c());
+            radD.setText(arr_ques.get(PageNumber).getAns_d());
         }
 
 
         return view;
 
+
     }
+
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
@@ -126,16 +143,46 @@ public class ScreenSlidePageFragment extends Fragment {
 
     }
 
-    public static ScreenSlidePageFragment create(int pageNumber,int check) {
+    public static ScreenSlidePageFragment create(int pageNumber, int check) {
         ScreenSlidePageFragment screenSlidePageFragment = new ScreenSlidePageFragment();
-        Bundle bundle = new Bundle(); //gói dữ liệu gửi đi
-        bundle.putInt(Key, pageNumber);
-        screenSlidePageFragment.setArguments(bundle);
+        Bundle bundlesend = new Bundle(); //gửi dữ liệu đi
+        bundlesend.putInt(Key, pageNumber);
+        ;
+        screenSlidePageFragment.setArguments(bundlesend);
         return screenSlidePageFragment;
+
 
     }
 
+    private String getRadian(int id) {
+        if (id == R.id.radA) {
+            return "A";
+        } else if (id == R.id.radB) {
+            return "B";
+        } else if (id == R.id.radC) {
+            return "C";
+        } else if (id == R.id.radD) {
+            return "D";
+        } else return "";
 
+
+    }
+
+    private String getcheck(int id) {
+        if (arr_ques.equals("A") == true) {
+            radA.setBackgroundColor(Color.GREEN);
+        } else if (arr_ques.equals("B") == true) {
+            radB.setBackgroundColor(Color.GREEN);
+        } else if (arr_ques.equals("C") == true) {
+            radC.setBackgroundColor(Color.GREEN);
+            ;
+        } else if (arr_ques.equals("D") == true) {
+            radD.setBackgroundColor(Color.GREEN);
+        }
+        return " ";
+
+
+    }
 
 
 }

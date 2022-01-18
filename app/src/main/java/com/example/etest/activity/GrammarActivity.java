@@ -18,7 +18,7 @@ public class GrammarActivity extends AppCompatActivity {
     private RecyclerView rcvView;
     private AdapterGrammar adapterGrammar;
 
-
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_grammar);

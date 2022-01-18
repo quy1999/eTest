@@ -16,7 +16,7 @@
                 <item
                     android:id="@+id/De1"
                     android:icon="@drawable/ic_event_note_black_24dp"
-                    android:title="Bộ đề cơ bản" />
+                    android:title="Trắc nghiệm Mạo từ trong Tiếng Anh" />
 
                 <item
                     android:id="@+id/De2"

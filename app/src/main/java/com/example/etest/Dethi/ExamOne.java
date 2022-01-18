@@ -40,7 +40,7 @@ public class ExamOne extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         view = inflater.inflate(R.layout.fragment_exam_one, container, false);
-        ((NavigationActivity) getActivity()).getSupportActionBar().setTitle("Bộ đề cơ bản");
+        ((NavigationActivity) getActivity()).getSupportActionBar().setTitle("Trắc nghiệm Mạo từ");
 
         gridViewExam = view.findViewById(R.id.GridViewExam);
 
@@ -49,16 +49,7 @@ public class ExamOne extends Fragment {
         arrExam.add(new Exam("Đề số 3"));
         arrExam.add(new Exam("Đề số 4"));
         arrExam.add(new Exam("Đề số 5"));
-        arrExam.add(new Exam("Đề số 6"));
-        arrExam.add(new Exam("Đề số 7"));
-        arrExam.add(new Exam("Đề số 8"));
-        arrExam.add(new Exam("Đề số 9"));
-        arrExam.add(new Exam("Đề số 10"));
-        arrExam.add(new Exam("Đề số 11"));
-        arrExam.add(new Exam("Đề số 12"));
-        arrExam.add(new Exam("Đề số 13"));
-        arrExam.add(new Exam("Đề số 14"));
-        arrExam.add(new Exam("Đề số 15"));
+
 
 
         examAdapter = new ExamAdapter(getActivity(), arrExam);
@@ -66,10 +57,10 @@ public class ExamOne extends Fragment {
 
         gridViewExam.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long i) {
+            public void onItemClick(AdapterView<?> parent, View view, int i, long l) {
                 Intent intent = new Intent(getActivity(), ScreenSlideActivity.class);
-                intent.putExtra("num",i+1);
-                intent.putExtra("sub","de thi A2");
+                intent.putExtra("num_exam",i+1);
+                intent.putExtra("subject","english");
 
                 startActivity(intent);
             }

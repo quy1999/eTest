@@ -1,6 +1,10 @@
 package com.example.etest.question;
 
-public class Question {
+import android.os.Parcel;
+
+import java.io.Serializable;
+
+public class Question implements Serializable {
 
     private int id;
     private String question;
@@ -9,16 +13,48 @@ public class Question {
     private String ans_c;
     private String ans_d;
     private String result;
-    private String num_exam;
+    private int num_exam;
     private String subjest;
     private String image;
     private  String answer=" ";
+    public int position=-1;
+
+
+    protected Question(Parcel in) {
+        id = in.readInt();
+        question = in.readString();
+        ans_a = in.readString();
+        ans_b = in.readString();
+        ans_c = in.readString();
+        ans_d = in.readString();
+        result = in.readString();
+        num_exam = in.readInt();
+        subjest = in.readString();
+        image = in.readString();
+        answer = in.readString();
+        position = in.readInt();
+    }
+
+
+    public String getAnswer() {
+        return answer;
+    }
+
+    public void setAnswer(String answer) {
+        this.answer = answer;
+    }
+
+    public Question(String answer) {
+        this.answer = answer;
+    }
+
+    ;
 
     public Question(){
 
     }
 
-    public Question(int id, String question, String ans_a, String ans_b, String ans_c, String ans_d, String result, String num_exam, String subjest, String image) {
+    public Question(int id, String question, String ans_a, String ans_b, String ans_c, String ans_d, String result, int num_exam, String subjest, String image) {
         this.id = id;
         this.question = question;
         this.ans_a = ans_a;
@@ -88,11 +124,11 @@ public class Question {
         this.result = result;
     }
 
-    public String getNum_exam() {
+    public int getNum_exam() {
         return num_exam;
     }
 
-    public void setNum_exam(String num_exam) {
+    public void setNum_exam(int num_exam) {
         this.num_exam = num_exam;
     }
 
@@ -111,4 +147,7 @@ public class Question {
     public void setImage(String image) {
         this.image = image;
     }
+
+
+
 }
