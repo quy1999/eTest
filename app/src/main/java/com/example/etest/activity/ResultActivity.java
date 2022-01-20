@@ -1,7 +1,10 @@
 package com.example.etest.activity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,11 +17,14 @@ import java.util.ArrayList;
 public class ResultActivity extends AppCompatActivity {
 
 
+    public static final String EXTRA_DATA = "EXTRA_DATA";
     ArrayList<Question> arr = new ArrayList<Question>();
     int numtrue = 0;
     int numfalse = 0;
     int nummissed = 0;
-    int Score = 0;
+    double Score;
+    String time;
+    Button btnhistory;
     TextView tvnumtrue, tvnumfalse, tvmissed, tvtime, tvpoint;
 
     @Override
@@ -29,31 +35,58 @@ public class ResultActivity extends AppCompatActivity {
         tvnumfalse = findViewById(R.id.tvnumfalse);
         tvmissed = findViewById(R.id.tvmissed);
         tvtime = findViewById(R.id.tvtime);
+        btnhistory = findViewById(R.id.btnhistory);
+        tvpoint = findViewById(R.id.tvdiem);
         Intent intent = getIntent(); //Nhận dữ liệu
+        Bundle bundle = intent.getExtras();
+        time = bundle.getString("key_time");
         arr = (ArrayList<Question>) intent.getExtras().getSerializable("arr_ques");
         checkpoint();
         tvnumtrue.setText(" " + numtrue);
         tvnumfalse.setText(" " + numfalse);
         tvmissed.setText(" " + nummissed);
+        tvtime.setText("" + time);
+        Score = numtrue * (10/30);
+
+        btnhistory.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                final Intent data = new Intent();
+                data.putExtra(EXTRA_DATA, "Some interesting data!");
+                setResult(Activity.RESULT_OK, data);
+                finish(); //đóng Activity hiện tại và trả về MainActivity
+
+            }
+        });
+
 
 
     }
 
 
-    public void checkpoint() {
-        for (int i = 0; i < arr.size(); i++) {
-            if (arr.get(i).getAnswer().equals("") == true) {
-                nummissed++;
+            public void checkpoint() {
+                for (int i = 0; i < arr.size(); i++) {
+                    if (arr.get(i).getAnswer().equals("")) {
+                        nummissed++;
 
+                    }
+                    if (arr.get(i).getResult().equals(arr.get(i).getAnswer())) {
+                        numtrue++;
+
+                    } else {
+                        numfalse++;
+                    }
+
+
+                }
             }
-            if (arr.get(i).getResult().equals(arr.get(i).getAnswer()) == true) {
-                numtrue++;
-
-            } else {
-                numfalse++;
-            }
-
-
         }
-    }
-}
+
+
+
+
+
+
+
+
+

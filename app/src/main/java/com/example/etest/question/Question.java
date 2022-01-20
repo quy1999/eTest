@@ -15,9 +15,8 @@ public class Question implements Serializable {
     private String result;
     private int num_exam;
     private String subjest;
-    private String image;
-    private  String answer=" ";
-    public int position=-1;
+    private String answer = "";
+    public int position = -1;
 
 
     protected Question(Parcel in) {
@@ -30,7 +29,6 @@ public class Question implements Serializable {
         result = in.readString();
         num_exam = in.readInt();
         subjest = in.readString();
-        image = in.readString();
         answer = in.readString();
         position = in.readInt();
     }
@@ -50,11 +48,11 @@ public class Question implements Serializable {
 
     ;
 
-    public Question(){
+    public Question() {
 
     }
 
-    public Question(int id, String question, String ans_a, String ans_b, String ans_c, String ans_d, String result, int num_exam, String subjest, String image) {
+    public Question(int id, String question, String ans_a, String ans_b, String ans_c, String ans_d, String result, int num_exam, String subjest, String answer) {
         this.id = id;
         this.question = question;
         this.ans_a = ans_a;
@@ -64,8 +62,7 @@ public class Question implements Serializable {
         this.result = result;
         this.num_exam = num_exam;
         this.subjest = subjest;
-        this.image = image;
-        this.answer=answer;
+        this.answer = answer;
     }
 
     public int getId() {
@@ -139,15 +136,6 @@ public class Question implements Serializable {
     public void setSubjest(String subjest) {
         this.subjest = subjest;
     }
-
-    public String getImage() {
-        return image;
-    }
-
-    public void setImage(String image) {
-        this.image = image;
-    }
-
 
 
 }

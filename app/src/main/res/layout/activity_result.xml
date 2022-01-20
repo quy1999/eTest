@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg_game_playx"
     android:orientation="vertical"
     tools:context=".activity.ResultActivity">
 
@@ -12,29 +13,38 @@
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:background="#AC948D"
+        android:gravity="center"
+        android:padding="5dp"
         android:text="Bảng tổng quan kết quả"
         android:textSize="30dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:background="#346F9E"
         android:orientation="horizontal">
 
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Số câu đúng"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Đúng"
+            android:textSize="25dp"
+
 
             />
 
         <TextView
             android:id="@+id/tvnumtrue"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="2"
+            android:background="#F6F6ED"
+            android:gravity="center"
+            android:text="10"
+            android:textSize="25dp"
 
             />
 
@@ -42,24 +52,31 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:background="#346F9E"
         android:orientation="horizontal">
 
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Số câu sai"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Sai"
+            android:textSize="25dp"
 
             />
 
         <TextView
             android:id="@+id/tvnumfalse"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="2"
+            android:background="#F6F6ED"
+            android:gravity="center"
+            android:text="10"
+            android:textSize="25dp"
 
             />
 
@@ -67,24 +84,32 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="1dp"
         android:background="#346F9E"
         android:orientation="horizontal">
 
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Số câu chưa chọn"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Chưa làm"
+            android:textSize="25dp"
 
             />
 
         <TextView
             android:id="@+id/tvmissed"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="2"
+            android:background="#F6F6ED"
+            android:gravity="center"
+            android:text="10"
+            android:textSize="25dp"
 
             />
 
@@ -92,28 +117,110 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:background="#346F9E"
         android:orientation="horizontal">
 
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
             android:text="Thời gian"
+            android:textSize="25dp"
 
             />
 
         <TextView
             android:id="@+id/tvtime"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="2"
+            android:background="#F6F6ED"
+            android:gravity="center"
+            android:text="10"
+            android:textSize="25dp"
 
             />
 
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#346F9E"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Điểm"
+            android:textSize="25dp"
+
+            />
+
+        <TextView
+            android:id="@+id/tvdiem"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#F6F6ED"
+            android:gravity="center"
+            android:text="10"
+            android:textSize="25dp"
+
+            />
+
+    </LinearLayout>
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_next"
+        android:padding="5dp"
+        android:text="Lưu thông tin"
+        android:textColor="#252323"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnhistory"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_next"
+        android:padding="5dp"
+        android:text="Hiển thị lịch sử"
+        android:textColor="#252323"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#252323"
+        android:textSize="25sp"
+        android:background="@drawable/bg_next"
+        android:padding="5dp"
+        android:text="Gợi ý kiến thức cần phải học"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#252323"
+        android:textSize="25sp"
+        android:background="@drawable/bg_next"
+        android:padding="5dp"
+        android:text="Thống kê tiến độ học"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </LinearLayout>

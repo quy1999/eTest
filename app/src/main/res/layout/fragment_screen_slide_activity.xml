@@ -96,21 +96,25 @@
 
         <Button
             android:id="@+id/btnnext"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="#25CADF"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
             android:text="Câu tiếp"
+            android:textColor="#252323"
+            android:textSize="25sp"
+            android:background="@drawable/bg_next"
             android:padding="5dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
             android:id="@+id/btnprevious"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="#25CADF"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:textColor="#252323"
+            android:textSize="25sp"
+            android:background="@drawable/bg_next"
             android:padding="5dp"
-            android:text="Câu trước "
+            android:text="Câu trước"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -125,9 +129,11 @@
 
         <Button
             android:id="@+id/btnexit"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="#25CADF"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:textColor="#252323"
+            android:textSize="25sp"
+            android:background="@drawable/bg_next"
             android:padding="5dp"
             android:text="Thoát "
             app:layout_constraintStart_toStartOf="parent"
@@ -136,9 +142,11 @@
 
         <Button
             android:id="@+id/btnsubmit"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="#25CADF"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:textColor="#252323"
+            android:textSize="24sp"
+            android:background="@drawable/bg_next"
             android:text="Nộp bài"
             android:padding="5dp"
             app:layout_constraintEnd_toEndOf="parent"

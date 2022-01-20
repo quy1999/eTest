@@ -49,8 +49,7 @@ public class CheckAnserAdapter extends BaseAdapter {
         if (convertView == null) {
             viewHoder = new ViewHoder();
             convertView = layoutInflater.inflate(R.layout.grid_answer, null);
-            viewHoder.cauhoi = convertView.findViewById(R.id.cauhoi);
-            viewHoder.dapan = (TextView) convertView.findViewById(R.id.dapan);
+
             convertView.setTag(viewHoder);
 
 
@@ -61,8 +60,6 @@ public class CheckAnserAdapter extends BaseAdapter {
 
 
         int i=position + 1;
-        viewHoder.cauhoi.setText("Câu " + i +": ");
-        viewHoder.dapan.setText(question.getResult());
         return convertView;
     }
 

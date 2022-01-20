@@ -30,12 +30,13 @@ public class ScreenSlidePageFragment extends Fragment {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_CHECK = "check";
+    private static final int REQUEST_CODE_EXAMPLE = 0x9345; //history
     public int check; //kiểm tra đáp án
 
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
-    private int PageNumber;
+    public int PageNumber;
     TextView tvNum, tvQuestion;
     RadioButton radA, radB, radC, radD;
     RadioGroup radGroup;
@@ -81,6 +82,8 @@ public class ScreenSlidePageFragment extends Fragment {
         arr_ques = screenSlideActivity.getData();
         PageNumber = getArguments().getInt(Key);
         check = getArguments().getInt(ARG_CHECK);
+
+
         //lấy dữ liệu trong Fragment
 
 
@@ -110,14 +113,15 @@ public class ScreenSlidePageFragment extends Fragment {
         radGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
-                arr_ques.get(PageNumber).position = checkedId;
+                getItemQues(PageNumber).position = checkedId;
+                getItemQues(PageNumber).setAnswer(getRadian(checkedId));
 
 
             }
         });
 
 
-        tvNum.setText("Câu" + " " + (PageNumber + 1));
+        tvNum.setText("Câu hỏi số" + " " + (PageNumber + 1));
 
         if (PageNumber < 30 && arr_ques.size() > 0) {
 
@@ -127,10 +131,32 @@ public class ScreenSlidePageFragment extends Fragment {
             radB.setText(arr_ques.get(PageNumber).getAns_b());
             radC.setText(arr_ques.get(PageNumber).getAns_c());
             radD.setText(arr_ques.get(PageNumber).getAns_d());
+
+
         }
 
 
         return view;
+
+
+
+
+    }
+
+    public Question getItemQues(int i) {
+        return arr_ques.get(i);
+    }
+
+    public void checkcolor() {
+        if (check != 0) {
+
+            radA.setClickable(false);
+            radB.setClickable(false);
+            radC.setClickable(false);
+            radD.setClickable(false);
+            getcheck(getItemQues(PageNumber).getResult().toString());
+
+        }
 
 
     }
@@ -143,10 +169,14 @@ public class ScreenSlidePageFragment extends Fragment {
 
     }
 
+
     public static ScreenSlidePageFragment create(int pageNumber, int check) {
         ScreenSlidePageFragment screenSlidePageFragment = new ScreenSlidePageFragment();
-        Bundle bundlesend = new Bundle(); //gửi dữ liệu đi
+        Bundle bundlesend = new Bundle();
         bundlesend.putInt(Key, pageNumber);
+
+
+
         ;
         screenSlidePageFragment.setArguments(bundlesend);
         return screenSlidePageFragment;
@@ -168,15 +198,16 @@ public class ScreenSlidePageFragment extends Fragment {
 
     }
 
-    private String getcheck(int id) {
-        if (arr_ques.equals("A") == true) {
+
+    private String getcheck(String cka) {
+        if (cka.equals("A") == true) {
             radA.setBackgroundColor(Color.GREEN);
-        } else if (arr_ques.equals("B") == true) {
+        } else if (cka.equals("B") == true) {
             radB.setBackgroundColor(Color.GREEN);
-        } else if (arr_ques.equals("C") == true) {
+        } else if (cka.equals("C") == true) {
             radC.setBackgroundColor(Color.GREEN);
             ;
-        } else if (arr_ques.equals("D") == true) {
+        } else if (cka.equals("D") == true) {
             radD.setBackgroundColor(Color.GREEN);
         }
         return " ";
