@@ -25,7 +25,7 @@ public class ResultActivity extends AppCompatActivity {
     double Score;
     String time;
     Button btnhistory;
-    TextView tvnumtrue, tvnumfalse, tvmissed, tvtime, tvpoint;
+    TextView tvnumtrue, tvnumfalse, tvmissed, tvtime, tvpoint,tvnote;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,16 +37,26 @@ public class ResultActivity extends AppCompatActivity {
         tvtime = findViewById(R.id.tvtime);
         btnhistory = findViewById(R.id.btnhistory);
         tvpoint = findViewById(R.id.tvdiem);
+        tvnote = findViewById(R.id.tvnote);
         Intent intent = getIntent(); //Nhận dữ liệu
         Bundle bundle = intent.getExtras();
         time = bundle.getString("key_time");
         arr = (ArrayList<Question>) intent.getExtras().getSerializable("arr_ques");
         checkpoint();
         tvnumtrue.setText(" " + numtrue);
+        Score = numtrue * (0.3);
         tvnumfalse.setText(" " + numfalse);
         tvmissed.setText(" " + nummissed);
+        tvpoint.setText("" +  Math.round(Score));
         tvtime.setText("" + time);
-        Score = numtrue * (10/30);
+
+        if(Score >5){
+            tvnote.setText("Bạn đã đạt yêu cầu");
+
+        }else if(Score <5){
+            tvnote.setText("Bạn chưa đạt yêu cầu vui lòng học thêm");
+
+        }
 
         btnhistory.setOnClickListener(new View.OnClickListener() {
             @Override

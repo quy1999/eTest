@@ -23,7 +23,7 @@ import java.sql.SQLException;
 public class DPHelper extends SQLiteOpenHelper {
 
     private static String DB_PATH = "/data/data/com.example.etest/databases/";
-    private static String DB_NAME = "databasetracnghiem.sqlite";
+    private static String DB_NAME = "databasetracnghiemsql.sqlite";
     private static final int DATABASE_VERSION = 1;
 
     private SQLiteDatabase myDataBase;

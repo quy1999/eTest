@@ -15,16 +15,20 @@ public class QuestionControl extends Question {
         dpHelper = new DPHelper(context);
     }
 
-    public ArrayList<Question> getQuestion(int num_exam, String subject) {
+    public ArrayList<Question> getQuestion(int num_exam) {
 
         ArrayList<Question> data = new ArrayList<Question>();
         SQLiteDatabase dp = dpHelper.getReadableDatabase();
-        Cursor cursor = dp.rawQuery("SELECT * FROM tracnghiem WHERE num_exam='" + num_exam + "' AND subject='" + subject + "'", null); //đọc dữ liệu
+        Cursor cursor = dp.rawQuery("SELECT * FROM tracnghiem " +
+                "WHERE num_exam='" + num_exam + "'", null); //đọc dữ liệu
         if (cursor.moveToFirst()) {
-
             do {
                 Question item;
-                item = new Question(cursor.getInt(0), cursor.getString(1), cursor.getString(2), cursor.getString(3), cursor.getString(4), cursor.getString(5), cursor.getString(6), cursor.getInt(7), cursor.getString(8), "");
+                item = new Question(cursor.getInt(0), cursor.getString(1),
+                        cursor.getString(2), cursor.getString(3),
+                        cursor.getString(4), cursor.getString(5),
+                        cursor.getString(6), cursor.getInt(7),
+                        cursor.getString(8), "");
                 data.add(item);
 
             } while (cursor.moveToNext());
@@ -32,7 +36,6 @@ public class QuestionControl extends Question {
         }
         return data;
     }
-
 
 
 }

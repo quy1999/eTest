@@ -88,13 +88,13 @@ public class ScreenSlideActivity extends AppCompatActivity {
         mPager.setPageTransformer(true, new ZoomOutPageTransformer());
 
         Intent intent = getIntent();
-        subject = intent.getStringExtra("subject");
+
         num_exam = intent.getIntExtra("num_exam", 0);
 
 
         questionControl = new QuestionControl(this); //màn hình hiện tại
         arr_ques = new ArrayList<Question>();
-        arr_ques = questionControl.getQuestion(num_exam, subject);
+        arr_ques = questionControl.getQuestion(num_exam);
 
 
         btnsubmit.setOnClickListener(new View.OnClickListener() {
@@ -235,14 +235,9 @@ public class ScreenSlideActivity extends AppCompatActivity {
     }
 
     public void checks() {
-        checks = 1;
 
-        if ((mPager.getCurrentItem() >= 5)) {
-            mPager.setCurrentItem(mPager.getCurrentItem() - 4);
-        } else if ((mPager.getCurrentItem() <= 5)) {
-            mPager.setCurrentItem(mPager.getCurrentItem() + 4);
 
-        }
+
 
     }
 

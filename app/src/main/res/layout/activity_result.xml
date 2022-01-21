@@ -177,18 +177,36 @@
 
     </LinearLayout>
 
-    <Button
-
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_marginTop="5dp"
-        android:background="@drawable/bg_next"
-        android:padding="5dp"
-        android:text="Lưu thông tin"
-        android:textColor="#252323"
-        android:textSize="25sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:background="#346F9E"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Chú ý"
+            android:textSize="25dp"
+
+            />
+
+        <TextView
+            android:id="@+id/tvnote"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#F6F6ED"
+            android:gravity="center"
+            android:text="10"
+            android:textSize="25dp"
+
+            />
+
+    </LinearLayout>
 
     <Button
         android:id="@+id/btnhistory"
@@ -201,24 +219,26 @@
         android:textSize="25sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:textColor="#252323"
-        android:textSize="25sp"
         android:background="@drawable/bg_next"
         android:padding="5dp"
         android:text="Gợi ý kiến thức cần phải học"
+        android:textColor="#252323"
+        android:textSize="25sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:textColor="#252323"
-        android:textSize="25sp"
         android:background="@drawable/bg_next"
         android:padding="5dp"
         android:text="Thống kê tiến độ học"
+        android:textColor="#252323"
+        android:textSize="25sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

@@ -31,11 +31,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         logout = findViewById(R.id.logout);
+
         Intent in = getIntent();
         String string = in.getStringExtra("message");
         logout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+
                 AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
                 builder.setTitle("Đăng xuất!").
                         setMessage("Bạn có chắc chắn muốn đăng xuất không?");
@@ -48,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
                                 editor.commit();
                                 Intent i = new Intent(getApplicationContext(),
                                         LoginActivity.class);
+                                i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK); //lưu activity mới ,xóa hết activity cũ
                                 startActivity(i);
                             }
                         });

@@ -82,39 +82,27 @@ public class ExamTwo extends Fragment {
 
         gridViewExam = view.findViewById(R.id.GridViewTwo);
 
-        arrExam.add(new Exam("Đề số 1"));
-        arrExam.add(new Exam("Đề số 2"));
-        arrExam.add(new Exam("Đề số 3"));
-        arrExam.add(new Exam("Đề số 4"));
-        arrExam.add(new Exam("Đề số 5"));
         arrExam.add(new Exam("Đề số 6"));
         arrExam.add(new Exam("Đề số 7"));
         arrExam.add(new Exam("Đề số 8"));
         arrExam.add(new Exam("Đề số 9"));
         arrExam.add(new Exam("Đề số 10"));
-        arrExam.add(new Exam("Đề số 11"));
-        arrExam.add(new Exam("Đề số 12"));
-        arrExam.add(new Exam("Đề số 13"));
-        arrExam.add(new Exam("Đề số 14"));
-        arrExam.add(new Exam("Đề số 15"));
+
 
         examAdapter = new ExamAdapter(getActivity(), arrExam);
-        gridViewExam.setAdapter(examAdapter);
+        gridViewExam.setAdapter(examAdapter); //trung gian hiển thị dữ liệu
 
         gridViewExam.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long i) {
+            public void onItemClick(AdapterView<?> parent, View view, int i, long l) {
                 Intent intent = new Intent(getActivity(), ScreenSlideActivity.class);
-                intent.putExtra("num",i+1);
-                intent.putExtra("sub","de thi A2");
-
+                intent.putExtra("num_exam", i + 6);
                 startActivity(intent);
             }
         });
 
 
         return view;
-
 
 
     }

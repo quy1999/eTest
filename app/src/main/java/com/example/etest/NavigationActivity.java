@@ -3,7 +3,6 @@ package com.example.etest;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,15 +15,11 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
-import com.example.etest.Dethi.ExamFour;
 import com.example.etest.Dethi.ExamOne;
-import com.example.etest.Dethi.ExamThree;
 import com.example.etest.Dethi.ExamTwo;
 import com.example.etest.Dethi.HomeFragment;
 import com.example.etest.question.DPHelper;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
-import com.google.android.material.snackbar.Snackbar;
 
 import java.io.IOException;
 
@@ -38,14 +33,6 @@ public class NavigationActivity extends AppCompatActivity {
         setContentView(R.layout.activity_navigation2);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
         final DrawerLayout drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
         // Passing each menu ID as a set of Ids because each
@@ -76,17 +63,6 @@ public class NavigationActivity extends AppCompatActivity {
                     ExamTwo examtwo=new ExamTwo();
                     FragmentManager manager=getSupportFragmentManager();
                     manager.beginTransaction().replace(R.id.nav_host_fragment,examtwo,examtwo.getTag()).commit();
-
-                } else if (id == R.id.De3){
-                    ExamThree examthree= new ExamThree();
-                    FragmentManager manager=getSupportFragmentManager();
-                    manager.beginTransaction().replace(R.id.nav_host_fragment,examthree,examthree.getTag()).commit();
-
-                } else if (id == R.id.De4){
-                    ExamFour examfour= new ExamFour();
-                    FragmentManager manager=getSupportFragmentManager();
-                    manager.beginTransaction().replace(R.id.nav_host_fragment,examfour,examfour.getTag()).commit();
-
 
                 }
                 drawer.closeDrawer(GravityCompat.START);

@@ -22,14 +22,7 @@
                     android:id="@+id/De2"
                     android:icon="@drawable/ic_event_note_black_24dp"
                     android:title="Bộ đề thi A2" />
-                <item
-                    android:id="@+id/De3"
-                    android:icon="@drawable/ic_event_note_black_24dp"
-                    android:title="Bộ đề nâng cao" />
-                <item
-                    android:id="@+id/De4"
-                    android:icon="@drawable/ic_event_note_black_24dp"
-                    android:title="Bộ đề ngẫu nhiên" />
+
 
 
 

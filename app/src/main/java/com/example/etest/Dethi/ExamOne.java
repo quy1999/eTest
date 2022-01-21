@@ -51,7 +51,6 @@ public class ExamOne extends Fragment {
         arrExam.add(new Exam("Đề số 5"));
 
 
-
         examAdapter = new ExamAdapter(getActivity(), arrExam);
         gridViewExam.setAdapter(examAdapter);
 
@@ -59,9 +58,7 @@ public class ExamOne extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int i, long l) {
                 Intent intent = new Intent(getActivity(), ScreenSlideActivity.class);
-                intent.putExtra("num_exam",i+1);
-                intent.putExtra("subject","english");
-
+                intent.putExtra("num_exam", i + 1);
                 startActivity(intent);
             }
         });

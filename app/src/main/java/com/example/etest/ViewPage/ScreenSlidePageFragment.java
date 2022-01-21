@@ -139,8 +139,6 @@ public class ScreenSlidePageFragment extends Fragment {
         return view;
 
 
-
-
     }
 
     public Question getItemQues(int i) {
@@ -174,7 +172,6 @@ public class ScreenSlidePageFragment extends Fragment {
         ScreenSlidePageFragment screenSlidePageFragment = new ScreenSlidePageFragment();
         Bundle bundlesend = new Bundle();
         bundlesend.putInt(Key, pageNumber);
-
 
 
         ;

@@ -50,14 +50,17 @@ public class AdapterGrammar extends RecyclerView.Adapter<AdapterGrammar.NameView
             @Override
             public void onClick(View view) {
                 onClickGoOoView(nameGrammar);
+                view.setBackgroundColor(0xFF00FF00);
             }
         });
     }
 
     private void onClickGoOoView(NameGrammar nameGrammar) {
+
         Intent intent = new Intent(mcontext, WebViewActivity.class);
         intent.putExtra("NAME",nameGrammar.getNameGrammar());
         mcontext.startActivity(intent);
+
 
 
 
